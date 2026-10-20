@@ -1,6 +1,6 @@
 # 项目进度 / Progress
 
-更新时间：2026-10-20 21:15
+更新时间：2026-10-20 21:22
 
 | 阶段 | 状态 | 交付 |
 |---|---|---|
@@ -15,7 +15,7 @@
 | 平板/iPad 适配 | 完成 | Flutter/Android/iPad 均有运行截图 |
 | 复刻验收截图 | 完成 | Flutter 14、Android 20+、iOS 18；见 `evidence/clone-*` |
 | 实现验收报告 | 完成 | `reports/implementation.md`、`reports/implementation.html` |
-| GitHub 推送 | 进行中 | `https://github.com/huapohen/wechat_input` |
+| GitHub 推送 | 完成 | `https://github.com/huapohen/wechat_input`（main，公开） |
 
 ## 关键决策
 
