@@ -1,0 +1,54 @@
+
+digraph routes_detail {
+  graph [rankdir=LR, splines=spline, nodesep=0.22, ranksep=0.45, bgcolor="transparent", fontname="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif", pad="0.1"];
+  node [shape=box, style="rounded,filled", fontname="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif", fontsize=7.8, color="#B8C8C3", fillcolor="#FFFFFF", penwidth=0.9, margin="0.09,0.045"];
+  edge [color="#A9BBB5", arrowsize=0.5, fontsize=6.8, fontcolor="#5F6F69"];
+
+  home [label="Home / SetupMain", fillcolor="#E9FBF5", penwidth=1.6];
+  subgraph cluster_set {
+    label="RN settings"; fontsize=9; fontcolor="#5F6F69"; color="#D6E2DE"; style="rounded,dashed";
+    display [label="SetupDisplaySetting\n布局和显示"]; keystroke [label="SetupKeystrokeEffect\n按键效果"];
+    toolbar [label="SetupSecondaryKeyboard\n定制工具栏"]; auxiliary [label="SetupAuxiliaryInput\n辅助输入"];
+    fuzzy [label="SetupFuzzyPinyin\n模糊拼音"]; voice [label="SetupVoiceInput\n语音转文字"];
+    plus [label="SetupPlus\n拼写Plus"]; clipboard [label="SetupClipboard\n剪贴板"];
+    kbsel [label="SetupKeyboardSelect\n键盘选择"]; migration [label="SetupMigrationAssistant\n换机助手"];
+    sync [label="GeneralDeviceSync\n跨设备粘贴同步"]; desktop [label="SetupDesktop\n电脑版"];
+    about [label="About\n关于"]; help [label="FeedbackMain\n帮助与反馈"];
+    privacy [label="PermissionAndPrivacySetting\n隐私与权限"];
+    lang [label="SetupLanguageRecognizeInVoice\n识别语言"]; punct [label="SetupPunctuationSettingInVoiceInput\n标点设置"];
+    standby [label="SetupRecordingStandbyTime\n录音待机"]; voiceicon [label="SetupShowVoiceIconInVoiceInput\n语音图标"];
+    pluspage [label="Plus sub-switches\nsmart · sticker · emoji\nkaomoji · rewrite · polish\nposter · ask AI"];
+  }
+  subgraph cluster_native {
+    label="Native pages"; fontsize=9; fontcolor="#5F6F69"; color="#D6E2DE"; style="rounded,dashed";
+    kbmgr [label="HldSettingsKeyboardsSettingUI\n键盘管理"]; choose [label="HldChooseKeyboardUI\n键盘选择"];
+    standalone [label="HldStandaloneModeUI\n单机模式"]; recorder [label="VoiceRecorderActivity\nAI 录音笔"];
+    session [label="VoiceRecorderSessionActivity\n录音会话"]; transfer [label="ImeFileTransferUI\n隔空传送"];
+    aichat [label="AiChatActivity\n问 AI（WebView）"]; activation [label="HldActivationUI\n启用引导"];
+    privacyui [label="HldPrivacyInfoUI\n隐私说明"]; aboutui [label="HldSettingsAboutUI\n关于"];
+    feedbackui [label="HldFeedbackUI\n我要反馈"]; web [label="HldWebViewUI\n帮助文章"];
+  }
+  subgraph cluster_tools {
+    label="Keyboard"; fontsize=9; fontcolor="#5F6F69"; color="#D6E2DE"; style="rounded,dashed";
+    ime [label="WxHldService\nIME"]; t9 [label="T9 / QWERTY\nEnglish / number\nsymbol / emoji"];
+    hand [label="Handwrite / stroke\nWubi / double-pin"]; panel [label="Tool panel"];
+    ask [label="问 AI"]; polish [label="文字整理"]; translate [label="边写边译"];
+    phrase [label="常用语"]; clip [label="剪贴板"]; emoji [label="表情推荐"];
+  }
+  home -> display; home -> keystroke; home -> toolbar; home -> auxiliary; home -> voice; home -> plus; home -> clipboard; home -> kbsel; home -> sync; home -> migration; home -> standalone; home -> kbmgr; home -> recorder; home -> transfer; home -> desktop; home -> about; home -> help; home -> privacy;
+  voice -> lang; voice -> punct; voice -> standby; voice -> voiceicon;
+  auxiliary -> fuzzy;
+  plus -> pluspage;
+  sync -> clipboard;
+  kbsel -> choose; kbsel -> kbmgr;
+  kbmgr -> choose;
+  help -> feedbackui; about -> aboutui;
+  privacy -> privacyui;
+  desktop -> web;
+  ime -> t9; ime -> hand; ime -> panel;
+  panel -> ask; panel -> polish; panel -> translate; panel -> phrase; panel -> clip; panel -> emoji;
+  ask -> aichat; polish -> aichat; translate -> aichat;
+  recorder -> session;
+  activation -> home; privacyui -> home;
+  web -> help [style=dashed];
+}

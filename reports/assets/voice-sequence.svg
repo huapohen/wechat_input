@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 722" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif">
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#7A8A85"/></marker></defs>
+<rect width="980" height="722" rx="16" fill="#FFFFFF"/>
+<rect x="-35.0" y="12" width="150" height="34" rx="9" fill="#E9FBF5" stroke="#B9DED4"/>
+<text x="40.0" y="34" text-anchor="middle" font-size="10.5" font-weight="700" fill="#26332F">用户</text>
+<line x1="40.0" y1="46" x2="40.0" y2="700" stroke="#D6E2DE" stroke-width="1" stroke-dasharray="3 4"/>
+<rect x="190.0" y="12" width="150" height="34" rx="9" fill="#E9FBF5" stroke="#B9DED4"/>
+<text x="265.0" y="34" text-anchor="middle" font-size="10.5" font-weight="700" fill="#26332F">IME / 键盘</text>
+<line x1="265.0" y1="46" x2="265.0" y2="700" stroke="#D6E2DE" stroke-width="1" stroke-dasharray="3 4"/>
+<rect x="415.0" y="12" width="150" height="34" rx="9" fill="#E9FBF5" stroke="#B9DED4"/>
+<text x="490.0" y="34" text-anchor="middle" font-size="10.5" font-weight="700" fill="#26332F">系统 ASR</text>
+<line x1="490.0" y1="46" x2="490.0" y2="700" stroke="#D6E2DE" stroke-width="1" stroke-dasharray="3 4"/>
+<rect x="640.0" y="12" width="150" height="34" rx="9" fill="#E9FBF5" stroke="#B9DED4"/>
+<text x="715.0" y="34" text-anchor="middle" font-size="10.5" font-weight="700" fill="#26332F">AI 整理</text>
+<line x1="715.0" y1="46" x2="715.0" y2="700" stroke="#D6E2DE" stroke-width="1" stroke-dasharray="3 4"/>
+<rect x="865.0" y="12" width="150" height="34" rx="9" fill="#E9FBF5" stroke="#B9DED4"/>
+<text x="940.0" y="34" text-anchor="middle" font-size="10.5" font-weight="700" fill="#26332F">宿主输入框</text>
+<line x1="940.0" y1="46" x2="940.0" y2="700" stroke="#D6E2DE" stroke-width="1" stroke-dasharray="3 4"/>
+<line x1="40.0" y1="94" x2="265.0" y2="94" stroke="#7A4CC2" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="152.5" y="86" text-anchor="middle" font-size="9.5" fill="#7A4CC2">长按空格 / 点麦克风</text>
+<line x1="265.0" y1="148" x2="490.0" y2="148" stroke="#0E8A68" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="377.5" y="140" text-anchor="middle" font-size="9.5" fill="#0E8A68">申请权限 / start</text>
+<line x1="490.0" y1="202" x2="265.0" y2="202" stroke="#2A5D8A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="377.5" y="194" text-anchor="middle" font-size="9.5" fill="#2A5D8A">partial transcript</text>
+<line x1="265.0" y1="256" x2="940.0" y2="256" stroke="#7A4CC2" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="602.5" y="248" text-anchor="middle" font-size="9.5" fill="#7A4CC2">partial 预览（不提交）</text>
+<line x1="40.0" y1="310" x2="265.0" y2="310" stroke="#0E8A68" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="152.5" y="302" text-anchor="middle" font-size="9.5" fill="#0E8A68">松手 / 停止</text>
+<line x1="265.0" y1="364" x2="490.0" y2="364" stroke="#0E8A68" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="377.5" y="356" text-anchor="middle" font-size="9.5" fill="#0E8A68">stop</text>
+<line x1="490.0" y1="418" x2="265.0" y2="418" stroke="#2A5D8A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="377.5" y="410" text-anchor="middle" font-size="9.5" fill="#2A5D8A">final + 标点</text>
+<line x1="265.0" y1="472" x2="715.0" y2="472" stroke="#0E8A68" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="490.0" y="464" text-anchor="middle" font-size="9.5" fill="#0E8A68">可选智能整理</text>
+<line x1="715.0" y1="526" x2="265.0" y2="526" stroke="#2A5D8A" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="490.0" y="518" text-anchor="middle" font-size="9.5" fill="#2A5D8A">整理结果</text>
+<line x1="265.0" y1="580" x2="940.0" y2="580" stroke="#0E8A68" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="602.5" y="572" text-anchor="middle" font-size="9.5" fill="#0E8A68">commitText / 替换范围</text>
+<line x1="265.0" y1="634" x2="940.0" y2="634" stroke="#B45309" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="602.5" y="626" text-anchor="middle" font-size="9.5" fill="#B45309">取消：恢复进入前文本</text>
+</svg>

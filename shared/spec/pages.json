@@ -1,0 +1,212 @@
+[
+  {
+    "id": "home",
+    "title": "首页",
+    "group": "入口",
+    "source": "SetupMain",
+    "route": "/"
+  },
+  {
+    "id": "onboarding",
+    "title": "启用与隐私",
+    "group": "入口",
+    "source": "HldPrivacyInfoUI / HldActivationUI",
+    "route": "/onboarding"
+  },
+  {
+    "id": "keyboard",
+    "title": "键盘体验",
+    "group": "键盘",
+    "source": "WxHldService / KeyboardView",
+    "route": "/keyboard"
+  },
+  {
+    "id": "keyboard_manage",
+    "title": "键盘管理",
+    "group": "键盘",
+    "source": "HldSettingsKeyboardsSettingUI",
+    "route": "/keyboard/manage"
+  },
+  {
+    "id": "display",
+    "title": "布局和显示",
+    "group": "设置",
+    "source": "SetupDisplaySetting",
+    "route": "/settings/display"
+  },
+  {
+    "id": "keystroke",
+    "title": "按键效果",
+    "group": "设置",
+    "source": "SetupKeystrokeEffect",
+    "route": "/settings/keystroke"
+  },
+  {
+    "id": "toolbar",
+    "title": "定制工具栏",
+    "group": "设置",
+    "source": "SetupSecondaryKeyboard",
+    "route": "/settings/toolbar"
+  },
+  {
+    "id": "auxiliary",
+    "title": "辅助输入",
+    "group": "设置",
+    "source": "SetupAuxiliaryInput",
+    "route": "/settings/auxiliary"
+  },
+  {
+    "id": "fuzzy",
+    "title": "模糊拼音",
+    "group": "设置",
+    "source": "SetupFuzzyPinyin",
+    "route": "/settings/fuzzy"
+  },
+  {
+    "id": "voice",
+    "title": "语音转文字",
+    "group": "设置",
+    "source": "SetupVoiceInput",
+    "route": "/settings/voice"
+  },
+  {
+    "id": "voice_language",
+    "title": "识别语言",
+    "group": "设置",
+    "source": "SetupLanguageRecognizeInVoice",
+    "route": "/settings/voice/language"
+  },
+  {
+    "id": "voice_punctuation",
+    "title": "标点设置",
+    "group": "设置",
+    "source": "SetupPunctuationSettingInVoiceInput",
+    "route": "/settings/voice/punctuation"
+  },
+  {
+    "id": "plus",
+    "title": "拼写 Plus",
+    "group": "智能",
+    "source": "SetupPlus",
+    "route": "/settings/plus"
+  },
+  {
+    "id": "clipboard",
+    "title": "剪贴板",
+    "group": "设置",
+    "source": "SetupClipboard",
+    "route": "/settings/clipboard"
+  },
+  {
+    "id": "sync",
+    "title": "跨设备粘贴同步",
+    "group": "跨设备",
+    "source": "GeneralDeviceSync",
+    "route": "/settings/sync"
+  },
+  {
+    "id": "migration",
+    "title": "换机助手",
+    "group": "跨设备",
+    "source": "SetupMigrationAssistant",
+    "route": "/settings/migration"
+  },
+  {
+    "id": "standalone",
+    "title": "单机模式",
+    "group": "设置",
+    "source": "HldStandaloneModeUI",
+    "route": "/settings/standalone"
+  },
+  {
+    "id": "privacy",
+    "title": "隐私与权限",
+    "group": "设置",
+    "source": "PermissionAndPrivacySetting",
+    "route": "/settings/privacy"
+  },
+  {
+    "id": "desktop",
+    "title": "电脑版",
+    "group": "更多",
+    "source": "SetupDesktop",
+    "route": "/more/desktop"
+  },
+  {
+    "id": "about",
+    "title": "关于",
+    "group": "更多",
+    "source": "About",
+    "route": "/more/about"
+  },
+  {
+    "id": "help",
+    "title": "帮助与反馈",
+    "group": "更多",
+    "source": "FeedbackMain",
+    "route": "/more/help"
+  },
+  {
+    "id": "recorder",
+    "title": "AI 录音笔",
+    "group": "功能",
+    "source": "VoiceRecorderActivity",
+    "route": "/recorder"
+  },
+  {
+    "id": "recorder_session",
+    "title": "录音会话",
+    "group": "功能",
+    "source": "VoiceRecorderSessionActivity",
+    "route": "/recorder/session"
+  },
+  {
+    "id": "transfer",
+    "title": "隔空传送",
+    "group": "功能",
+    "source": "ImeFileTransferUI",
+    "route": "/transfer"
+  },
+  {
+    "id": "ai_chat",
+    "title": "问 AI",
+    "group": "功能",
+    "source": "AiChatActivity",
+    "route": "/ai"
+  },
+  {
+    "id": "text_tools",
+    "title": "文字工具",
+    "group": "功能",
+    "source": "键盘工具栏",
+    "route": "/tools"
+  },
+  {
+    "id": "translate",
+    "title": "边写边译",
+    "group": "功能",
+    "source": "键盘工具栏",
+    "route": "/translate"
+  },
+  {
+    "id": "poster",
+    "title": "排版成图",
+    "group": "功能",
+    "source": "排版成图",
+    "route": "/poster"
+  },
+  {
+    "id": "phrases",
+    "title": "常用语",
+    "group": "功能",
+    "source": "常用语",
+    "route": "/phrases"
+  },
+  {
+    "id": "emoji",
+    "title": "表情",
+    "group": "功能",
+    "source": "表情推荐",
+    "route": "/emoji"
+  }
+]

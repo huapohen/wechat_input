@@ -1,0 +1,62 @@
+[
+  {
+    "id": "t9",
+    "name": "九宫格拼音",
+    "layout": "S1ChineseT9Keyboard.json",
+    "language": "zh"
+  },
+  {
+    "id": "qwerty",
+    "name": "全键盘拼音",
+    "layout": "S2ChineseQwertyKeyboard.json",
+    "language": "zh"
+  },
+  {
+    "id": "handwrite",
+    "name": "手写键盘",
+    "layout": "HandWriteKeyboard.json",
+    "language": "zh"
+  },
+  {
+    "id": "stroke",
+    "name": "笔画键盘",
+    "layout": "S7StrokeT9Keyboard.json",
+    "language": "zh"
+  },
+  {
+    "id": "wubi",
+    "name": "五笔键盘",
+    "layout": "S17WuBiQwertyKeyboard.json",
+    "language": "zh"
+  },
+  {
+    "id": "doublepin",
+    "name": "双拼键盘",
+    "layout": "S9DoublePinQwertyKeyboard.json",
+    "language": "zh"
+  },
+  {
+    "id": "english",
+    "name": "英文键盘",
+    "layout": "S3EnglishQwertyKeyboard.json",
+    "language": "en"
+  },
+  {
+    "id": "number",
+    "name": "数字键盘",
+    "layout": "S4NumberKeyboard.json",
+    "language": "num"
+  },
+  {
+    "id": "symbols",
+    "name": "符号键盘",
+    "layout": "S5SymbolKeyboardView.json",
+    "language": "sym"
+  },
+  {
+    "id": "emoji",
+    "name": "表情键盘",
+    "layout": "S11EmojiKeyboard.json",
+    "language": "emoji"
+  }
+]

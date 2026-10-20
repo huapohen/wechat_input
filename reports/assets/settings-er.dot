@@ -1,0 +1,19 @@
+
+digraph settings_er {
+  graph [rankdir=LR, splines=ortho, nodesep=0.25, ranksep=0.5, bgcolor="transparent", fontname="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif", pad="0.12"];
+  node [shape=record, style="rounded,filled", fontname="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif", fontsize=8.5, color="#B8C8C3", fillcolor="#FFFFFF", penwidth=1.0];
+  edge [color="#9AAEA8", arrowsize=0.6, fontsize=7, fontcolor="#5F6F69"];
+  main [label="{MainSettingInfo|37 fields|isEnablePlusMode · isEnableAssociating\lisEnableEnglishAutoCorrect · isEnableFuzzyPinyin\lisEnableStandaloneMode · isClipboardEnableState\lisEnableVoiceRecorder · isSupportAskAI\lcandidateWordSize · swipeUpInputMode}", fillcolor="#E9FBF5"];
+  plus [label="{PlusItemInfo|10 switches|smart spelling · spelling correct\lsticker · small emoji · kaomoji\lrewrite · text polish · poster\lask AI · quick send}", fillcolor="#F3ECFF"];
+  voice [label="{VoiceInputInfo|offline speech · long-press\lrelease-to-send · smart polish\lpunctuation · language · dialect\licon show time}", fillcolor="#FFF4E8"];
+  key [label="{KeystrokeEffectInfo|sound · volume\lvibrate · level\lfollow system}", fillcolor="#EAF4FF"];
+  display [label="{DisplaySettingInfo|candidateWordGear}", fillcolor="#EAF4FF"];
+  fuzzy [label="{FuzzyPinyinInfo|20 pairs|zzh · cch · ssh\lnl · rl · anang · eneng\lining · ianiang · uanuang …}", fillcolor="#F4F9FF"];
+  theme [label="{ColorThemeInfo|colorThemeMode}", fillcolor="#F8F8F8"];
+  main -> plus [label="plusItemInfo"];
+  main -> voice [label="voiceInputInfo"];
+  main -> key [label="keystrokeEffectInfo"];
+  main -> display [label="display"];
+  main -> fuzzy [label="fuzzyPinyinInfo"];
+  main -> theme [label="colorThemeInfo"];
+}

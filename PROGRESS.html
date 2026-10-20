@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>微输入法复刻 · 进度</title>
+<style>
+:root{--bg:#e6f4f2;--card:#fff;--ink:#26332f;--muted:#5f6f69;--line:#dce7e3;--accent:#24c891;--accent2:#0e8a68}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"PingFang SC","Noto Sans CJK SC",sans-serif;line-height:1.65}
+.wrap{max-width:1180px;margin:0 auto;padding:36px 24px 80px}
+.hero{background:linear-gradient(135deg,#0e8a68,#24c891 60%,#8ce9c9);color:#fff;border-radius:26px;padding:32px 34px;box-shadow:0 18px 50px rgba(14,138,104,.2)}
+.hero h1{margin:0 0 8px;font-size:30px}.hero p{margin:6px 0;color:#eafff9;font-size:14px}
+.pill{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:4px 11px;font-size:12px;margin:8px 6px 0 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin:22px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 18px 16px;box-shadow:0 6px 18px rgba(38,51,47,.04)}
+.card h3{margin:0 0 6px;font-size:15px}.card p{margin:4px 0;color:var(--muted);font-size:12.5px}
+.status{display:inline-block;border-radius:999px;padding:2px 9px;font-size:11px;font-weight:700;margin-bottom:8px}
+.done{background:#dff6ec;color:#0e6b52}.active{background:#fff4dc;color:#8a5a00}.wait{background:#eef2f1;color:#68766f}
+.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:20px 0 6px}
+.phase{background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px}
+.phase b{display:block;font-size:13px}.phase span{font-size:11px;color:var(--muted)}
+.bar{height:7px;background:#e8f2ef;border-radius:99px;overflow:hidden;margin-top:8px}.bar i{display:block;height:100%;background:linear-gradient(90deg,#0e8a68,#24c891);border-radius:99px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin-top:10px}
+.shot{background:#fff;border:1px solid var(--line);border-radius:12px;padding:6px}.shot img{width:100%;height:220px;object-fit:contain;background:#f3faf7;border-radius:8px}.shot figcaption{font-size:10.5px;color:var(--muted);padding:5px 3px 0}
+.links a{display:inline-block;margin:4px 8px 4px 0;font-size:12px;color:var(--accent2)}
+.note{border:1px solid #f1d9b0;background:#fff8eb;color:#6b4a12;border-radius:14px;padding:13px 15px;font-size:12.5px;margin:16px 0}
+code{background:#edf7f3;border:1px solid #d7ebe4;border-radius:5px;padding:1px 5px;color:#0b5e49}
+@media(max-width:760px){.timeline{grid-template-columns:1fr 1fr}.hero h1{font-size:24px}}
+</style></head><body><div class="wrap">
+<section class="hero">
+<span class="pill">REA 6.7.0</span><span class="pill">Android 4.0.0</span><span class="pill">Flutter · Android 原生 · iOS 原生</span>
+<h1>微输入法复刻 · 进度</h1>
+<p>分析基线已完成；三端复刻与验收正在进行。此页随阶段更新。</p>
+<p>最后更新：2026-10-20 20:12</p>
+</section>
+<div class="timeline">
+<div class="phase"><b>1. REA 分析</b><span>已完成</span><div class="bar"><i style="width:100%"></i></div></div>
+<div class="phase"><b>2. 复刻实现</b><span>进行中</span><div class="bar"><i style="width:55%"></i></div></div>
+<div class="phase"><b>3. 运行验收</b><span>待开始</span><div class="bar"><i style="width:10%"></i></div></div>
+<div class="phase"><b>4. 交付推送</b><span>待开始</span><div class="bar"><i style="width:5%"></i></div></div>
+</div>
+<div class="grid">
+<div class="card"><span class="status done">完成</span><h3>REA 分析报告</h3><p>包身份 / 13,585 类 / 36 套键盘 / 设置模型 / RN 模块 / SchemeAction。</p><p class="links"><a href="reports/analysis.html">交互版 HTML</a><a href="reports/analysis.md">Markdown</a></p></div>
+<div class="card"><span class="status done">完成</span><h3>共享规格与词库</h3><p>设计 token、36 套布局、26,703 拼音字、46,111 词、26,271 五笔码、5,064 笔画码。</p><p class="links"><a href="shared/CLONE_BRIEF.md">复刻约束</a><a href="shared/README.md">数据来源</a></p></div>
+<div class="card"><span class="status done">完成</span><h3>替代后端</h3><p>AI/同步/传送 API；真实 DeepSeek 调用返回 200；key 只在服务端。</p><p class="links"><a href="backend/README.md">后端说明</a></p></div>
+<div class="card"><span class="status active">进行中</span><h3>Flutter 通用版</h3><p>Android/iOS、手机/平板；应用内键盘、AI/语音/传送/同步。</p><p class="links"><a href="clone-flutter/">源码目录</a></p></div>
+<div class="card"><span class="status active">进行中</span><h3>Android 原生 IME</h3><p>真实 InputMethodService、六种中文键盘、完整设置/功能页、平板。</p><p class="links"><a href="clone-android/">源码目录</a></p></div>
+<div class="card"><span class="status active">进行中</span><h3>iOS 原生 + 键盘扩展</h3><p>SwiftUI 主应用 + Keyboard Extension；iPhone/iPad。</p><p class="links"><a href="clone-ios/">源码目录</a></p></div>
+</div>
+<h2 style="font-size:20px;margin:30px 0 8px">最近的原版证据</h2>
+<div class="gallery">
+<figure class="shot"><img src="reports/assets/thumbs/android-20261020/21-home-top.jpg"><figcaption>原版首页</figcaption></figure>
+<figure class="shot"><img src="reports/assets/thumbs/android-keyboard/t9-candidates.jpg"><figcaption>九宫格候选</figcaption></figure>
+<figure class="shot"><img src="reports/assets/thumbs/android-20261020/40-keyboard-manage.jpg"><figcaption>键盘管理</figcaption></figure>
+<figure class="shot"><img src="reports/assets/thumbs/android-20261020/43-plus-top.jpg"><figcaption>拼写 Plus</figcaption></figure>
+<figure class="shot"><img src="reports/assets/thumbs/android-20261020/38-device-sync.jpg"><figcaption>跨设备</figcaption></figure>
+<figure class="shot"><img src="reports/assets/thumbs/android-20261018/16-plus-settings.jpg"><figcaption>历史运行证据</figcaption></figure>
+</div>
+<div class="note"><b>边界：</b>腾讯官方后端不可获得；iOS 未取得 IPA，不能做二进制级静态分析。复刻版使用自有后端与公开/自建引擎，不包含模型 key 或腾讯私有资源。</div>
+<p style="font-size:12px;color:var(--muted);margin-top:22px">独立研究项目，与腾讯无关。原版截图仅用于互操作分析。</p>
+</div></body></html>

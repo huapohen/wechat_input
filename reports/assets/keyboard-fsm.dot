@@ -1,0 +1,28 @@
+
+digraph keyboard_fsm {
+  graph [rankdir=LR, splines=spline, nodesep=0.35, ranksep=0.5, bgcolor="transparent", fontname="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif", pad="0.15"];
+  node [shape=box, style="rounded,filled", fontname="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif", fontsize=9, color="#B8C8C3", fillcolor="#FFFFFF", penwidth=1.1, margin="0.12,0.07"];
+  edge [color="#9AAEA8", arrowsize=0.65, fontsize=8, fontcolor="#5F6F69"];
+  idle [label="Idle\nhost field focused", fillcolor="#E9FBF5"];
+  comp [label="Composing\npinyin / stroke / code buffer", fillcolor="#F3ECFF"];
+  cand [label="Candidates\nranking + learning", fillcolor="#F3ECFF"];
+  commit [label="Commit\nsetComposingText / commitText", fillcolor="#E9FBF5"];
+  voice [label="Voice listening\npartial transcript", fillcolor="#FFF4E8"];
+  final [label="Final transcript\npunct + optional polish", fillcolor="#FFF4E8"];
+  panel [label="Tool panel\nAI · translate · clipboard · phrases"];
+  switch [label="Mode switch\nT9/QWERTY/handwrite/stroke\nWubi/double-pin/symbol/emoji"];
+  idle -> comp [label="letter / digit / stroke"];
+  comp -> cand [label="segmentation + lookup"];
+  cand -> commit [label="tap candidate / space"];
+  cand -> comp [label="edit / delete"];
+  commit -> idle [label="host accepts"];
+  idle -> voice [label="long-press space / mic"];
+  voice -> voice [label="partial result"];
+  voice -> final [label="release / stop"];
+  final -> commit [label="insert"];
+  idle -> panel [label="toolbar"];
+  panel -> voice [label="voice"];
+  panel -> switch;
+  switch -> idle;
+  panel -> idle [label="close"];
+}

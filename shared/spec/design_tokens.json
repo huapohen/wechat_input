@@ -1,0 +1,50 @@
+{
+  "name": "微输入法 · WeType-inspired",
+  "colors": {
+    "background": "#E6F4F2",
+    "surface": "#FFFFFF",
+    "surfaceAlt": "#F7FBFA",
+    "accent": "#24C891",
+    "accentDark": "#0E8A68",
+    "accentSoft": "#DFF6EC",
+    "text": "#26332F",
+    "textSecondary": "#5F6F69",
+    "muted": "#B8BCC5",
+    "border": "#DCE7E3",
+    "warning": "#B45309",
+    "danger": "#B23A3A",
+    "key": "#FFFFFF",
+    "keyPressed": "#E9F7F1",
+    "keySpecial": "#DDF2EA",
+    "keyText": "#26332F",
+    "keyboardBackground": "#EAF4F1"
+  },
+  "radius": {
+    "card": 20,
+    "button": 14,
+    "key": 12,
+    "sheet": 26
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 24,
+    "xxl": 32
+  },
+  "typography": {
+    "display": 30,
+    "title": 22,
+    "headline": 18,
+    "body": 15,
+    "caption": 12,
+    "key": 20
+  },
+  "layout": {
+    "phoneColumns": 2,
+    "tabletColumns": 4,
+    "maxContentWidth": 1180,
+    "keyboardMaxWidth": 920
+  }
+}

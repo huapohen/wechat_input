@@ -1,0 +1,16 @@
+
+digraph reconstruction {
+  graph [rankdir=LR, splines=ortho, nodesep=0.3, ranksep=0.55, bgcolor="transparent", fontname="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif", pad="0.15"];
+  node [shape=box, style="rounded,filled", fontname="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif", fontsize=9, color="#B8C8C3", fillcolor="#FFFFFF", penwidth=1.1, margin="0.12,0.07"];
+  edge [color="#9AAEA8", arrowsize=0.6, fontsize=7.5, fontcolor="#5F6F69"];
+  spec [label="Shared spec\nkeyboard layouts · pinyin / Wubi\ndictionaries · design tokens", fillcolor="#E9FBF5"];
+  flutter [label="Flutter universal\nAndroid + iOS\nphone + tablet", fillcolor="#EAF4FF"];
+  android [label="Native Android\nKotlin IME + app\nphone + tablet", fillcolor="#F3ECFF"];
+  ios [label="Native iOS\nSwiftUI + keyboard extension\niPhone + iPad", fillcolor="#FFF4E8"];
+  backend [label="Backend\nAI · ASR · sync · transfer", fillcolor="#E9FBF5"];
+  spec -> flutter; spec -> android; spec -> ios;
+  flutter -> backend; android -> backend; ios -> backend;
+  flutter -> apk [label="APK"]; flutter -> sim [label="iOS simulator / archive"];
+  android -> apk2 [label="APK"]; ios -> ipa [label="IPA / simulator"];
+  apk [shape=note]; apk2 [shape=note]; sim [shape=note]; ipa [shape=note];
+}

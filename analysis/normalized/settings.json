@@ -1,0 +1,1816 @@
+{
+  "ColorThemeInfo": {
+    "fields": [
+      {
+        "name": "colorThemeMode",
+        "type": "int"
+      }
+    ],
+    "methods": [
+      {
+        "name": "component1",
+        "signature": "component1(): int",
+        "overloads": 0
+      },
+      {
+        "name": "copy",
+        "signature": "copy(int): com.tencent.wetype.plugin.hld.reactnative.model.ColorThemeInfo",
+        "overloads": 0
+      },
+      {
+        "name": "copy$default",
+        "signature": "copy$default(com.tencent.wetype.plugin.hld.reactnative.model.ColorThemeInfo, int, int, java.lang.Object): com.tencent.wetype.plugin.hld.reactnative.model.ColorThemeInfo",
+        "overloads": 0
+      },
+      {
+        "name": "equals",
+        "signature": "equals(java.lang.Object): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getColorThemeMode",
+        "signature": "getColorThemeMode(): int",
+        "overloads": 0
+      },
+      {
+        "name": "getColorThemeMode$annotations",
+        "signature": "getColorThemeMode$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "hashCode",
+        "signature": "hashCode(): int",
+        "overloads": 0
+      },
+      {
+        "name": "setItemInfo",
+        "signature": "setItemInfo(com.facebook.react.bridge.ReadableMap): void",
+        "overloads": 0
+      },
+      {
+        "name": "toString",
+        "signature": "toString(): java.lang.String",
+        "overloads": 0
+      },
+      {
+        "name": "write$Self",
+        "signature": "write$Self(com.tencent.wetype.plugin.hld.reactnative.model.ColorThemeInfo, id.d, kotlinx.serialization.descriptors.f): void",
+        "overloads": 0
+      }
+    ]
+  },
+  "DisplaySettingInfo": {
+    "fields": [
+      {
+        "name": "candidateWordGear",
+        "type": "int"
+      }
+    ],
+    "methods": [
+      {
+        "name": "component1",
+        "signature": "component1(): int",
+        "overloads": 0
+      },
+      {
+        "name": "copy",
+        "signature": "copy(int): com.tencent.wetype.plugin.hld.reactnative.model.DisplaySettingInfo",
+        "overloads": 0
+      },
+      {
+        "name": "copy$default",
+        "signature": "copy$default(com.tencent.wetype.plugin.hld.reactnative.model.DisplaySettingInfo, int, int, java.lang.Object): com.tencent.wetype.plugin.hld.reactnative.model.DisplaySettingInfo",
+        "overloads": 0
+      },
+      {
+        "name": "equals",
+        "signature": "equals(java.lang.Object): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getCandidateWordGear",
+        "signature": "getCandidateWordGear(): int",
+        "overloads": 0
+      },
+      {
+        "name": "getCandidateWordGear$annotations",
+        "signature": "getCandidateWordGear$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "hashCode",
+        "signature": "hashCode(): int",
+        "overloads": 0
+      },
+      {
+        "name": "setDisplaySettingInfo",
+        "signature": "setDisplaySettingInfo(): void",
+        "overloads": 0
+      },
+      {
+        "name": "toString",
+        "signature": "toString(): java.lang.String",
+        "overloads": 0
+      },
+      {
+        "name": "write$Self",
+        "signature": "write$Self(com.tencent.wetype.plugin.hld.reactnative.model.DisplaySettingInfo, id.d, kotlinx.serialization.descriptors.f): void",
+        "overloads": 0
+      }
+    ]
+  },
+  "FuzzyPinyinInfo": {
+    "fields": [
+      {
+        "name": "anai",
+        "type": "boolean"
+      },
+      {
+        "name": "anang",
+        "type": "boolean"
+      },
+      {
+        "name": "cch",
+        "type": "boolean"
+      },
+      {
+        "name": "eneng",
+        "type": "boolean"
+      },
+      {
+        "name": "engong",
+        "type": "boolean"
+      },
+      {
+        "name": "gk",
+        "type": "boolean"
+      },
+      {
+        "name": "hf",
+        "type": "boolean"
+      },
+      {
+        "name": "huangwang",
+        "type": "boolean"
+      },
+      {
+        "name": "huifei",
+        "type": "boolean"
+      },
+      {
+        "name": "ianiang",
+        "type": "boolean"
+      },
+      {
+        "name": "ining",
+        "type": "boolean"
+      },
+      {
+        "name": "nl",
+        "type": "boolean"
+      },
+      {
+        "name": "onong",
+        "type": "boolean"
+      },
+      {
+        "name": "rl",
+        "type": "boolean"
+      },
+      {
+        "name": "ssh",
+        "type": "boolean"
+      },
+      {
+        "name": "uanuang",
+        "type": "boolean"
+      },
+      {
+        "name": "uniong",
+        "type": "boolean"
+      },
+      {
+        "name": "unong",
+        "type": "boolean"
+      },
+      {
+        "name": "zzh",
+        "type": "boolean"
+      }
+    ],
+    "methods": [
+      {
+        "name": "component1",
+        "signature": "component1(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component10",
+        "signature": "component10(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component11",
+        "signature": "component11(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component12",
+        "signature": "component12(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component13",
+        "signature": "component13(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component14",
+        "signature": "component14(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component15",
+        "signature": "component15(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component16",
+        "signature": "component16(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component17",
+        "signature": "component17(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component18",
+        "signature": "component18(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component19",
+        "signature": "component19(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component2",
+        "signature": "component2(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component3",
+        "signature": "component3(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component4",
+        "signature": "component4(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component5",
+        "signature": "component5(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component6",
+        "signature": "component6(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component7",
+        "signature": "component7(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component8",
+        "signature": "component8(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component9",
+        "signature": "component9(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "copy",
+        "signature": "copy(boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean): com.tencent.wetype.plugin.hld.reactnative.model.FuzzyPinyinInfo",
+        "overloads": 0
+      },
+      {
+        "name": "copy$default",
+        "signature": "copy$default(com.tencent.wetype.plugin.hld.reactnative.model.FuzzyPinyinInfo, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, int, java.lang.Object): com.tencent.wetype.plugin.hld.reactnative.model.FuzzyPinyinInfo",
+        "overloads": 0
+      },
+      {
+        "name": "equals",
+        "signature": "equals(java.lang.Object): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getAnai",
+        "signature": "getAnai(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getAnai$annotations",
+        "signature": "getAnai$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getAnang",
+        "signature": "getAnang(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getAnang$annotations",
+        "signature": "getAnang$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getCch",
+        "signature": "getCch(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getCch$annotations",
+        "signature": "getCch$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getEneng",
+        "signature": "getEneng(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getEneng$annotations",
+        "signature": "getEneng$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getEngong",
+        "signature": "getEngong(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getEngong$annotations",
+        "signature": "getEngong$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getGk",
+        "signature": "getGk(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getGk$annotations",
+        "signature": "getGk$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getHf",
+        "signature": "getHf(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getHf$annotations",
+        "signature": "getHf$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getHuangwang",
+        "signature": "getHuangwang(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getHuangwang$annotations",
+        "signature": "getHuangwang$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getHuifei",
+        "signature": "getHuifei(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getHuifei$annotations",
+        "signature": "getHuifei$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getIaniang",
+        "signature": "getIaniang(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getIaniang$annotations",
+        "signature": "getIaniang$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getIning",
+        "signature": "getIning(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getIning$annotations",
+        "signature": "getIning$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getNl",
+        "signature": "getNl(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getNl$annotations",
+        "signature": "getNl$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getOnong",
+        "signature": "getOnong(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getOnong$annotations",
+        "signature": "getOnong$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getRl",
+        "signature": "getRl(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getRl$annotations",
+        "signature": "getRl$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getSsh",
+        "signature": "getSsh(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getSsh$annotations",
+        "signature": "getSsh$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getUanuang",
+        "signature": "getUanuang(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getUanuang$annotations",
+        "signature": "getUanuang$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getUniong",
+        "signature": "getUniong(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getUniong$annotations",
+        "signature": "getUniong$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getUnong",
+        "signature": "getUnong(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getUnong$annotations",
+        "signature": "getUnong$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getZzh",
+        "signature": "getZzh(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getZzh$annotations",
+        "signature": "getZzh$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "hashCode",
+        "signature": "hashCode(): int",
+        "overloads": 0
+      },
+      {
+        "name": "setItemInfo",
+        "signature": "setItemInfo(com.facebook.react.bridge.ReadableMap): void",
+        "overloads": 0
+      },
+      {
+        "name": "toString",
+        "signature": "toString(): java.lang.String",
+        "overloads": 0
+      },
+      {
+        "name": "write$Self",
+        "signature": "write$Self(com.tencent.wetype.plugin.hld.reactnative.model.FuzzyPinyinInfo, id.d, kotlinx.serialization.descriptors.f): void",
+        "overloads": 0
+      }
+    ]
+  },
+  "KeystrokeEffectInfo": {
+    "fields": [
+      {
+        "name": "isEnableKeySound",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableKeyVibrate",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableVibrateFollowSystem",
+        "type": "boolean"
+      },
+      {
+        "name": "keySoundVolumeSize",
+        "type": "int"
+      },
+      {
+        "name": "keyVibrateLevel",
+        "type": "int"
+      }
+    ],
+    "methods": [
+      {
+        "name": "component1",
+        "signature": "component1(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component2",
+        "signature": "component2(): int",
+        "overloads": 0
+      },
+      {
+        "name": "component3",
+        "signature": "component3(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component4",
+        "signature": "component4(): int",
+        "overloads": 0
+      },
+      {
+        "name": "component5",
+        "signature": "component5(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "copy",
+        "signature": "copy(boolean, int, boolean, int, boolean): com.tencent.wetype.plugin.hld.reactnative.model.KeystrokeEffectInfo",
+        "overloads": 0
+      },
+      {
+        "name": "copy$default",
+        "signature": "copy$default(com.tencent.wetype.plugin.hld.reactnative.model.KeystrokeEffectInfo, boolean, int, boolean, int, boolean, int, java.lang.Object): com.tencent.wetype.plugin.hld.reactnative.model.KeystrokeEffectInfo",
+        "overloads": 0
+      },
+      {
+        "name": "equals",
+        "signature": "equals(java.lang.Object): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getKeySoundVolumeSize",
+        "signature": "getKeySoundVolumeSize(): int",
+        "overloads": 0
+      },
+      {
+        "name": "getKeySoundVolumeSize$annotations",
+        "signature": "getKeySoundVolumeSize$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getKeyVibrateLevel",
+        "signature": "getKeyVibrateLevel(): int",
+        "overloads": 0
+      },
+      {
+        "name": "getKeyVibrateLevel$annotations",
+        "signature": "getKeyVibrateLevel$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "hashCode",
+        "signature": "hashCode(): int",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableKeySound",
+        "signature": "isEnableKeySound(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableKeySound$annotations",
+        "signature": "isEnableKeySound$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableKeyVibrate",
+        "signature": "isEnableKeyVibrate(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableKeyVibrate$annotations",
+        "signature": "isEnableKeyVibrate$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableVibrateFollowSystem",
+        "signature": "isEnableVibrateFollowSystem(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableVibrateFollowSystem$annotations",
+        "signature": "isEnableVibrateFollowSystem$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "setItemInfo",
+        "signature": "setItemInfo(com.facebook.react.bridge.ReadableMap): void",
+        "overloads": 0
+      },
+      {
+        "name": "toString",
+        "signature": "toString(): java.lang.String",
+        "overloads": 0
+      },
+      {
+        "name": "write$Self",
+        "signature": "write$Self(com.tencent.wetype.plugin.hld.reactnative.model.KeystrokeEffectInfo, id.d, kotlinx.serialization.descriptors.f): void",
+        "overloads": 0
+      }
+    ]
+  },
+  "MainSettingInfo": {
+    "fields": [
+      {
+        "name": "candidateWordSize",
+        "type": "int"
+      },
+      {
+        "name": "colorThemeInfo",
+        "type": "com.tencent.wetype.plugin.hld.reactnative.model.ColorThemeInfo"
+      },
+      {
+        "name": "fuzzyPinyinInfo",
+        "type": "com.tencent.wetype.plugin.hld.reactnative.model.FuzzyPinyinInfo"
+      },
+      {
+        "name": "isClipboardEnableState",
+        "type": "boolean"
+      },
+      {
+        "name": "isDefaultEnterActionSend",
+        "type": "boolean"
+      },
+      {
+        "name": "isEmojiQuickSettingMode",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableAssociating",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableAutoSpace123Mode",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableAutoSpaceAbcMode",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableDirectPreInput",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableDoubleTapSpaceMode",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableEnglishAutoCorrect",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableFirstUpperCaseMode",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableFuzzyPinyin",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableHandwriteFindWord",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableHideKeyboardButton",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableKeyButtonFloatPreviewMode",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableParticipleForT26Mode",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnablePlusMode",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableSMSVerificationCodeAuto",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableStandaloneMode",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableStatusBarPasteBoard",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableT26ToT9NumberMode",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableVoiceInputButton",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableVoiceRecorder",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableVoiceRecorderRecapSync",
+        "type": "boolean"
+      },
+      {
+        "name": "isSupportAskAI",
+        "type": "boolean"
+      },
+      {
+        "name": "isVoiceRecorderRecording",
+        "type": "boolean"
+      },
+      {
+        "name": "isVoiceRecorderUsed",
+        "type": "boolean"
+      },
+      {
+        "name": "keystrokeEffectInfo",
+        "type": "com.tencent.wetype.plugin.hld.reactnative.model.KeystrokeEffectInfo"
+      },
+      {
+        "name": "needUpdateStandaloneMode",
+        "type": "boolean"
+      },
+      {
+        "name": "plusItemInfo",
+        "type": "com.tencent.wetype.plugin.hld.reactnative.model.PlusItemInfo"
+      },
+      {
+        "name": "redPointStandaloneMode",
+        "type": "boolean"
+      },
+      {
+        "name": "swipeUpInputMode",
+        "type": "int"
+      },
+      {
+        "name": "unreadInfo",
+        "type": "com.tencent.wetype.plugin.hld.reactnative.model.UnreadInfo"
+      },
+      {
+        "name": "voiceInputInfo",
+        "type": "com.tencent.wetype.plugin.hld.reactnative.model.VoiceInputInfo"
+      }
+    ],
+    "methods": [
+      {
+        "name": "component1",
+        "signature": "component1(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component10",
+        "signature": "component10(): com.tencent.wetype.plugin.hld.reactnative.model.UnreadInfo",
+        "overloads": 0
+      },
+      {
+        "name": "component11",
+        "signature": "component11(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component12",
+        "signature": "component12(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component13",
+        "signature": "component13(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component14",
+        "signature": "component14(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component15",
+        "signature": "component15(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component16",
+        "signature": "component16(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component17",
+        "signature": "component17(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component18",
+        "signature": "component18(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component19",
+        "signature": "component19(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component2",
+        "signature": "component2(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component20",
+        "signature": "component20(): int",
+        "overloads": 0
+      },
+      {
+        "name": "component21",
+        "signature": "component21(): int",
+        "overloads": 0
+      },
+      {
+        "name": "component22",
+        "signature": "component22(): com.tencent.wetype.plugin.hld.reactnative.model.VoiceInputInfo",
+        "overloads": 0
+      },
+      {
+        "name": "component23",
+        "signature": "component23(): com.tencent.wetype.plugin.hld.reactnative.model.KeystrokeEffectInfo",
+        "overloads": 0
+      },
+      {
+        "name": "component24",
+        "signature": "component24(): com.tencent.wetype.plugin.hld.reactnative.model.ColorThemeInfo",
+        "overloads": 0
+      },
+      {
+        "name": "component25",
+        "signature": "component25(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component26",
+        "signature": "component26(): com.tencent.wetype.plugin.hld.reactnative.model.FuzzyPinyinInfo",
+        "overloads": 0
+      },
+      {
+        "name": "component27",
+        "signature": "component27(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component28",
+        "signature": "component28(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component29",
+        "signature": "component29(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component3",
+        "signature": "component3(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component30",
+        "signature": "component30(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component31",
+        "signature": "component31(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component32",
+        "signature": "component32(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component33",
+        "signature": "component33(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component34",
+        "signature": "component34(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component35",
+        "signature": "component35(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component36",
+        "signature": "component36(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component4",
+        "signature": "component4(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component5",
+        "signature": "component5(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component6",
+        "signature": "component6(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component7",
+        "signature": "component7(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component8",
+        "signature": "component8(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component9",
+        "signature": "component9(): com.tencent.wetype.plugin.hld.reactnative.model.PlusItemInfo",
+        "overloads": 0
+      },
+      {
+        "name": "copy",
+        "signature": "copy(boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, com.tencent.wetype.plugin.hld.reactnative.model.PlusItemInfo, com.tencent.wetype.plugin.hld.reactnative.model.UnreadInfo, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, int, int, com.tencent.wetype.plugin.hld.reactnative.model.VoiceInputInfo, com.tencent.wetype.plugin.hld.reactnative.model.KeystrokeEffectInfo, com.tencent.wetype.plugin.hld.reactnative.model.ColorThemeInfo, boolean, com.tencent.wetype.plugin.hld.reactnative.model.FuzzyPinyinInfo, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean): com.tencent.wetype.plugin.hld.reactnative.model.MainSettingInfo",
+        "overloads": 0
+      },
+      {
+        "name": "copy$default",
+        "signature": "copy$default(com.tencent.wetype.plugin.hld.reactnative.model.MainSettingInfo, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, com.tencent.wetype.plugin.hld.reactnative.model.PlusItemInfo, com.tencent.wetype.plugin.hld.reactnative.model.UnreadInfo, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, int, int, com.tencent.wetype.plugin.hld.reactnative.model.VoiceInputInfo, com.tencent.wetype.plugin.hld.reactnative.model.KeystrokeEffectInfo, com.tencent.wetype.plugin.hld.reactnative.model.ColorThemeInfo, boolean, com.tencent.wetype.plugin.hld.reactnative.model.FuzzyPinyinInfo, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, int, int, java.lang.Object): com.tencent.wetype.plugin.hld.reactnative.model.MainSettingInfo",
+        "overloads": 0
+      },
+      {
+        "name": "equals",
+        "signature": "equals(java.lang.Object): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getCandidateWordSize",
+        "signature": "getCandidateWordSize(): int",
+        "overloads": 0
+      },
+      {
+        "name": "getCandidateWordSize$annotations",
+        "signature": "getCandidateWordSize$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getColorThemeInfo",
+        "signature": "getColorThemeInfo(): com.tencent.wetype.plugin.hld.reactnative.model.ColorThemeInfo",
+        "overloads": 0
+      },
+      {
+        "name": "getFuzzyPinyinInfo",
+        "signature": "getFuzzyPinyinInfo(): com.tencent.wetype.plugin.hld.reactnative.model.FuzzyPinyinInfo",
+        "overloads": 0
+      },
+      {
+        "name": "getKeystrokeEffectInfo",
+        "signature": "getKeystrokeEffectInfo(): com.tencent.wetype.plugin.hld.reactnative.model.KeystrokeEffectInfo",
+        "overloads": 0
+      },
+      {
+        "name": "getNeedUpdateStandaloneMode",
+        "signature": "getNeedUpdateStandaloneMode(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getNeedUpdateStandaloneMode$annotations",
+        "signature": "getNeedUpdateStandaloneMode$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getPlusItemInfo",
+        "signature": "getPlusItemInfo(): com.tencent.wetype.plugin.hld.reactnative.model.PlusItemInfo",
+        "overloads": 0
+      },
+      {
+        "name": "getRedPointStandaloneMode",
+        "signature": "getRedPointStandaloneMode(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getRedPointStandaloneMode$annotations",
+        "signature": "getRedPointStandaloneMode$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getSwipeUpInputMode",
+        "signature": "getSwipeUpInputMode(): int",
+        "overloads": 0
+      },
+      {
+        "name": "getSwipeUpInputMode$annotations",
+        "signature": "getSwipeUpInputMode$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getUnreadInfo",
+        "signature": "getUnreadInfo(): com.tencent.wetype.plugin.hld.reactnative.model.UnreadInfo",
+        "overloads": 0
+      },
+      {
+        "name": "getVoiceInputInfo",
+        "signature": "getVoiceInputInfo(): com.tencent.wetype.plugin.hld.reactnative.model.VoiceInputInfo",
+        "overloads": 0
+      },
+      {
+        "name": "hashCode",
+        "signature": "hashCode(): int",
+        "overloads": 0
+      },
+      {
+        "name": "isClipboardEnableState",
+        "signature": "isClipboardEnableState(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isClipboardEnableState$annotations",
+        "signature": "isClipboardEnableState$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isDefaultEnterActionSend",
+        "signature": "isDefaultEnterActionSend(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isDefaultEnterActionSend$annotations",
+        "signature": "isDefaultEnterActionSend$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEmojiQuickSettingMode",
+        "signature": "isEmojiQuickSettingMode(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEmojiQuickSettingMode$annotations",
+        "signature": "isEmojiQuickSettingMode$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableAssociating",
+        "signature": "isEnableAssociating(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableAssociating$annotations",
+        "signature": "isEnableAssociating$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableAutoSpace123Mode",
+        "signature": "isEnableAutoSpace123Mode(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableAutoSpace123Mode$annotations",
+        "signature": "isEnableAutoSpace123Mode$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableAutoSpaceAbcMode",
+        "signature": "isEnableAutoSpaceAbcMode(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableAutoSpaceAbcMode$annotations",
+        "signature": "isEnableAutoSpaceAbcMode$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableDirectPreInput",
+        "signature": "isEnableDirectPreInput(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableDirectPreInput$annotations",
+        "signature": "isEnableDirectPreInput$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableDoubleTapSpaceMode",
+        "signature": "isEnableDoubleTapSpaceMode(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableDoubleTapSpaceMode$annotations",
+        "signature": "isEnableDoubleTapSpaceMode$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableEnglishAutoCorrect",
+        "signature": "isEnableEnglishAutoCorrect(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableEnglishAutoCorrect$annotations",
+        "signature": "isEnableEnglishAutoCorrect$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableFirstUpperCaseMode",
+        "signature": "isEnableFirstUpperCaseMode(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableFirstUpperCaseMode$annotations",
+        "signature": "isEnableFirstUpperCaseMode$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableFuzzyPinyin",
+        "signature": "isEnableFuzzyPinyin(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableFuzzyPinyin$annotations",
+        "signature": "isEnableFuzzyPinyin$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableHandwriteFindWord",
+        "signature": "isEnableHandwriteFindWord(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableHandwriteFindWord$annotations",
+        "signature": "isEnableHandwriteFindWord$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableHideKeyboardButton",
+        "signature": "isEnableHideKeyboardButton(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableHideKeyboardButton$annotations",
+        "signature": "isEnableHideKeyboardButton$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableKeyButtonFloatPreviewMode",
+        "signature": "isEnableKeyButtonFloatPreviewMode(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableKeyButtonFloatPreviewMode$annotations",
+        "signature": "isEnableKeyButtonFloatPreviewMode$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableParticipleForT26Mode",
+        "signature": "isEnableParticipleForT26Mode(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableParticipleForT26Mode$annotations",
+        "signature": "isEnableParticipleForT26Mode$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnablePlusMode",
+        "signature": "isEnablePlusMode(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnablePlusMode$annotations",
+        "signature": "isEnablePlusMode$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableSMSVerificationCodeAuto",
+        "signature": "isEnableSMSVerificationCodeAuto(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableSMSVerificationCodeAuto$annotations",
+        "signature": "isEnableSMSVerificationCodeAuto$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableStandaloneMode",
+        "signature": "isEnableStandaloneMode(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableStandaloneMode$annotations",
+        "signature": "isEnableStandaloneMode$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableStatusBarPasteBoard",
+        "signature": "isEnableStatusBarPasteBoard(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableStatusBarPasteBoard$annotations",
+        "signature": "isEnableStatusBarPasteBoard$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableT26ToT9NumberMode",
+        "signature": "isEnableT26ToT9NumberMode(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableT26ToT9NumberMode$annotations",
+        "signature": "isEnableT26ToT9NumberMode$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableVoiceInputButton",
+        "signature": "isEnableVoiceInputButton(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableVoiceInputButton$annotations",
+        "signature": "isEnableVoiceInputButton$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableVoiceRecorder",
+        "signature": "isEnableVoiceRecorder(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableVoiceRecorder$annotations",
+        "signature": "isEnableVoiceRecorder$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableVoiceRecorderRecapSync",
+        "signature": "isEnableVoiceRecorderRecapSync(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableVoiceRecorderRecapSync$annotations",
+        "signature": "isEnableVoiceRecorderRecapSync$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isSupportAskAI",
+        "signature": "isSupportAskAI(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isSupportAskAI$annotations",
+        "signature": "isSupportAskAI$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isVoiceRecorderRecording",
+        "signature": "isVoiceRecorderRecording(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isVoiceRecorderRecording$annotations",
+        "signature": "isVoiceRecorderRecording$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isVoiceRecorderUsed",
+        "signature": "isVoiceRecorderUsed(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isVoiceRecorderUsed$annotations",
+        "signature": "isVoiceRecorderUsed$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "setMainSettingInfo",
+        "signature": "setMainSettingInfo(com.facebook.react.bridge.ReadableMap, android.content.Context): void",
+        "overloads": 0
+      },
+      {
+        "name": "toString",
+        "signature": "toString(): java.lang.String",
+        "overloads": 0
+      },
+      {
+        "name": "write$Self",
+        "signature": "write$Self(com.tencent.wetype.plugin.hld.reactnative.model.MainSettingInfo, id.d, kotlinx.serialization.descriptors.f): void",
+        "overloads": 0
+      }
+    ]
+  },
+  "PlusItemInfo": {
+    "fields": [
+      {
+        "name": "isEnableAskAI",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableKaomoji",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableQuickSend",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableRewriteRecommend",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableSmallEmoji",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableSmartSpelling",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableSpellingCorrect",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableStickerRecommend",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableTextPolish",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableTextPoster",
+        "type": "boolean"
+      }
+    ],
+    "methods": [
+      {
+        "name": "component1",
+        "signature": "component1(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component10",
+        "signature": "component10(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component2",
+        "signature": "component2(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component3",
+        "signature": "component3(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component4",
+        "signature": "component4(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component5",
+        "signature": "component5(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component6",
+        "signature": "component6(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component7",
+        "signature": "component7(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component8",
+        "signature": "component8(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component9",
+        "signature": "component9(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "copy",
+        "signature": "copy(boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean): com.tencent.wetype.plugin.hld.reactnative.model.PlusItemInfo",
+        "overloads": 0
+      },
+      {
+        "name": "copy$default",
+        "signature": "copy$default(com.tencent.wetype.plugin.hld.reactnative.model.PlusItemInfo, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, int, java.lang.Object): com.tencent.wetype.plugin.hld.reactnative.model.PlusItemInfo",
+        "overloads": 0
+      },
+      {
+        "name": "equals",
+        "signature": "equals(java.lang.Object): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "hashCode",
+        "signature": "hashCode(): int",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableAskAI",
+        "signature": "isEnableAskAI(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableAskAI$annotations",
+        "signature": "isEnableAskAI$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableKaomoji",
+        "signature": "isEnableKaomoji(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableKaomoji$annotations",
+        "signature": "isEnableKaomoji$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableQuickSend",
+        "signature": "isEnableQuickSend(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableQuickSend$annotations",
+        "signature": "isEnableQuickSend$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableRewriteRecommend",
+        "signature": "isEnableRewriteRecommend(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableRewriteRecommend$annotations",
+        "signature": "isEnableRewriteRecommend$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableSmallEmoji",
+        "signature": "isEnableSmallEmoji(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableSmallEmoji$annotations",
+        "signature": "isEnableSmallEmoji$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableSmartSpelling",
+        "signature": "isEnableSmartSpelling(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableSmartSpelling$annotations",
+        "signature": "isEnableSmartSpelling$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableSpellingCorrect",
+        "signature": "isEnableSpellingCorrect(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableSpellingCorrect$annotations",
+        "signature": "isEnableSpellingCorrect$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableStickerRecommend",
+        "signature": "isEnableStickerRecommend(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableStickerRecommend$annotations",
+        "signature": "isEnableStickerRecommend$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableTextPolish",
+        "signature": "isEnableTextPolish(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableTextPolish$annotations",
+        "signature": "isEnableTextPolish$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableTextPoster",
+        "signature": "isEnableTextPoster(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableTextPoster$annotations",
+        "signature": "isEnableTextPoster$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "setItemInfo",
+        "signature": "setItemInfo(com.facebook.react.bridge.ReadableMap): void",
+        "overloads": 0
+      },
+      {
+        "name": "toString",
+        "signature": "toString(): java.lang.String",
+        "overloads": 0
+      },
+      {
+        "name": "write$Self",
+        "signature": "write$Self(com.tencent.wetype.plugin.hld.reactnative.model.PlusItemInfo, id.d, kotlinx.serialization.descriptors.f): void",
+        "overloads": 0
+      }
+    ]
+  },
+  "VoiceInputInfo": {
+    "fields": [
+      {
+        "name": "$childSerializers",
+        "type": "kotlinx.serialization.b<java.lang.Object>[]"
+      },
+      {
+        "name": "isEnableOfflineSpeech",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableVoiceInputLongClickTrigger",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableVoiceInputReleaseToSend",
+        "type": "boolean"
+      },
+      {
+        "name": "isEnableVoiceInputSmartTextPolish",
+        "type": "boolean"
+      },
+      {
+        "name": "openVoiceLanguageSelectMode",
+        "type": "boolean"
+      },
+      {
+        "name": "voiceIconShowTimeIndex",
+        "type": "int"
+      },
+      {
+        "name": "voiceInputDialectInfo",
+        "type": "java.util.List<com.tencent.wetype.plugin.hld.voice.c0>"
+      },
+      {
+        "name": "voiceInputLanguageType",
+        "type": "int"
+      },
+      {
+        "name": "voiceInputPunctuationIndex",
+        "type": "int"
+      },
+      {
+        "name": "voiceInputSupportDialectList",
+        "type": "java.util.List<java.lang.String>"
+      }
+    ],
+    "methods": [
+      {
+        "name": "access$get$childSerializers$cp",
+        "signature": "access$get$childSerializers$cp(): kotlinx.serialization.b[]",
+        "overloads": 0
+      },
+      {
+        "name": "component1",
+        "signature": "component1(): int",
+        "overloads": 0
+      },
+      {
+        "name": "component10",
+        "signature": "component10(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component2",
+        "signature": "component2(): int",
+        "overloads": 0
+      },
+      {
+        "name": "component3",
+        "signature": "component3(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component4",
+        "signature": "component4(): int",
+        "overloads": 0
+      },
+      {
+        "name": "component5",
+        "signature": "component5(): java.util.List<com.tencent.wetype.plugin.hld.voice.c0>",
+        "overloads": 0
+      },
+      {
+        "name": "component6",
+        "signature": "component6(): java.util.List<java.lang.String>",
+        "overloads": 0
+      },
+      {
+        "name": "component7",
+        "signature": "component7(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component8",
+        "signature": "component8(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "component9",
+        "signature": "component9(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "copy",
+        "signature": "copy(int, int, boolean, int, java.util.List<com.tencent.wetype.plugin.hld.voice.c0>, java.util.List<java.lang.String>, boolean, boolean, boolean, boolean): com.tencent.wetype.plugin.hld.reactnative.model.VoiceInputInfo",
+        "overloads": 0
+      },
+      {
+        "name": "copy$default",
+        "signature": "copy$default(com.tencent.wetype.plugin.hld.reactnative.model.VoiceInputInfo, int, int, boolean, int, java.util.List, java.util.List, boolean, boolean, boolean, boolean, int, java.lang.Object): com.tencent.wetype.plugin.hld.reactnative.model.VoiceInputInfo",
+        "overloads": 0
+      },
+      {
+        "name": "equals",
+        "signature": "equals(java.lang.Object): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getOpenVoiceLanguageSelectMode",
+        "signature": "getOpenVoiceLanguageSelectMode(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "getOpenVoiceLanguageSelectMode$annotations",
+        "signature": "getOpenVoiceLanguageSelectMode$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getVoiceIconShowTimeIndex",
+        "signature": "getVoiceIconShowTimeIndex(): int",
+        "overloads": 0
+      },
+      {
+        "name": "getVoiceIconShowTimeIndex$annotations",
+        "signature": "getVoiceIconShowTimeIndex$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getVoiceInputDialectInfo",
+        "signature": "getVoiceInputDialectInfo(): java.util.List<com.tencent.wetype.plugin.hld.voice.c0>",
+        "overloads": 0
+      },
+      {
+        "name": "getVoiceInputLanguageType",
+        "signature": "getVoiceInputLanguageType(): int",
+        "overloads": 0
+      },
+      {
+        "name": "getVoiceInputLanguageType$annotations",
+        "signature": "getVoiceInputLanguageType$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getVoiceInputPunctuationIndex",
+        "signature": "getVoiceInputPunctuationIndex(): int",
+        "overloads": 0
+      },
+      {
+        "name": "getVoiceInputPunctuationIndex$annotations",
+        "signature": "getVoiceInputPunctuationIndex$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "getVoiceInputSupportDialectList",
+        "signature": "getVoiceInputSupportDialectList(): java.util.List<java.lang.String>",
+        "overloads": 0
+      },
+      {
+        "name": "hashCode",
+        "signature": "hashCode(): int",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableOfflineSpeech",
+        "signature": "isEnableOfflineSpeech(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableOfflineSpeech$annotations",
+        "signature": "isEnableOfflineSpeech$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableVoiceInputLongClickTrigger",
+        "signature": "isEnableVoiceInputLongClickTrigger(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableVoiceInputLongClickTrigger$annotations",
+        "signature": "isEnableVoiceInputLongClickTrigger$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableVoiceInputReleaseToSend",
+        "signature": "isEnableVoiceInputReleaseToSend(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableVoiceInputReleaseToSend$annotations",
+        "signature": "isEnableVoiceInputReleaseToSend$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableVoiceInputSmartTextPolish",
+        "signature": "isEnableVoiceInputSmartTextPolish(): boolean",
+        "overloads": 0
+      },
+      {
+        "name": "isEnableVoiceInputSmartTextPolish$annotations",
+        "signature": "isEnableVoiceInputSmartTextPolish$annotations(): void",
+        "overloads": 0
+      },
+      {
+        "name": "setItemInfo",
+        "signature": "setItemInfo(com.facebook.react.bridge.ReadableMap): void",
+        "overloads": 0
+      },
+      {
+        "name": "toString",
+        "signature": "toString(): java.lang.String",
+        "overloads": 0
+      },
+      {
+        "name": "write$Self",
+        "signature": "write$Self(com.tencent.wetype.plugin.hld.reactnative.model.VoiceInputInfo, id.d, kotlinx.serialization.descriptors.f): void",
+        "overloads": 0
+      }
+    ]
+  }
+}

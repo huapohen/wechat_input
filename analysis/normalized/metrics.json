@@ -1,0 +1,19 @@
+{
+  "total_classes": 13585,
+  "app_classes": 1890,
+  "keyboard_layouts": 36,
+  "native_strings": 866,
+  "screenshots": 105,
+  "rea_evidence": 16,
+  "rn_modules": 28,
+  "scheme_actions": 28,
+  "components": 53,
+  "hermes_bundles": [
+    "feedback.hbc",
+    "general.hbc",
+    "platform.hbc",
+    "setup.hbc"
+  ],
+  "native_libs": 57,
+  "assets_files": 1035
+}

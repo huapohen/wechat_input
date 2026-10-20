@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 362" role="img">
+<rect width="540" height="362" rx="16" fill="#E6F4F2"/>
+<text x="14" y="26" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="13" font-weight="700" fill="#26332F">S5SymbolKeyboardView.json</text>
+<text x="526" y="26" text-anchor="end" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="9" fill="#5F6F69">28 keys · 1080×628</text>
+<rect x="14.0" y="52.0" width="46.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="37.1" y="102.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">-</text>
+<rect x="65.2" y="52.0" width="46.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="88.3" y="102.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">_</text>
+<rect x="116.4" y="52.0" width="46.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="139.5" y="102.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">/</text>
+<rect x="167.6" y="52.0" width="46.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="190.7" y="102.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">｜</text>
+<rect x="218.8" y="52.0" width="46.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="241.9" y="102.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">#</text>
+<rect x="270.0" y="52.0" width="46.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="293.1" y="102.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">%</text>
+<rect x="321.2" y="52.0" width="46.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="344.3" y="102.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">^</text>
+<rect x="372.4" y="52.0" width="46.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="395.5" y="102.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">*</text>
+<rect x="423.6" y="52.0" width="46.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="446.7" y="102.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">+</text>
+<rect x="474.8" y="52.0" width="46.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="497.9" y="102.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">=</text>
+<rect x="14.0" y="149.0" width="46.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="37.1" y="199.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">～</text>
+<rect x="65.2" y="149.0" width="46.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="88.3" y="199.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">—</text>
+<rect x="116.4" y="149.0" width="46.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="139.5" y="199.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">：</text>
+<rect x="167.6" y="149.0" width="46.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="190.7" y="199.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">；</text>
+<rect x="218.8" y="149.0" width="46.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="241.9" y="199.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">、</text>
+<rect x="270.0" y="149.0" width="46.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="293.1" y="199.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">@</text>
+<rect x="321.2" y="149.0" width="46.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="344.3" y="199.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">（</text>
+<rect x="372.4" y="149.0" width="46.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="395.5" y="199.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">）</text>
+<rect x="423.6" y="149.0" width="46.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="446.7" y="199.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">“</text>
+<rect x="474.8" y="149.0" width="46.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="497.9" y="199.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">”</text>
+<rect x="14.0" y="246.0" width="64.9" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="46.4" y="296.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">.</text>
+<rect x="83.9" y="246.0" width="58.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="113.0" y="296.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">，</text>
+<rect x="147.0" y="246.0" width="58.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="176.1" y="296.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">。</text>
+<rect x="210.2" y="246.0" width="58.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="239.3" y="296.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">？</text>
+<rect x="273.4" y="246.0" width="58.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="302.4" y="296.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">！</text>
+<rect x="336.5" y="246.0" width="58.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="365.6" y="296.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">…</text>
+<rect x="399.7" y="246.0" width="58.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="428.8" y="296.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">…</text>
+<rect x="462.8" y="246.0" width="58.2" height="92.0" rx="8" fill="#FFFFFF" stroke="#DCE7E3" stroke-width="0.8"/>
+<text x="491.9" y="296.2" text-anchor="middle" font-family="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="12" font-weight="600" fill="#26332F">…</text>
+</svg>

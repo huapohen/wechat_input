@@ -1,0 +1,25 @@
+
+digraph ai_flow {
+  graph [rankdir=LR, splines=ortho, nodesep=0.3, ranksep=0.55, bgcolor="transparent", fontname="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif", pad="0.15"];
+  node [shape=box, style="rounded,filled", fontname="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif", fontsize=9, color="#B8C8C3", fillcolor="#FFFFFF", penwidth=1.1, margin="0.12,0.07"];
+  edge [color="#9AAEA8", arrowsize=0.6, fontsize=7.5, fontcolor="#5F6F69"];
+
+  subgraph cluster_orig {
+    label="Original path — not reproducible"; fontsize=10; fontcolor="#B23A3A"; color="#F0C9C9"; style="rounded,dashed";
+    kbd [label="Keyboard / text tool\nselection + command"]; native [label="Java/Kotlin bridge\nRequestChat / Dispatch"];
+    net [label="libime_net.so\nprotobuf + signing"]; web [label="AiChat WebView\nremote page", fillcolor="#FFF4E8"];
+    cloud [label="Tencent cloud\nno public API", fillcolor="#FFE9E9"];
+    kbd -> native -> net -> cloud;
+    kbd -> web -> cloud [style=dashed];
+  }
+  subgraph cluster_new {
+    label="Replacement path — configured by URL"; fontsize=10; fontcolor="#0E8A68"; color="#B9E6D9"; style="rounded,dashed";
+    app [label="Flutter / Android / iOS\nAI chat, polish, translate", fillcolor="#E9FBF5"];
+    api [label="Own backend\n/v1/ai/chat · /v1/ai/polish\n/v1/ai/translate · /v1/asr", fillcolor="#E9FBF5"];
+    llm [label="DeepSeek API\nOpenAI-compatible", fillcolor="#E9FBF5"];
+    key [label="Server-side key\nenv only", fillcolor="#FFF7E6"];
+    app -> api [label="SSE / JSON"];
+    api -> llm;
+    key -> api [style=dashed];
+  }
+}

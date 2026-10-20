@@ -1,0 +1,27 @@
+
+digraph routes_high {
+  graph [rankdir=LR, splines=spline, nodesep=0.3, ranksep=0.55, bgcolor="transparent", fontname="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif", pad="0.15"];
+  node [shape=box, style="rounded,filled", fontname="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif", fontsize=9, color="#B8C8C3", fillcolor="#FFFFFF", penwidth=1.0, margin="0.12,0.06"];
+  edge [color="#9AAEA8", arrowsize=0.6, fontsize=7.5, fontcolor="#5F6F69"];
+  entry [label="Privacy / activation\nHldPrivacyInfoUI · HldActivationUI", fillcolor="#FFF7E6"];
+  home [label="Home\nSetupMain", fillcolor="#E9FBF5", penwidth=1.8];
+  key [label="键盘\nKeyboard settings", fillcolor="#F3ECFF"];
+  look [label="布局与显示\nKeystroke / Display", fillcolor="#EAF4FF"];
+  smart [label="拼写 Plus\nAI / text tools", fillcolor="#E9FBF5"];
+  cross [label="跨设备\nSync / migration", fillcolor="#F4F9FF"];
+  more [label="更多\nPrivacy / desktop / about / help", fillcolor="#F8F8F8"];
+  feat [label="功能\nAI recorder / file transfer", fillcolor="#FFF4E8"];
+  tools [label="Keyboard toolbar\nAI · polish · translate · clipboard\nphrases · emoji · handwriting"];
+  modes [label="Six Chinese modes\nT9 · QWERTY · handwriting\nstroke · Wubi · double-pin"];
+  entry -> home [label="accept + enable IME"];
+  home -> key; home -> look; home -> smart; home -> cross; home -> more; home -> feat;
+  key -> modes;
+  key -> tools [label="in-keyboard"];
+  smart -> tools;
+  feat -> aichat [label="AiChat WebView"];
+  feat -> recorder [label="VoiceRecorderActivity"];
+  feat -> transfer [label="ImeFileTransferUI"];
+  aichat [shape=box, fillcolor="#FFF4E8", label="AI chat\nWebView"];
+  recorder [shape=box, fillcolor="#FFF4E8", label="Recorder\nlist / session"];
+  transfer [shape=box, fillcolor="#FFF4E8", label="File transfer\nQR / devices"];
+}

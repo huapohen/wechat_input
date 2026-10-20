@@ -1,0 +1,71 @@
+
+digraph architecture {
+  graph [rankdir=TB, splines=ortho, nodesep=0.26, ranksep=0.5, bgcolor="transparent", fontname="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif", pad="0.12"];
+  node [shape=box, style="rounded,filled", fontname="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif", fontsize=9.5, color="#B8C8C3", fillcolor="#FFFFFF", penwidth=1.1, margin="0.12,0.07"];
+  edge [color="#9AAEA8", arrowsize=0.6, fontname="Helvetica, PingFang SC, Noto Sans CJK SC, sans-serif", fontsize=7.5, fontcolor="#5F6F69"];
+
+  subgraph cluster_main {
+    label="Main process  (com.tencent.wetype)"; fontsize=10; fontcolor="#0E8A68"; color="#B9DED4"; style="rounded,dashed";
+    main [label="ImeMainSettingActivity\nlauncher + wetype:// deep links", fillcolor="#E9FBF5"];
+    home [label="SetupMain · React Native\nhome, feature grid, settings list", fillcolor="#E9FBF5"];
+    setup [label="Setup* RN modules\nDisplay · Keystroke · Voice · Plus\nAuxiliary · Fuzzy · Clipboard\nKeyboardSelect · Migration"];
+    general [label="GeneralDeviceSync\nMigrationAssistant", fillcolor="#F4F9FF"];
+    feedback [label="FeedbackMain\nhelp / feedback chat", fillcolor="#F4F9FF"];
+    rn [label="Hermes bundles\nsetup.hbc · general.hbc\nfeedback.hbc · platform.hbc"];
+    main -> home [label="loadReactApplication"];
+    home -> setup [label="navigation"];
+    home -> general;
+    home -> feedback;
+    rn -> home [style=dashed, label="assets"];
+  }
+
+  subgraph cluster_hld {
+    label=":hld process  (IME + media)"; fontsize=10; fontcolor="#7A4CC2"; color="#DCD0F5"; style="rounded,dashed";
+    ime [label="WxHldService\nInputMethodService", fillcolor="#F3ECFF"];
+    kb [label="KeyboardView\n36 JSON layouts", fillcolor="#F3ECFF"];
+    cand [label="Candidate engine\ncomposition · ranking · learning", fillcolor="#F3ECFF"];
+    voice [label="VoiceRecorderActivity\nVoiceRecorderService", fillcolor="#FFF4E8"];
+    transfer [label="ImeFileTransferUI\nFileTransferService", fillcolor="#FFF4E8"];
+    aichat [label="AiChatActivity\nWebView + bottom input", fillcolor="#FFF4E8"];
+    kbmgr [label="HldSettingsKeyboardsSettingUI\nHldChooseKeyboardUI"];
+    ime -> kb;
+    kb -> cand;
+    ime -> voice;
+    ime -> transfer;
+    ime -> aichat;
+    ime -> kbmgr;
+  }
+
+  subgraph cluster_assets {
+    label="APK assets / native"; fontsize=10; fontcolor="#5F6F69"; color="#D6E2DE"; style="rounded,dashed";
+    layouts [label="assets/keyboard/output\n36 layout JSON"];
+    dict [label="assets/config/beta\nword / pinyin / TTS bins"];
+    libs [label="57 arm64 libraries\nlibime_net · libwetap_business\nlibvoiceopus · libwechatvoicesilk\nlibreactnative · libhermes"];
+    layouts -> kb [style=dashed, label="data-driven"];
+    dict -> cand [style=dashed];
+    libs -> ime [style=dashed, label="JNI"];
+  }
+
+  subgraph cluster_cloud {
+    label="Tencent services — NOT usable by the clone"; fontsize=10; fontcolor="#B23A3A"; color="#F0C9C9"; style="rounded,dashed";
+    cdn [label="wetype.wxqcloud.qq.com\nwxkeyboardcms CDN\narticle / help pages"];
+    sync [label="device sync / migration\nRequestSync · RequestMigration"];
+    aiweb [label="AI chat WebView backend\nRequestChat protobuf"];
+    tsf [label="weread.qq.com/wetype/devicetransfer\nfile transfer landing"];
+    cdn -> home [style=dashed, color="#D88", label="config / help"];
+    sync -> general [style=dashed, color="#D88"];
+    aiweb -> aichat [style=dashed, color="#D88"];
+    tsf -> transfer [style=dashed, color="#D88"];
+  }
+
+  subgraph cluster_own {
+    label="Replacement backend (this project)"; fontsize=10; fontcolor="#0E8A68"; color="#B9E6D9"; style="rounded,dashed";
+    api [label="Local API\n/v1/ai · /v1/asr · /v1/sync · /v1/transfer", fillcolor="#E9FBF5"];
+    llm [label="DeepSeek API\n(OpenAI-compatible)", fillcolor="#E9FBF5"];
+    store [label="SQLite / object store", fillcolor="#E9FBF5"];
+    api -> llm;
+    api -> store;
+    aichat -> api [style=dashed, color="#24C891", label="replacement"];
+    sync -> api [style=dashed, color="#24C891", label="replacement"];
+  }
+}

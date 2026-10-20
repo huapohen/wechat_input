@@ -1,0 +1,3466 @@
+[
+  {
+    "name": "a",
+    "value": "Navigate home"
+  },
+  {
+    "name": "b",
+    "value": "Navigate up"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "value": "More options"
+  },
+  {
+    "name": "c",
+    "value": "Done"
+  },
+  {
+    "name": "d",
+    "value": "See all"
+  },
+  {
+    "name": "e",
+    "value": "Choose an app"
+  },
+  {
+    "name": "f",
+    "value": "OFF"
+  },
+  {
+    "name": "g",
+    "value": "ON"
+  },
+  {
+    "name": "h",
+    "value": "Alt+"
+  },
+  {
+    "name": "i",
+    "value": "Ctrl+"
+  },
+  {
+    "name": "j",
+    "value": "delete"
+  },
+  {
+    "name": "k",
+    "value": "enter"
+  },
+  {
+    "name": "l",
+    "value": "Function+"
+  },
+  {
+    "name": "m",
+    "value": "Meta+"
+  },
+  {
+    "name": "n",
+    "value": "Shift+"
+  },
+  {
+    "name": "o",
+    "value": "space"
+  },
+  {
+    "name": "p",
+    "value": "Sym+"
+  },
+  {
+    "name": "q",
+    "value": "Menu+"
+  },
+  {
+    "name": "r",
+    "value": "Search…"
+  },
+  {
+    "name": "s",
+    "value": "Clear query"
+  },
+  {
+    "name": "t",
+    "value": "Search query"
+  },
+  {
+    "name": "u",
+    "value": "Search"
+  },
+  {
+    "name": "v",
+    "value": "Submit query"
+  },
+  {
+    "name": "w",
+    "value": "Voice search"
+  },
+  {
+    "name": "x",
+    "value": "Share with"
+  },
+  {
+    "name": "y",
+    "value": "Share with %s"
+  },
+  {
+    "name": "z",
+    "value": "Collapse"
+  },
+  {
+    "name": "a0",
+    "value": "Alert"
+  },
+  {
+    "name": "a1",
+    "value": "一"
+  },
+  {
+    "name": "a2",
+    "value": "丨"
+  },
+  {
+    "name": "a3",
+    "value": "丿"
+  },
+  {
+    "name": "a4",
+    "value": "丶"
+  },
+  {
+    "name": "a5",
+    "value": "ㄥ"
+  },
+  {
+    "name": "a6",
+    "value": "首笔画"
+  },
+  {
+    "name": "a7",
+    "value": "androidx.startup"
+  },
+  {
+    "name": "a8",
+    "value": "返回"
+  },
+  {
+    "name": "a9",
+    "value": "取消"
+  },
+  {
+    "name": "a_",
+    "value": "更多信息"
+  },
+  {
+    "name": "aa",
+    "value": "threadpool"
+  },
+  {
+    "name": "ab",
+    "value": "确定"
+  },
+  {
+    "name": "ac",
+    "value": "去授权"
+  },
+  {
+    "name": "ad",
+    "value": "com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+  },
+  {
+    "name": "ae",
+    "value": "com.google.android.material.bottomsheet.BottomSheetBehavior"
+  },
+  {
+    "name": "af",
+    "value": "更多分享"
+  },
+  {
+    "name": "ag",
+    "value": "Collapse the bottom sheet"
+  },
+  {
+    "name": "ah",
+    "value": "Expand the bottom sheet"
+  },
+  {
+    "name": "ai",
+    "value": "Expand halfway"
+  },
+  {
+    "name": "aj",
+    "value": "Drag handle double-tapped"
+  },
+  {
+    "name": "ak",
+    "value": "Drag handle"
+  },
+  {
+    "name": "al",
+    "value": "取消"
+  },
+  {
+    "name": "am",
+    "value": "清空"
+  },
+  {
+    "name": "an",
+    "value": "关闭"
+  },
+  {
+    "name": "ao",
+    "value": "知道了"
+  },
+  {
+    "name": "ap",
+    "value": "确定"
+  },
+  {
+    "name": "aq",
+    "value": "Answer"
+  },
+  {
+    "name": "ar",
+    "value": "Video"
+  },
+  {
+    "name": "as",
+    "value": "Decline"
+  },
+  {
+    "name": "at",
+    "value": "Hang Up"
+  },
+  {
+    "name": "au",
+    "value": "Incoming call"
+  },
+  {
+    "name": "av",
+    "value": "Ongoing call"
+  },
+  {
+    "name": "aw",
+    "value": "Screening an incoming call"
+  },
+  {
+    "name": "ax",
+    "value": "Change Bundle Location"
+  },
+  {
+    "name": "ay",
+    "value": "\"Copy\n\""
+  },
+  {
+    "name": "az",
+    "value": "Connecting to debugger..."
+  },
+  {
+    "name": "b0",
+    "value": "Failed to connect to debugger!"
+  },
+  {
+    "name": "b1",
+    "value": "Open DevTools"
+  },
+  {
+    "name": "b2",
+    "value": "Connect to the bundler to debug JavaScript"
+  },
+  {
+    "name": "b3",
+    "value": "React Native Dev Menu (%1$s)"
+  },
+  {
+    "name": "b4",
+    "value": "Running %1$s"
+  },
+  {
+    "name": "b5",
+    "value": "\"Dismiss\n(ESC)\""
+  },
+  {
+    "name": "b6",
+    "value": "Capture Heap"
+  },
+  {
+    "name": "b7",
+    "value": "Enable Fast Refresh"
+  },
+  {
+    "name": "b8",
+    "value": "Disabling Fast Refresh because it requires a development bundle."
+  },
+  {
+    "name": "b9",
+    "value": "Switching to development bundle in order to enable Fast Refresh."
+  },
+  {
+    "name": "b_",
+    "value": "Disable Fast Refresh"
+  },
+  {
+    "name": "ba",
+    "value": "Toggle Element Inspector"
+  },
+  {
+    "name": "bb",
+    "value": "Loading from %1$s…"
+  },
+  {
+    "name": "bc",
+    "value": "Failed to open DevTools. Please check that the dev server is running and reload the app."
+  },
+  {
+    "name": "bd",
+    "value": "Show Perf Monitor"
+  },
+  {
+    "name": "be",
+    "value": "Hide Perf Monitor"
+  },
+  {
+    "name": "bf",
+    "value": "Reload"
+  },
+  {
+    "name": "bg",
+    "value": "\"Reload\n(R, R)\""
+  },
+  {
+    "name": "bh",
+    "value": "Failed to load bundle. Try restarting the bundler or reconnecting your device."
+  },
+  {
+    "name": "bi",
+    "value": "Report"
+  },
+  {
+    "name": "bj",
+    "value": "Toggle Sampling Profiler"
+  },
+  {
+    "name": "bk",
+    "value": "Settings"
+  },
+  {
+    "name": "bl",
+    "value": "Debug Settings"
+  },
+  {
+    "name": "bm",
+    "value": "Characters entered %1$d of %2$d"
+  },
+  {
+    "name": "bn",
+    "value": "Character limit exceeded %1$d of %2$d"
+  },
+  {
+    "name": "bo",
+    "value": "%1$d/%2$d"
+  },
+  {
+    "name": "bp",
+    "value": "中"
+  },
+  {
+    "name": "bq",
+    "value": "Clear text"
+  },
+  {
+    "name": "br",
+    "value": "Combo Box"
+  },
+  {
+    "name": "bs",
+    "value": "按钮"
+  },
+  {
+    "name": "bt",
+    "value": "确定"
+  },
+  {
+    "name": "bu",
+    "value": "第一步 启用微信输入法"
+  },
+  {
+    "name": "bv",
+    "value": "第二步 切换到微信输入法"
+  },
+  {
+    "name": "bw",
+    "value": "在「其他输入法」中找到「微信输入法」启用"
+  },
+  {
+    "name": "bx",
+    "value": "在「输入法管理」中找到「微信输入法」启用"
+  },
+  {
+    "name": "by",
+    "value": "在「其他输入法」中选择「微信输入法」"
+  },
+  {
+    "name": "bz",
+    "value": "。"
+  },
+  {
+    "name": "c0",
+    "value": "英"
+  },
+  {
+    "name": "c1",
+    "value": "."
+  },
+  {
+    "name": "c2",
+    "value": "Error: invalid"
+  },
+  {
+    "name": "c3",
+    "value": "Error"
+  },
+  {
+    "name": "c4",
+    "value": "Show dropdown menu"
+  },
+  {
+    "name": "c5",
+    "value": "com.google.android.material.transformation.FabTransformationScrimBehavior"
+  },
+  {
+    "name": "c6",
+    "value": "com.google.android.material.transformation.FabTransformationSheetBehavior"
+  },
+  {
+    "name": "c7",
+    "value": "fullTransluentTheme"
+  },
+  {
+    "name": "c8",
+    "value": "Heading"
+  },
+  {
+    "name": "c9",
+    "value": "com.google.android.material.behavior.HideBottomViewOnScrollBehavior"
+  },
+  {
+    "name": "hms_apk_not_installed_hints",
+    "value": "Some features in %1$s may not work properly without HMS Core, which is not installed on your device."
+  },
+  {
+    "name": "hms_bindfaildlg_message",
+    "value": "%1$s is unable to use HMS Core. Launch Optimizer (Phone Manager) or go to Settings, enable all permissions for %2$s (including auto-launch and secondary launch), and try again."
+  },
+  {
+    "name": "hms_bindfaildlg_title",
+    "value": "@string/hms_spoof_hints"
+  },
+  {
+    "name": "hms_confirm",
+    "value": "OK"
+  },
+  {
+    "name": "hms_is_spoof",
+    "value": "It appears that you have an unofficial version of HMS Core (%1$s) installed on your device. Please uninstall HMS Core from Settings and return to this app to install the official version."
+  },
+  {
+    "name": "hms_push_channel",
+    "value": "Default"
+  },
+  {
+    "name": "hms_spoof_hints",
+    "value": "Note"
+  },
+  {
+    "name": "c_",
+    "value": "Dialog Icon"
+  },
+  {
+    "name": "ca",
+    "value": "Image"
+  },
+  {
+    "name": "cb",
+    "value": "Button, Image"
+  },
+  {
+    "name": "cc",
+    "value": "关于"
+  },
+  {
+    "name": "cd",
+    "value": "腾讯公司 版权所有"
+  },
+  {
+    "name": "ce",
+    "value": "Copyright © 1998 – %d Tencent Inc. All rights reserved."
+  },
+  {
+    "name": "cf",
+    "value": "信息收集清单"
+  },
+  {
+    "name": "cg",
+    "value": "ICP 备案号：粤 B2-20090059-1745A"
+  },
+  {
+    "name": "ch",
+    "value": "用户协议"
+  },
+  {
+    "name": "ci",
+    "value": "隐私政策"
+  },
+  {
+    "name": "cj",
+    "value": "取消"
+  },
+  {
+    "name": "ck",
+    "value": "重置"
+  },
+  {
+    "name": "cl",
+    "value": "确定"
+  },
+  {
+    "name": "cm",
+    "value": "添加图片"
+  },
+  {
+    "name": "cn",
+    "value": "保存图片"
+  },
+  {
+    "name": "co",
+    "value": "发送图片"
+  },
+  {
+    "name": "cp",
+    "value": "复制"
+  },
+  {
+    "name": "cq",
+    "value": "快捷粘贴"
+  },
+  {
+    "name": "cr",
+    "value": "发送"
+  },
+  {
+    "name": "cs",
+    "value": "信息收集提示为系统对第三方输入法的自动弹窗，我们遵循《微信输入法隐私政策》，不会收集你的密码、信用卡等个人数据。"
+  },
+  {
+    "name": "ct",
+    "value": "去启用"
+  },
+  {
+    "name": "cu",
+    "value": "\"在「设置」→「应用设置」→「微信输入法」\n→「权限管理」→「其他权限」启用\""
+  },
+  {
+    "name": "cv",
+    "value": "我们遵照《微信输入法隐私政策》，不会额外获得你的密码和信用卡号等隐私数据。"
+  },
+  {
+    "name": "cw",
+    "value": "隐私保护"
+  },
+  {
+    "name": "cx",
+    "value": "关闭"
+  },
+  {
+    "name": "cy",
+    "value": "我要反馈"
+  },
+  {
+    "name": "cz",
+    "value": "\"使用过程中如有任何问题或建议，\n欢迎直接联系我们。\""
+  },
+  {
+    "name": "d0",
+    "value": "感谢你的评分"
+  },
+  {
+    "name": "d1",
+    "value": "用于录制音频进行语音转文字"
+  },
+  {
+    "name": "d2",
+    "value": "该功能需开启你的麦克风权限"
+  },
+  {
+    "name": "d3",
+    "value": "安卓：前往系统「应用管理」或 「应用设置」开启微信输入法相机权限，以正常使用二维码扫描功能"
+  },
+  {
+    "name": "d4",
+    "value": "「相机权限」未开启"
+  },
+  {
+    "name": "d5",
+    "value": "用于扫描二维码"
+  },
+  {
+    "name": "d6",
+    "value": "该功能需获取你的相机权限"
+  },
+  {
+    "name": "d7",
+    "value": "例如输入「amypj」可得到「傲慢与偏见」"
+  },
+  {
+    "name": "d8",
+    "value": "试试用首字母快速输入书名"
+  },
+  {
+    "name": "d9",
+    "value": "已开启拼写Plus"
+  },
+  {
+    "name": "d_",
+    "value": "可同时写多个字"
+  },
+  {
+    "name": "da",
+    "value": "字迹未消失也可以继续写"
+  },
+  {
+    "name": "db",
+    "value": ">已开启智能拼写"
+  },
+  {
+    "name": "dc",
+    "value": "词频"
+  },
+  {
+    "name": "dd",
+    "value": "单字"
+  },
+  {
+    "name": "de",
+    "value": "选择你喜欢的中文键盘"
+  },
+  {
+    "name": "df",
+    "value": "双拼"
+  },
+  {
+    "name": "dg",
+    "value": "手写"
+  },
+  {
+    "name": "dh",
+    "value": "全键盘拼音"
+  },
+  {
+    "name": "di",
+    "value": "笔画"
+  },
+  {
+    "name": "dj",
+    "value": "九宫格拼音"
+  },
+  {
+    "name": "dk",
+    "value": "五笔"
+  },
+  {
+    "name": "dl",
+    "value": "开始体验微信输入法"
+  },
+  {
+    "name": "dm",
+    "value": "已清空"
+  },
+  {
+    "name": "dn",
+    "value": "常用语"
+  },
+  {
+    "name": "do",
+    "value": "选词"
+  },
+  {
+    "name": "dp",
+    "value": "删除"
+  },
+  {
+    "name": "dq",
+    "value": "内暂无复制内容"
+  },
+  {
+    "name": "dr",
+    "value": "剪贴板将保留3个月内复制的内容"
+  },
+  {
+    "name": "ds",
+    "value": "以下为 1 天前的内容"
+  },
+  {
+    "name": "dt",
+    "value": "输入文字后可在此进行拼写检查"
+  },
+  {
+    "name": "du",
+    "value": "未发现错别字"
+  },
+  {
+    "name": "dv",
+    "value": "删除"
+  },
+  {
+    "name": "dw",
+    "value": "常用语"
+  },
+  {
+    "name": "dx",
+    "value": "添加常用语"
+  },
+  {
+    "name": "dy",
+    "value": "\"经常输入的内容可以添加至常用语\n输入前3个字或其拼音首字母即可快速发送\""
+  },
+  {
+    "name": "dz",
+    "value": "最多只能添加%1$d条常用语"
+  },
+  {
+    "name": "e0",
+    "value": "输入前3个字或其拼音首字母即可快速发送"
+  },
+  {
+    "name": "e1",
+    "value": "已存在相同的常用语"
+  },
+  {
+    "name": "e2",
+    "value": "自定义输入码不能少于 2 个字母"
+  },
+  {
+    "name": "e3",
+    "value": "常用语不能为空"
+  },
+  {
+    "name": "e4",
+    "value": "\"432 // 书籍词典\n -1 // 组句子结果\n // 静态拼音中文词典，也就是基础中文词典\n STATIC_PINYIN_DICT = 0,\n // 静态基础中英文混输词典，中文键盘用\n STATIC_ENGLISH_DICT = 1,\n // 汉字转拼音的词典，输入时不会用到，本地联系人用\n STATIC_REVERSE_PINYIN_DICT = 2,\n // 静态纯英文词典，英文键盘用\n STATIC_PURE_ENGLISH_DICT = 3,\n // 英文语言模型\n STATIC_ENGLISH_LM_DICT = 4,\n // 标准emoji字典，已废弃\n STANDARD_EMOJI_DICT = 5,\n // 微信内部emoji字典，已废弃\n WECHAT_EMOJI_DICT = 6,\n // 前缀联想词典，前缀树做前缀匹配\n PREFIX_DICT = 7,\n // 联想黑白名单\n ASSO_WB_DICT = 8,\n // 联想词典，KV形式匹配\n ASSO_KV_DICT = 9,\n // 简拼字典,key是全简拼，value是完整拼音列表\n EXPERIMENTAL_JIANPIN_DICT = 10,\n // 姓氏过滤字典，例如单在姓氏里面只能读作shan\n LAST_NAME_SYLLABLE_DICT = 11,\n // 长简拼字典,key是完整拼音，value是中文列表\n LONG_JIANPIN_DICT = 12,\n // 给多音词打分，例如了解，他对于le,jie的得分就很低\n WORD_SYLLABLE_DICT = 13,\n // 五笔基础字典\n STATIC_WUBI_DICT = 14,\n // 二级词典，和STATIC_PINYIN_DICT一样\n LOW_PRIORITY_STATIC_PINYIN_DICT = 15,\n // 二级简拼词典，类似EXPERIMENTAL_JIANPIN_DICT\n LOW_PRIORITY_EXPERIMENTAL_JIANPIN_DICT = 16,\n // 中文->emoji词典，广义的emoji，目前还包含数学符号\n EMOJI_C2E_KV_DICT = 17,\n // emoji->中文词典\n EMOJI_E2C_KV_DICT = 18,\n // 汉字查五笔词典\n REVERSE_WUBI_DICT = 19,\n // 手写语言模型，暂时没有用\n HW_LM_CN_CHAR = 0x40,(64)\n // 手写词典\n HW_DECODER_WORD_MAP = 0x41,(65)\n // 手写模型\n HW_MODEL_BINARY = 0x42,(66)\n // 用户词典相关的起始位置(含)\n USER_RELATED_BEGIN = 0x80,(128)\n // 用户词典\n USER_DICT = 0x80,\n // 本地联系人词典\n LOCAL_CONTACT_DICT = 0x81,(129)\n // 用户的英文词典，硬造的英文词存在这里\n USER_ENGLISH_DICT = 0x82,(130)\n // 用户自造词做联想\n USER_BIGRAM_DICT = 0x83,(131)\n // 用户常用语\n USER_HOT_WORD_DICT = 0x84,(132)\n // 用户词典结束位置(含)\n USER_RELATED_END = 0xff,(255)\n // cell dict的起始位置(含)\n CELL_DICT_BEGIN = 0x100,(256)\n // cell dict大部分是普通的，最后少部分是HOT的，HOT的不会被拼音剪枝\n HOT_CELL_DICT_BEGIN = 0x1C0,(448)\n // cell dict的结束(含)\n CELL_DICT_END = 0x1FF,(511)\n // unknown\n NOT_SPECIFIED_DICT = 0xFFFF,(65535)\""
+  },
+  {
+    "name": "e5",
+    "value": "候选词类型"
+  },
+  {
+    "name": "e6",
+    "value": "延迟"
+  },
+  {
+    "name": "e7",
+    "value": "间隔"
+  },
+  {
+    "name": "e8",
+    "value": "语音转文字"
+  },
+  {
+    "name": "e9",
+    "value": "\"wei'xin\""
+  },
+  {
+    "name": "e_",
+    "value": "微信"
+  },
+  {
+    "name": "ea",
+    "value": "微信小程序"
+  },
+  {
+    "name": "eb",
+    "value": "违心"
+  },
+  {
+    "name": "ec",
+    "value": "威信"
+  },
+  {
+    "name": "ed",
+    "value": "为新"
+  },
+  {
+    "name": "ee",
+    "value": "候选字大小"
+  },
+  {
+    "name": "ef",
+    "value": "跟随系统"
+  },
+  {
+    "name": "eg",
+    "value": "浅色模式"
+  },
+  {
+    "name": "eh",
+    "value": "深色模式"
+  },
+  {
+    "name": "ei",
+    "value": "深色模式"
+  },
+  {
+    "name": "ej",
+    "value": "显示预览"
+  },
+  {
+    "name": "ek",
+    "value": "候选字大小"
+  },
+  {
+    "name": "el",
+    "value": "活动与地点"
+  },
+  {
+    "name": "em",
+    "value": "动物与自然"
+  },
+  {
+    "name": "en",
+    "value": "旗帜"
+  },
+  {
+    "name": "eo",
+    "value": "食物与饮料"
+  },
+  {
+    "name": "ep",
+    "value": "物体"
+  },
+  {
+    "name": "eq",
+    "value": "常用"
+  },
+  {
+    "name": "er",
+    "value": "表情符号与人物"
+  },
+  {
+    "name": "es",
+    "value": "推荐表情"
+  },
+  {
+    "name": "et",
+    "value": "符号"
+  },
+  {
+    "name": "eu",
+    "value": "旅游与地点"
+  },
+  {
+    "name": "ev",
+    "value": "显示表情键"
+  },
+  {
+    "name": "ew",
+    "value": "[不支持的消息类型]"
+  },
+  {
+    "name": "ex",
+    "value": "发送"
+  },
+  {
+    "name": "ey",
+    "value": "我要反馈"
+  },
+  {
+    "name": "ez",
+    "value": "去关闭"
+  },
+  {
+    "name": "f0",
+    "value": "使用前需关闭个人热点"
+  },
+  {
+    "name": "f1",
+    "value": "用于发现设备与 Wi‑Fi，使用隔空传送"
+  },
+  {
+    "name": "f2",
+    "value": "用于隔空传送连接设备并保存接收的文件"
+  },
+  {
+    "name": "f3",
+    "value": "用于发现并连接设备使用隔空传送"
+  },
+  {
+    "name": "f4",
+    "value": "用于保存隔空传送接收的文件"
+  },
+  {
+    "name": "f5",
+    "value": "该功能需精确位置权限"
+  },
+  {
+    "name": "f6",
+    "value": "该功能需位置与存储权限"
+  },
+  {
+    "name": "f7",
+    "value": "该功能需「附近的设备」权限"
+  },
+  {
+    "name": "f8",
+    "value": "该功能需存储权限"
+  },
+  {
+    "name": "f9",
+    "value": "开启"
+  },
+  {
+    "name": "f_",
+    "value": "以下功能需开启拼写 Plus"
+  },
+  {
+    "name": "fa",
+    "value": "文件读取失败"
+  },
+  {
+    "name": "fb",
+    "value": "\"请将另一部设备\n更新至最新版本后再进行文件传输\""
+  },
+  {
+    "name": "fc",
+    "value": "我知道了"
+  },
+  {
+    "name": "fd",
+    "value": "无效的图片"
+  },
+  {
+    "name": "fe",
+    "value": "图片预览"
+  },
+  {
+    "name": "ff",
+    "value": "输入后可在此优化文字表达"
+  },
+  {
+    "name": "fg",
+    "value": "键盘选择"
+  },
+  {
+    "name": "fh",
+    "value": "关联电脑版 · 快速复制粘贴 · 传文件"
+  },
+  {
+    "name": "fi",
+    "value": "在电脑上打开官网"
+  },
+  {
+    "name": "fj",
+    "value": "z.weixin.qq.com"
+  },
+  {
+    "name": "fk",
+    "value": "左手"
+  },
+  {
+    "name": "fl",
+    "value": "右手"
+  },
+  {
+    "name": "fm",
+    "value": "全尺寸"
+  },
+  {
+    "name": "fn",
+    "value": "左手模式"
+  },
+  {
+    "name": "fo",
+    "value": "右手模式"
+  },
+  {
+    "name": "fp",
+    "value": "检查网络设置>"
+  },
+  {
+    "name": "fq",
+    "value": "1. 检查本地网络状况：请确认关闭飞行模式，并检查设备是否已接入WLAN或移动数据网络。"
+  },
+  {
+    "name": "fr",
+    "value": "2. 检查网络权限：请在“应用管理”或“应用设置”中检查系统是否已允许微信输入法访问网络。"
+  },
+  {
+    "name": "fs",
+    "value": "当前无网络"
+  },
+  {
+    "name": "ft",
+    "value": "请升级微信至最新版本"
+  },
+  {
+    "name": "fu",
+    "value": "更新等场景使用的通知类别"
+  },
+  {
+    "name": "fv",
+    "value": "我们非常重视你的隐私安全。我们谨遵最小、必要原则，仅依《微信输入法隐私政策》获取你使用微信输入法的功能所需的你的信息，不会额外获得你的其他信息。"
+  },
+  {
+    "name": "fw",
+    "value": "我们非常重视你的隐私安全。我们谨遵最小、必要原则，仅依《微信输入法隐私政策》获取你使用微信输入法的功能所需的你的信息，不会额外获得你的其他信息。你可前往"
+  },
+  {
+    "name": "fx",
+    "value": "我们非常重视你的隐私安全。我们谨遵最小、必要原则，仅依《微信输入法隐私政策》获取你使用微信输入法的功能所需的你的信息，不会额外获得你的其他信息。你可前往"
+  },
+  {
+    "name": "fy",
+    "value": "我们仅在你使用跨设备复制粘贴功能进行图片传送，并需要保存图片到本地相册时需要获取此权限，你可以前往「系统设置」→「微信输入法」。"
+  },
+  {
+    "name": "fz",
+    "value": "添加图片"
+  },
+  {
+    "name": "g0",
+    "value": "个人词典"
+  },
+  {
+    "name": "g1",
+    "value": "麦克风"
+  },
+  {
+    "name": "g2",
+    "value": "未开启"
+  },
+  {
+    "name": "g3",
+    "value": "使用时允许"
+  },
+  {
+    "name": "g4",
+    "value": "微信输入法"
+  },
+  {
+    "name": "g5",
+    "value": "未启用"
+  },
+  {
+    "name": "g6",
+    "value": "已启用"
+  },
+  {
+    "name": "g7",
+    "value": "我们仅在你当前的手机本地记录选词词频和自造词汇。你可清空个人词典，但可能会影响微信输入法的使用体验。"
+  },
+  {
+    "name": "g8",
+    "value": "隐私与权限"
+  },
+  {
+    "name": "g9",
+    "value": "我们仅在你使用语音转文字功能时获取麦克风权限，来将你的语音信息实时处理为文字，不会存储你输入的语音信息。你可前往系统设置。"
+  },
+  {
+    "name": "g_",
+    "value": "我们仅在你使用语音转文字功能时获取麦克风权限，来将你的语音信息实时处理为文字，不会存储你输入的语音信息。你可前往系统设置。"
+  },
+  {
+    "name": "ga",
+    "value": "开启智能拼写，结果匹配更精准"
+  },
+  {
+    "name": "gb",
+    "value": "个性化定制我的键盘"
+  },
+  {
+    "name": "gc",
+    "value": "开启智能拼写，结果匹配更精准"
+  },
+  {
+    "name": "gd",
+    "value": "开启智能拼写，结果匹配更精准"
+  },
+  {
+    "name": "ge",
+    "value": "输入内容后可在此获取 AI 问答"
+  },
+  {
+    "name": "gf",
+    "value": "取消"
+  },
+  {
+    "name": "gg",
+    "value": "拼写检查"
+  },
+  {
+    "name": "gh",
+    "value": "使用该功能需开启拼写Plus模式，开启后会上传部分输入数据，以获得更丰富的输入体验。"
+  },
+  {
+    "name": "gi",
+    "value": "@string/j5"
+  },
+  {
+    "name": "gj",
+    "value": "跨设备发送图片、视频和文件"
+  },
+  {
+    "name": "gk",
+    "value": "使用该功能需开启拼写Plus模式，开启后会上传部分输入数据，以获得更丰富的输入体验。"
+  },
+  {
+    "name": "gl",
+    "value": "灵动表达"
+  },
+  {
+    "name": "gm",
+    "value": "智能趣味语录，一键润色改写"
+  },
+  {
+    "name": "gn",
+    "value": "开启"
+  },
+  {
+    "name": "go",
+    "value": "输入更快更准"
+  },
+  {
+    "name": "gp",
+    "value": "小程序"
+  },
+  {
+    "name": "gq",
+    "value": "快捷分享书影音、小程序等内容"
+  },
+  {
+    "name": "gr",
+    "value": "智能回答你输入的问题"
+  },
+  {
+    "name": "gs",
+    "value": "智能拼写"
+  },
+  {
+    "name": "gt",
+    "value": "海量动态表情一键发送"
+  },
+  {
+    "name": "gu",
+    "value": "将输入的内容整理为更清晰的表达"
+  },
+  {
+    "name": "gv",
+    "value": "文字整理"
+  },
+  {
+    "name": "gw",
+    "value": "@string/jr"
+  },
+  {
+    "name": "gx",
+    "value": "拼写Plus · 高效输入"
+  },
+  {
+    "name": "gy",
+    "value": "跨设备粘贴和同步"
+  },
+  {
+    "name": "gz",
+    "value": "精准匹配候选词，打字更高效"
+  },
+  {
+    "name": "h0",
+    "value": "边写边译"
+  },
+  {
+    "name": "h1",
+    "value": "实时翻译，轻松沟通"
+  },
+  {
+    "name": "h2",
+    "value": "语音转文字"
+  },
+  {
+    "name": "h3",
+    "value": "识别准响应快，支持多种方言"
+  },
+  {
+    "name": "h4",
+    "value": "立即开启"
+  },
+  {
+    "name": "h5",
+    "value": "开启拼写 Plus"
+  },
+  {
+    "name": "h6",
+    "value": "拼写检查"
+  },
+  {
+    "name": "h7",
+    "value": "灵动表达"
+  },
+  {
+    "name": "h8",
+    "value": "智能拼写"
+  },
+  {
+    "name": "h9",
+    "value": "表情推荐"
+  },
+  {
+    "name": "h_",
+    "value": "@string/h6"
+  },
+  {
+    "name": "ha",
+    "value": "及时发现错别字，一键精准改错"
+  },
+  {
+    "name": "hb",
+    "value": "关闭后，将无法为你提供一键改正错别字的功能。"
+  },
+  {
+    "name": "hc",
+    "value": "关闭「拼写检查」"
+  },
+  {
+    "name": "hd",
+    "value": "工作更高效，创作更有趣"
+  },
+  {
+    "name": "he",
+    "value": "拼写Plus · 高效输入"
+  },
+  {
+    "name": "hf",
+    "value": "关闭后，将无法使用智能拼写、智能推荐、语音转文字、动态表情、拼写检查等功能。"
+  },
+  {
+    "name": "hg",
+    "value": "关闭「拼写Plus」"
+  },
+  {
+    "name": "hh",
+    "value": "@string/h8"
+  },
+  {
+    "name": "hi",
+    "value": "关闭后，将无法为你提供更精准的候选、联想推荐。"
+  },
+  {
+    "name": "hj",
+    "value": "关闭「智能拼写」"
+  },
+  {
+    "name": "hk",
+    "value": "精准匹配候选词，提高输入效率"
+  },
+  {
+    "name": "hl",
+    "value": "智能推荐"
+  },
+  {
+    "name": "hm",
+    "value": "关闭后，将无法为你提供分享书影音、小程序等内容的功能。"
+  },
+  {
+    "name": "hn",
+    "value": "关闭「智能推荐」"
+  },
+  {
+    "name": "ho",
+    "value": "智能推荐书影音、小程序等内容"
+  },
+  {
+    "name": "hp",
+    "value": "@string/h9"
+  },
+  {
+    "name": "hq",
+    "value": "关闭后，将无法为你提供快捷发送动态表情的功能。"
+  },
+  {
+    "name": "hr",
+    "value": "关闭「表情推荐」"
+  },
+  {
+    "name": "hs",
+    "value": "海量动态表情一键发送"
+  },
+  {
+    "name": "ht",
+    "value": "拼写Plus"
+  },
+  {
+    "name": "hu",
+    "value": "同意并继续"
+  },
+  {
+    "name": "hv",
+    "value": "\"欢迎你使用微信输入法！\n\n微信输入法在提供多样化输入功能的同时，非常重视你的个人信息和隐私保护。《微信输入法软件许可及服务协议》和《微信输入法隐私政策》介绍了微信输入法为你提供的服务内容及个人信息处理情况。\n\n你同意以上所有协议后，微信输入法将为你提供服务。\n\""
+  },
+  {
+    "name": "hw",
+    "value": "不同意"
+  },
+  {
+    "name": "hx",
+    "value": "不同意并退出"
+  },
+  {
+    "name": "hy",
+    "value": "微信输入法在提供多样化输入功能的同时，非常重视你的个人信息和隐私保护。《微信输入法软件许可及服务协议》和《微信输入法隐私政策》介绍了微信输入法为你提供的服务内容及个人信息处理情况。你同意以上协议后，微信输入法将开始为你服务。"
+  },
+  {
+    "name": "hz",
+    "value": "@string/hw"
+  },
+  {
+    "name": "i0",
+    "value": "@string/hu"
+  },
+  {
+    "name": "i1",
+    "value": "《微信输入法隐私政策》"
+  },
+  {
+    "name": "i2",
+    "value": "我们非常重视对你的个人信息的隐私保护，承诺严格按照《服务协议》和《隐私政策》保护及处理你的信息。同意该政策后即可体验微信输入法。"
+  },
+  {
+    "name": "i3",
+    "value": "《微信输入法软件许可及服务协议》"
+  },
+  {
+    "name": "i4",
+    "value": "欢迎使用微信输入法"
+  },
+  {
+    "name": "i5",
+    "value": "全键盘"
+  },
+  {
+    "name": "i6",
+    "value": "九宫格"
+  },
+  {
+    "name": "i7",
+    "value": "双拼"
+  },
+  {
+    "name": "i8",
+    "value": "英文"
+  },
+  {
+    "name": "i9",
+    "value": "找字"
+  },
+  {
+    "name": "i_",
+    "value": "手写"
+  },
+  {
+    "name": "ia",
+    "value": "笔画"
+  },
+  {
+    "name": "ib",
+    "value": "五笔"
+  },
+  {
+    "name": "ic",
+    "value": "交易数据统计于 %s"
+  },
+  {
+    "name": "id",
+    "value": "选择需要发送的内容"
+  },
+  {
+    "name": "ie",
+    "value": "答案由微信读书 AI 问书提供 · 以下为书籍引源"
+  },
+  {
+    "name": "if",
+    "value": "复制成功"
+  },
+  {
+    "name": "ig",
+    "value": "答案由微信读书 AI 问书提供"
+  },
+  {
+    "name": "ih",
+    "value": "生成"
+  },
+  {
+    "name": "ii",
+    "value": "\"未搜索到相关答案\n你可以换一个问题试试\""
+  },
+  {
+    "name": "ij",
+    "value": "\"网络连接异常\n请检查设置再重试\""
+  },
+  {
+    "name": "ik",
+    "value": "重试"
+  },
+  {
+    "name": "il",
+    "value": "图片生成失败 · 请重试"
+  },
+  {
+    "name": "im",
+    "value": "图片生成中…"
+  },
+  {
+    "name": "in",
+    "value": "已保存到系统相册"
+  },
+  {
+    "name": "io",
+    "value": "向下滚动查看更多"
+  },
+  {
+    "name": "ip",
+    "value": "问"
+  },
+  {
+    "name": "iq",
+    "value": "轻触结束语音后提问"
+  },
+  {
+    "name": "ir",
+    "value": "输入文字后可在此进行拼写润色"
+  },
+  {
+    "name": "is",
+    "value": "暂无优化结果"
+  },
+  {
+    "name": "it",
+    "value": "问 AI"
+  },
+  {
+    "name": "iu",
+    "value": "剪贴板"
+  },
+  {
+    "name": "iv",
+    "value": "拼写检查"
+  },
+  {
+    "name": "iw",
+    "value": "定制表情"
+  },
+  {
+    "name": "ix",
+    "value": "常用语"
+  },
+  {
+    "name": "iy",
+    "value": "定制工具栏"
+  },
+  {
+    "name": "iz",
+    "value": "收起键盘"
+  },
+  {
+    "name": "j0",
+    "value": "最近使用"
+  },
+  {
+    "name": "j1",
+    "value": "表情推荐"
+  },
+  {
+    "name": "j2",
+    "value": "点击下方图标 · 固定在工具栏"
+  },
+  {
+    "name": "j3",
+    "value": "表情"
+  },
+  {
+    "name": "j4",
+    "value": "繁体输入"
+  },
+  {
+    "name": "j5",
+    "value": "隔空传送"
+  },
+  {
+    "name": "j6",
+    "value": "悬浮键盘"
+  },
+  {
+    "name": "j7",
+    "value": "字体滤镜"
+  },
+  {
+    "name": "j8",
+    "value": "手写键盘"
+  },
+  {
+    "name": "j9",
+    "value": "手写找字"
+  },
+  {
+    "name": "j_",
+    "value": "键盘调节"
+  },
+  {
+    "name": "ja",
+    "value": "灵动表达"
+  },
+  {
+    "name": "jb",
+    "value": "键盘管理"
+  },
+  {
+    "name": "jc",
+    "value": "电脑版"
+  },
+  {
+    "name": "jd",
+    "value": "小程序"
+  },
+  {
+    "name": "je",
+    "value": "全键盘拼音"
+  },
+  {
+    "name": "jf",
+    "value": "最近使用"
+  },
+  {
+    "name": "jg",
+    "value": "跨设备发送图片、视频和文件"
+  },
+  {
+    "name": "jh",
+    "value": "隔空传送"
+  },
+  {
+    "name": "ji",
+    "value": "关联电脑 · 跨设备粘贴传送"
+  },
+  {
+    "name": "jj",
+    "value": "手机复制 · 电脑可立即粘贴"
+  },
+  {
+    "name": "jk",
+    "value": "更多设置"
+  },
+  {
+    "name": "jl",
+    "value": "电脑版"
+  },
+  {
+    "name": "jm",
+    "value": "版本已升级，需更新词库"
+  },
+  {
+    "name": "jn",
+    "value": "单手模式"
+  },
+  {
+    "name": "jo",
+    "value": "笔画键盘"
+  },
+  {
+    "name": "jp",
+    "value": "九宫格拼音"
+  },
+  {
+    "name": "jq",
+    "value": "文字整理"
+  },
+  {
+    "name": "jr",
+    "value": "排版成图"
+  },
+  {
+    "name": "js",
+    "value": "边写边译"
+  },
+  {
+    "name": "jt",
+    "value": "版本更新"
+  },
+  {
+    "name": "ju",
+    "value": "语音转文字"
+  },
+  {
+    "name": "jv",
+    "value": "@string/w3"
+  },
+  {
+    "name": "jw",
+    "value": "语音设置"
+  },
+  {
+    "name": "jx",
+    "value": "@string/m5"
+  },
+  {
+    "name": "jy",
+    "value": "五笔键盘"
+  },
+  {
+    "name": "jz",
+    "value": "微软双拼"
+  },
+  {
+    "name": "k0",
+    "value": "自然码"
+  },
+  {
+    "name": "k1",
+    "value": "双拼键盘"
+  },
+  {
+    "name": "k2",
+    "value": "拼音加加"
+  },
+  {
+    "name": "k3",
+    "value": "智能ABC"
+  },
+  {
+    "name": "k4",
+    "value": "搜狗双拼"
+  },
+  {
+    "name": "k5",
+    "value": "小鹤双拼"
+  },
+  {
+    "name": "k6",
+    "value": "紫光双拼"
+  },
+  {
+    "name": "k7",
+    "value": "智能推荐输入中提及的内容"
+  },
+  {
+    "name": "k8",
+    "value": "无相关推荐结果"
+  },
+  {
+    "name": "k9",
+    "value": "书影音 · 百科 · 小程序 · 视频号 · 公众号"
+  },
+  {
+    "name": "k_",
+    "value": "仅支持在微信最新版本的聊天会话中使用"
+  },
+  {
+    "name": "ka",
+    "value": "关于"
+  },
+  {
+    "name": "kb",
+    "value": "启用微信输入法"
+  },
+  {
+    "name": "kc",
+    "value": "介绍"
+  },
+  {
+    "name": "kd",
+    "value": "立即体验"
+  },
+  {
+    "name": "ke",
+    "value": "已开启"
+  },
+  {
+    "name": "kf",
+    "value": "开启拼写Plus"
+  },
+  {
+    "name": "kg",
+    "value": "标题"
+  },
+  {
+    "name": "kh",
+    "value": "按键气泡"
+  },
+  {
+    "name": "ki",
+    "value": "将清空你在当前手机本地积累的选词词频和自造词汇，可能会影响微信输入法的使用体验。"
+  },
+  {
+    "name": "kj",
+    "value": "清空个人词典"
+  },
+  {
+    "name": "kk",
+    "value": "::wxkb-experimental-%s"
+  },
+  {
+    "name": "kl",
+    "value": "@string/iy"
+  },
+  {
+    "name": "km",
+    "value": "Debug"
+  },
+  {
+    "name": "kn",
+    "value": "双拼方案"
+  },
+  {
+    "name": "ko",
+    "value": "键盘布局"
+  },
+  {
+    "name": "kp",
+    "value": "双击空格输入句号"
+  },
+  {
+    "name": "kq",
+    "value": "表情键"
+  },
+  {
+    "name": "kr",
+    "value": "首字母自动大写"
+  },
+  {
+    "name": "ks",
+    "value": "模糊拼音"
+  },
+  {
+    "name": "kt",
+    "value": "an = ai"
+  },
+  {
+    "name": "ku",
+    "value": "an = ang"
+  },
+  {
+    "name": "kv",
+    "value": "c = ch"
+  },
+  {
+    "name": "kw",
+    "value": "en = eng"
+  },
+  {
+    "name": "kx",
+    "value": "eng = ong"
+  },
+  {
+    "name": "ky",
+    "value": "g = k"
+  },
+  {
+    "name": "kz",
+    "value": "h = f"
+  },
+  {
+    "name": "l0",
+    "value": "huang = wang"
+  },
+  {
+    "name": "l1",
+    "value": "hui = fei"
+  },
+  {
+    "name": "l2",
+    "value": "ian = iang"
+  },
+  {
+    "name": "l3",
+    "value": "in = ing"
+  },
+  {
+    "name": "l4",
+    "value": "n = l"
+  },
+  {
+    "name": "l5",
+    "value": "on = ong"
+  },
+  {
+    "name": "l6",
+    "value": "r = l"
+  },
+  {
+    "name": "l7",
+    "value": "s = sh"
+  },
+  {
+    "name": "l8",
+    "value": "uan = uang"
+  },
+  {
+    "name": "l9",
+    "value": "un = iong"
+  },
+  {
+    "name": "l_",
+    "value": "un = ong"
+  },
+  {
+    "name": "la",
+    "value": "z = zh"
+  },
+  {
+    "name": "lb",
+    "value": "帮助与反馈"
+  },
+  {
+    "name": "lc",
+    "value": "键盘收起键"
+  },
+  {
+    "name": "ld",
+    "value": "设置"
+  },
+  {
+    "name": "le",
+    "value": "键盘高度调节"
+  },
+  {
+    "name": "lf",
+    "value": "深色模式"
+  },
+  {
+    "name": "lg",
+    "value": "输入方式选择"
+  },
+  {
+    "name": "lh",
+    "value": "已添加"
+  },
+  {
+    "name": "li",
+    "value": "键盘展板"
+  },
+  {
+    "name": "lj",
+    "value": "完成"
+  },
+  {
+    "name": "lk",
+    "value": "编辑"
+  },
+  {
+    "name": "ll",
+    "value": "26 键使用九宫格数字键盘"
+  },
+  {
+    "name": "lm",
+    "value": "未添加"
+  },
+  {
+    "name": "ln",
+    "value": "给微信输入法好评"
+  },
+  {
+    "name": "lo",
+    "value": "切换到微信输入法"
+  },
+  {
+    "name": "lp",
+    "value": "不开启"
+  },
+  {
+    "name": "lq",
+    "value": "上滑输入数字符号"
+  },
+  {
+    "name": "lr",
+    "value": "开启数字和符号"
+  },
+  {
+    "name": "ls",
+    "value": "仅开启数字"
+  },
+  {
+    "name": "lt",
+    "value": "智能添加空格"
+  },
+  {
+    "name": "lu",
+    "value": "九宫格数字键盘"
+  },
+  {
+    "name": "lv",
+    "value": "九宫格符号自定义"
+  },
+  {
+    "name": "lw",
+    "value": "体验微信输入法"
+  },
+  {
+    "name": "lx",
+    "value": "\" 输入\""
+  },
+  {
+    "name": "ly",
+    "value": "触感"
+  },
+  {
+    "name": "lz",
+    "value": "触感强度"
+  },
+  {
+    "name": "m0",
+    "value": "适中"
+  },
+  {
+    "name": "m1",
+    "value": "较强"
+  },
+  {
+    "name": "m2",
+    "value": "最强"
+  },
+  {
+    "name": "m3",
+    "value": "较弱"
+  },
+  {
+    "name": "m4",
+    "value": "最弱"
+  },
+  {
+    "name": "m5",
+    "value": "声音和触感"
+  },
+  {
+    "name": "m6",
+    "value": "在输入法中体验"
+  },
+  {
+    "name": "m7",
+    "value": "跟随系统"
+  },
+  {
+    "name": "m8",
+    "value": "声音"
+  },
+  {
+    "name": "m9",
+    "value": "系统处于静音模式，你不会听到按键声音。"
+  },
+  {
+    "name": "m_",
+    "value": "静音模式"
+  },
+  {
+    "name": "ma",
+    "value": "系统处于响铃模式，你会听到按键声音。"
+  },
+  {
+    "name": "mb",
+    "value": "系统处于振动模式，你不会听到按键声音。"
+  },
+  {
+    "name": "mc",
+    "value": "振动模式"
+  },
+  {
+    "name": "md",
+    "value": "四码唯一直接上屏"
+  },
+  {
+    "name": "me",
+    "value": "第五码将首选词上屏"
+  },
+  {
+    "name": "mf",
+    "value": "五笔编码提示"
+  },
+  {
+    "name": "mg",
+    "value": "五笔键盘"
+  },
+  {
+    "name": "mh",
+    "value": "五笔拼音混输"
+  },
+  {
+    "name": "mi",
+    "value": "五笔方案"
+  },
+  {
+    "name": "mj",
+    "value": "86 五笔方案"
+  },
+  {
+    "name": "mk",
+    "value": "86 五笔"
+  },
+  {
+    "name": "ml",
+    "value": "98 五笔方案"
+  },
+  {
+    "name": "mm",
+    "value": "98 五笔"
+  },
+  {
+    "name": "mn",
+    "value": "新世纪五笔方案"
+  },
+  {
+    "name": "mo",
+    "value": "新世纪五笔"
+  },
+  {
+    "name": "mp",
+    "value": "用于进行验证码的获取"
+  },
+  {
+    "name": "mq",
+    "value": "该功能需获取你的短信权限"
+  },
+  {
+    "name": "mr",
+    "value": "退出单机模式"
+  },
+  {
+    "name": "ms",
+    "value": "不支持跨设备等联网功能"
+  },
+  {
+    "name": "mt",
+    "value": "开启拼写 Plus 后，会上传部分数据，以获得语音转文字、表情推荐等更丰富的体验。"
+  },
+  {
+    "name": "mu",
+    "value": "开启拼写 Plus 后，会上传部分数据，以获得表情推荐等更丰富的体验。"
+  },
+  {
+    "name": "mv",
+    "value": "开启拼写 Plus 后，会上传部分数据，以获得更丰富的输入体验。"
+  },
+  {
+    "name": "mw",
+    "value": "当前为单机模式，使用该功能需退出单机模式，并开启拼写 Plus"
+  },
+  {
+    "name": "mx",
+    "value": "当前为单机模式，开启拼写 Plus后将自动退出单机模式"
+  },
+  {
+    "name": "my",
+    "value": "启用单机模式需额外下载词库和离线语音模型到本地"
+  },
+  {
+    "name": "mz",
+    "value": "当前处于移动网络，下载将消耗流量"
+  },
+  {
+    "name": "n0",
+    "value": "下载词库"
+  },
+  {
+    "name": "n1",
+    "value": "启用单机模式，需下载本地词库。开启后，输入法将处于离线状态，不支持语音转文字、跨设备等联网功能。"
+  },
+  {
+    "name": "n2",
+    "value": "启用单机模式，需下载本地词库。开启后，输入法将处于离线状态，不支持跨设备等联网功能。"
+  },
+  {
+    "name": "n3",
+    "value": "启用"
+  },
+  {
+    "name": "n4",
+    "value": "开启后，输入法将处于离线状态，不支持语音转文字、跨设备等联网功能。"
+  },
+  {
+    "name": "n5",
+    "value": "开启后，输入法将处于离线状态，不支持跨设备等联网功能。"
+  },
+  {
+    "name": "n6",
+    "value": "取消"
+  },
+  {
+    "name": "n7",
+    "value": "\"在单机模式下使用语音需先\n下载离线语音模型\""
+  },
+  {
+    "name": "n8",
+    "value": "下载"
+  },
+  {
+    "name": "n9",
+    "value": "语音转文字"
+  },
+  {
+    "name": "n_",
+    "value": "当前网络不佳"
+  },
+  {
+    "name": "na",
+    "value": "输入内容后可查看相关表情"
+  },
+  {
+    "name": "nb",
+    "value": "当前无网络"
+  },
+  {
+    "name": "nc",
+    "value": "无相关表情"
+  },
+  {
+    "name": "nd",
+    "value": "中文"
+  },
+  {
+    "name": "ne",
+    "value": "常用"
+  },
+  {
+    "name": "nf",
+    "value": "货币"
+  },
+  {
+    "name": "ng",
+    "value": "英文"
+  },
+  {
+    "name": "nh",
+    "value": "希腊"
+  },
+  {
+    "name": "ni",
+    "value": "希腊拉丁"
+  },
+  {
+    "name": "nj",
+    "value": "平假"
+  },
+  {
+    "name": "nk",
+    "value": "片假"
+  },
+  {
+    "name": "nl",
+    "value": "拉丁"
+  },
+  {
+    "name": "nm",
+    "value": "数学"
+  },
+  {
+    "name": "nn",
+    "value": "括号"
+  },
+  {
+    "name": "no",
+    "value": "注音"
+  },
+  {
+    "name": "np",
+    "value": "注音和部首"
+  },
+  {
+    "name": "nq",
+    "value": "拼音"
+  },
+  {
+    "name": "nr",
+    "value": "部首"
+  },
+  {
+    "name": "ns",
+    "value": "序号"
+  },
+  {
+    "name": "nt",
+    "value": "序号2"
+  },
+  {
+    "name": "nu",
+    "value": "特殊"
+  },
+  {
+    "name": "nv",
+    "value": "英"
+  },
+  {
+    "name": "nw",
+    "value": "添加新符号"
+  },
+  {
+    "name": "nx",
+    "value": "数字侧边栏"
+  },
+  {
+    "name": "ny",
+    "value": "拼音侧边栏"
+  },
+  {
+    "name": "nz",
+    "value": "自定义左侧符号栏"
+  },
+  {
+    "name": "o0",
+    "value": "切换到左手模式"
+  },
+  {
+    "name": "o1",
+    "value": "切换到右手模式"
+  },
+  {
+    "name": "o2",
+    "value": "松手进入语言识别设置"
+  },
+  {
+    "name": "o3",
+    "value": "录制失败，稍后重试"
+  },
+  {
+    "name": "o4",
+    "value": "语音智能优化"
+  },
+  {
+    "name": "o5",
+    "value": "开启后，将自动优化文字结果的流畅度"
+  },
+  {
+    "name": "o6",
+    "value": "松手可继续语音"
+  },
+  {
+    "name": "o7",
+    "value": "松手搜索"
+  },
+  {
+    "name": "o8",
+    "value": "松手发送"
+  },
+  {
+    "name": "o9",
+    "value": "松手撤回"
+  },
+  {
+    "name": "o_",
+    "value": "轻触编辑"
+  },
+  {
+    "name": "oa",
+    "value": "正在听取…"
+  },
+  {
+    "name": "ob",
+    "value": "长按空格语音转文字"
+  },
+  {
+    "name": "oc",
+    "value": "开启后，长按空格键可启用语音转文字"
+  },
+  {
+    "name": "od",
+    "value": "其他应用正在录音，请稍后重试"
+  },
+  {
+    "name": "oe",
+    "value": "编辑"
+  },
+  {
+    "name": "of",
+    "value": "撤回"
+  },
+  {
+    "name": "og",
+    "value": "松手%1$s · 上滑%2$s"
+  },
+  {
+    "name": "oh",
+    "value": "识别优化中..."
+  },
+  {
+    "name": "oi",
+    "value": "松手%1$s"
+  },
+  {
+    "name": "oj",
+    "value": "选择松手方式"
+  },
+  {
+    "name": "ok",
+    "value": "松手进入编辑"
+  },
+  {
+    "name": "ol",
+    "value": "松手直接发送（%1$d）"
+  },
+  {
+    "name": "om",
+    "value": "轻触编辑"
+  },
+  {
+    "name": "on",
+    "value": "当前无网络，检查网络设置>"
+  },
+  {
+    "name": "oo",
+    "value": "添加完整标点"
+  },
+  {
+    "name": "op",
+    "value": "省略句末句号"
+  },
+  {
+    "name": "oq",
+    "value": "标点设置"
+  },
+  {
+    "name": "or",
+    "value": "智能添加标点"
+  },
+  {
+    "name": "os",
+    "value": "空格代替标点"
+  },
+  {
+    "name": "ot",
+    "value": "识别语言"
+  },
+  {
+    "name": "ou",
+    "value": "识别优化中..."
+  },
+  {
+    "name": "ov",
+    "value": "取消"
+  },
+  {
+    "name": "ow",
+    "value": "无法使用语音输入功能，前往“设置 > 微信输入法”中开启麦克风权限。"
+  },
+  {
+    "name": "ox",
+    "value": "麦克风权限未开启"
+  },
+  {
+    "name": "oy",
+    "value": "开启"
+  },
+  {
+    "name": "oz",
+    "value": "去开启"
+  },
+  {
+    "name": "p0",
+    "value": "请在「权限」中开启「麦克风/录音」"
+  },
+  {
+    "name": "p1",
+    "value": "语音转文字中…"
+  },
+  {
+    "name": "p2",
+    "value": "可切换识别方言>"
+  },
+  {
+    "name": "p3",
+    "value": "语音转文字"
+  },
+  {
+    "name": "p4",
+    "value": "在键盘上显示图标"
+  },
+  {
+    "name": "p5",
+    "value": "语音转文字图标显示在键盘右上角，%s未再使用将自动隐藏。"
+  },
+  {
+    "name": "p6",
+    "value": "语音转文字图标始终显示在键盘右上角"
+  },
+  {
+    "name": "p7",
+    "value": "10 分钟"
+  },
+  {
+    "name": "p8",
+    "value": "24 小时"
+  },
+  {
+    "name": "p9",
+    "value": "1 小时"
+  },
+  {
+    "name": "p_",
+    "value": "30 秒"
+  },
+  {
+    "name": "pa",
+    "value": "始终显示"
+  },
+  {
+    "name": "pb",
+    "value": "按住转文字"
+  },
+  {
+    "name": "pc",
+    "value": "正在启用语音转文字…"
+  },
+  {
+    "name": "pd",
+    "value": "上滑发送"
+  },
+  {
+    "name": "pe",
+    "value": "Tab"
+  },
+  {
+    "name": "pf",
+    "value": "去设置"
+  },
+  {
+    "name": "pg",
+    "value": "完成"
+  },
+  {
+    "name": "ph",
+    "value": "前往"
+  },
+  {
+    "name": "pi",
+    "value": "继续"
+  },
+  {
+    "name": "pj",
+    "value": "返回"
+  },
+  {
+    "name": "pk",
+    "value": "搜索"
+  },
+  {
+    "name": "pl",
+    "value": "发送"
+  },
+  {
+    "name": "pm",
+    "value": "全部"
+  },
+  {
+    "name": "pn",
+    "value": "&"
+  },
+  {
+    "name": "po",
+    "value": "\\@#"
+  },
+  {
+    "name": "pp",
+    "value": "重输"
+  },
+  {
+    "name": "pq",
+    "value": "."
+  },
+  {
+    "name": "pr",
+    "value": "("
+  },
+  {
+    "name": "ps",
+    "value": ")"
+  },
+  {
+    "name": "pt",
+    "value": "\"'\""
+  },
+  {
+    "name": "pu",
+    "value": "单字"
+  },
+  {
+    "name": "pv",
+    "value": "sound/key_press_action.wav"
+  },
+  {
+    "name": "pw",
+    "value": "sound/key_press_click.wav"
+  },
+  {
+    "name": "px",
+    "value": "sound/key_press_click_android_14.wav"
+  },
+  {
+    "name": "py",
+    "value": "sound/key_press_click_neo9.wav"
+  },
+  {
+    "name": "pz",
+    "value": "sound/key_press_delete.wav"
+  },
+  {
+    "name": "q0",
+    "value": "Link"
+  },
+  {
+    "name": "q1",
+    "value": "sans-serif-medium"
+  },
+  {
+    "name": "q2",
+    "value": "sans-serif"
+  },
+  {
+    "name": "q3",
+    "value": "sans-serif-medium"
+  },
+  {
+    "name": "q4",
+    "value": "sans-serif"
+  },
+  {
+    "name": "q5",
+    "value": "path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)"
+  },
+  {
+    "name": "q6",
+    "value": "cubic-bezier(0.3, 0, 0.8, 0.2)"
+  },
+  {
+    "name": "q7",
+    "value": "cubic-bezier(0.1, 0.7, 0.1, 1)"
+  },
+  {
+    "name": "q8",
+    "value": "M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1"
+  },
+  {
+    "name": "q9",
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)"
+  },
+  {
+    "name": "q_",
+    "value": "cubic-bezier(0.4, 0, 1, 1)"
+  },
+  {
+    "name": "qa",
+    "value": "cubic-bezier(0, 0, 0.2, 1)"
+  },
+  {
+    "name": "qb",
+    "value": "cubic-bezier(0, 0, 1, 1)"
+  },
+  {
+    "name": "qc",
+    "value": "cubic-bezier(0.2, 0, 0, 1)"
+  },
+  {
+    "name": "qd",
+    "value": "cubic-bezier(0.3, 0, 1, 1)"
+  },
+  {
+    "name": "qe",
+    "value": "cubic-bezier(0, 0, 0, 1)"
+  },
+  {
+    "name": "qf",
+    "value": ":"
+  },
+  {
+    "name": "qg",
+    "value": "Select AM or PM"
+  },
+  {
+    "name": "qh",
+    "value": "%1$s hours"
+  },
+  {
+    "name": "qi",
+    "value": "Select hour"
+  },
+  {
+    "name": "qj",
+    "value": "\"%1$s o'clock\""
+  },
+  {
+    "name": "qk",
+    "value": "Select minutes"
+  },
+  {
+    "name": "ql",
+    "value": "%1$s minutes"
+  },
+  {
+    "name": "qm",
+    "value": "cubic-bezier(0.4, 0.0, 1.0, 1.0)"
+  },
+  {
+    "name": "qn",
+    "value": "cubic-bezier(0.0, 0.0, 0.2, 1.0)"
+  },
+  {
+    "name": "qo",
+    "value": "path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)"
+  },
+  {
+    "name": "qp",
+    "value": "cubic-bezier(0.0, 0.0, 1.0, 1.0)"
+  },
+  {
+    "name": "qq",
+    "value": "cubic-bezier(0.4, 0.0, 0.2, 1.0)"
+  },
+  {
+    "name": "qr",
+    "value": "Range end"
+  },
+  {
+    "name": "qs",
+    "value": "Range start"
+  },
+  {
+    "name": "qt",
+    "value": "Value"
+  },
+  {
+    "name": "qu",
+    "value": "AM"
+  },
+  {
+    "name": "qv",
+    "value": "Switch to clock mode for the time input."
+  },
+  {
+    "name": "qw",
+    "value": "Hour"
+  },
+  {
+    "name": "qx",
+    "value": "Minute"
+  },
+  {
+    "name": "qy",
+    "value": "PM"
+  },
+  {
+    "name": "qz",
+    "value": "Select time"
+  },
+  {
+    "name": "r0",
+    "value": "Switch to text input mode for the time input."
+  },
+  {
+    "name": "r1",
+    "value": "储存卡已拔出，${BRAND}头像、图片、语音、视频、相册及朋友圈功能将暂时不可用"
+  },
+  {
+    "name": "r2",
+    "value": "储存卡处于只读模式，${BRAND}头像、图片、语音、视频、相册及朋友圈功能将暂时不可用，请尝试重启手机恢复"
+  },
+  {
+    "name": "r3",
+    "value": "储存卡剩余空间不足，可能影响到${BRAND}图片、语音及视频等功能"
+  },
+  {
+    "name": "r4",
+    "value": "已复制"
+  },
+  {
+    "name": "r5",
+    "value": "已剪切"
+  },
+  {
+    "name": "r6",
+    "value": "Menu"
+  },
+  {
+    "name": "r7",
+    "value": "选择"
+  },
+  {
+    "name": "r8",
+    "value": "Menu Bar"
+  },
+  {
+    "name": "r9",
+    "value": "Menu Item"
+  },
+  {
+    "name": "r_",
+    "value": "New notification"
+  },
+  {
+    "name": "ra",
+    "value": "M14,18.2 11.4,15.6 10,17 14,21 22,13 20.6,11.6z"
+  },
+  {
+    "name": "rb",
+    "value": "icon"
+  },
+  {
+    "name": "rc",
+    "value": "M13.4,15 11,15 11,17 13.4,17 21,17 21,15z"
+  },
+  {
+    "name": "rd",
+    "value": "icon path"
+  },
+  {
+    "name": "re",
+    "value": "M23,7H9C7.9,7,7,7.9,7,9v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V9C25,7.9,24.1,7,23,7z"
+  },
+  {
+    "name": "rf",
+    "value": "button"
+  },
+  {
+    "name": "rg",
+    "value": "button path"
+  },
+  {
+    "name": "rh",
+    "value": "M23,7H9C7.9,7,7,7.9,7,9v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V9C25,7.9,24.1,7,23,7z M23,23H9V9h14V23z"
+  },
+  {
+    "name": "ri",
+    "value": "Checked"
+  },
+  {
+    "name": "rj",
+    "value": "Partially checked"
+  },
+  {
+    "name": "rk",
+    "value": "Not checked"
+  },
+  {
+    "name": "rl",
+    "value": "Remove %1$s"
+  },
+  {
+    "name": "rm",
+    "value": "More than %1$d new notifications"
+  },
+  {
+    "name": "rn",
+    "value": "%1$d%2$s"
+  },
+  {
+    "name": "ro",
+    "value": "Change to next month"
+  },
+  {
+    "name": "rp",
+    "value": "Change to previous month"
+  },
+  {
+    "name": "rq",
+    "value": "Start date selection: %1$s – End date selection: %2$s"
+  },
+  {
+    "name": "rr",
+    "value": "Current selection: %1$s"
+  },
+  {
+    "name": "rs",
+    "value": "none"
+  },
+  {
+    "name": "rt",
+    "value": "Cancel"
+  },
+  {
+    "name": "ru",
+    "value": "OK"
+  },
+  {
+    "name": "rv",
+    "value": "%1$s"
+  },
+  {
+    "name": "rw",
+    "value": "Select Date"
+  },
+  {
+    "name": "rx",
+    "value": "Selected date"
+  },
+  {
+    "name": "ry",
+    "value": "Column of days: %1$s"
+  },
+  {
+    "name": "rz",
+    "value": "End date %1$s"
+  },
+  {
+    "name": "s0",
+    "value": "Invalid format."
+  },
+  {
+    "name": "s1",
+    "value": "Example: %1$s"
+  },
+  {
+    "name": "s2",
+    "value": "Use: %1$s"
+  },
+  {
+    "name": "s3",
+    "value": "Invalid range."
+  },
+  {
+    "name": "s4",
+    "value": "Navigate to current year %1$d"
+  },
+  {
+    "name": "s5",
+    "value": "Navigate to year %1$d"
+  },
+  {
+    "name": "s6",
+    "value": "Out of range: %1$s"
+  },
+  {
+    "name": "s7",
+    "value": "Start date – %1$s"
+  },
+  {
+    "name": "s8",
+    "value": "%1$s – End date"
+  },
+  {
+    "name": "s9",
+    "value": "%1$s – %2$s"
+  },
+  {
+    "name": "s_",
+    "value": "Select Range"
+  },
+  {
+    "name": "sa",
+    "value": "Start date – End date"
+  },
+  {
+    "name": "sb",
+    "value": "Save"
+  },
+  {
+    "name": "sc",
+    "value": "Start date %1$s"
+  },
+  {
+    "name": "sd",
+    "value": "Date"
+  },
+  {
+    "name": "se",
+    "value": "End date"
+  },
+  {
+    "name": "sf",
+    "value": "Start date"
+  },
+  {
+    "name": "sg",
+    "value": "d"
+  },
+  {
+    "name": "sh",
+    "value": "m"
+  },
+  {
+    "name": "si",
+    "value": "y"
+  },
+  {
+    "name": "sj",
+    "value": "Today %1$s"
+  },
+  {
+    "name": "sk",
+    "value": "Switch to calendar input mode"
+  },
+  {
+    "name": "sl",
+    "value": "Tap to switch to Calendar view"
+  },
+  {
+    "name": "sm",
+    "value": "Switch to text input mode"
+  },
+  {
+    "name": "sn",
+    "value": "Tap to switch to year view"
+  },
+  {
+    "name": "so",
+    "value": "circle_group"
+  },
+  {
+    "name": "sp",
+    "value": "M4,16 A12,12 0 0,1 16,4 H16 A12,12 0 0,1 16,28 H16 A12,12 0 0,1 4,16"
+  },
+  {
+    "name": "sq",
+    "value": "M0,16 A11,11 0 0,1 11,5 H21 A11,11 0 0,1 21,27 H11 A11,11 0 0,1 0,16"
+  },
+  {
+    "name": "sr",
+    "value": "circle"
+  },
+  {
+    "name": "ss",
+    "value": "M2,16 A14,14 0 0,1 16,2 H16 A14,14 0 0,1 16,30 H16 A14,14 0 0,1 2,16"
+  },
+  {
+    "name": "st",
+    "value": "M8,16 A8,8 0 0,1 16,8 H16 A8,8 0 0,1 16,24 H16 A8,8 0 0,1 8,16"
+  },
+  {
+    "name": "su",
+    "value": "M1,16 A15,15 0 0,1 16,1 H36 A15,15 0 0,1 36,31 H16 A15,15 0 0,1 1,16"
+  },
+  {
+    "name": "sv",
+    "value": "M0,16 A16,16 0 0,1 16,0 H36 A16,16 0 0,1 36,32 H16 A16,16 0 0,1 0,16"
+  },
+  {
+    "name": "sw",
+    "value": "Cancel"
+  },
+  {
+    "name": "sx",
+    "value": "OK"
+  },
+  {
+    "name": "sy",
+    "value": "换行"
+  },
+  {
+    "name": "sz",
+    "value": "获取安装未知应用权限失败"
+  },
+  {
+    "name": "t0",
+    "value": "NoTitleTransluentTheme"
+  },
+  {
+    "name": "t1",
+    "value": "Show password"
+  },
+  {
+    "name": "t2",
+    "value": "M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z"
+  },
+  {
+    "name": "t3",
+    "value": "M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z"
+  },
+  {
+    "name": "t4",
+    "value": "M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z"
+  },
+  {
+    "name": "t5",
+    "value": "M3.27,4.27 L19.74,20.74"
+  },
+  {
+    "name": "t6",
+    "value": "在设置-应用-${BRAND}-权限中开启相机权限，以正常使用拍照、小视频、扫一扫等功能"
+  },
+  {
+    "name": "t7",
+    "value": "取消"
+  },
+  {
+    "name": "t8",
+    "value": "在手机系统设置中，允许${BRAND}保持后台运行，否则可能无法及时收到${BRAND}消息通知"
+  },
+  {
+    "name": "t9",
+    "value": "在设置-应用-${BRAND}-权限中开启位置信息权限，以正常使用位置共享、搜索、摇一摇、扫街景、附近的人、${Wi-Fi_via_BRAND}等功能"
+  },
+  {
+    "name": "t_",
+    "value": "在设置-应用-${BRAND}-权限中开启麦克风权限，以正常使用语音、小视频、摇一摇功能"
+  },
+  {
+    "name": "ta",
+    "value": "权限申请"
+  },
+  {
+    "name": "tb",
+    "value": "Progress Bar"
+  },
+  {
+    "name": "tc",
+    "value": "99A9343CEC0A64112FD2496EF752F719"
+  },
+  {
+    "name": "td",
+    "value": "767499AE5B2DFC9D873AF46032E13B00"
+  },
+  {
+    "name": "te",
+    "value": "Radio Group"
+  },
+  {
+    "name": "tf",
+    "value": "Tab"
+  },
+  {
+    "name": "tg",
+    "value": "推荐值%1$s"
+  },
+  {
+    "name": "th",
+    "value": "换一句"
+  },
+  {
+    "name": "ti",
+    "value": "进入词典"
+  },
+  {
+    "name": "tj",
+    "value": "%1$s上映 · %2$s"
+  },
+  {
+    "name": "tk",
+    "value": "打开"
+  },
+  {
+    "name": "tl",
+    "value": "发送"
+  },
+  {
+    "name": "tm",
+    "value": "使用"
+  },
+  {
+    "name": "tn",
+    "value": "Scroll Bar"
+  },
+  {
+    "name": "to",
+    "value": "Search"
+  },
+  {
+    "name": "tp",
+    "value": "com.google.android.material.search.SearchBar$ScrollingViewBehavior"
+  },
+  {
+    "name": "tq",
+    "value": "Clear text"
+  },
+  {
+    "name": "tr",
+    "value": "Back"
+  },
+  {
+    "name": "ts",
+    "value": "Side Sheet"
+  },
+  {
+    "name": "tt",
+    "value": "com.google.android.material.sidesheet.SideSheetBehavior"
+  },
+  {
+    "name": "tu",
+    "value": "Spin Button"
+  },
+  {
+    "name": "tv",
+    "value": "busy"
+  },
+  {
+    "name": "tw",
+    "value": "collapsed"
+  },
+  {
+    "name": "tx",
+    "value": "expanded"
+  },
+  {
+    "name": "ty",
+    "value": "mixed"
+  },
+  {
+    "name": "tz",
+    "value": "off"
+  },
+  {
+    "name": "u0",
+    "value": "on"
+  },
+  {
+    "name": "u1",
+    "value": "unselected"
+  },
+  {
+    "name": "u2",
+    "value": "999+"
+  },
+  {
+    "name": "u3",
+    "value": "Summary"
+  },
+  {
+    "name": "u4",
+    "value": "已开启"
+  },
+  {
+    "name": "u5",
+    "value": "已关闭"
+  },
+  {
+    "name": "u6",
+    "value": "System Default Channel"
+  },
+  {
+    "name": "u7",
+    "value": "\"'词\""
+  },
+  {
+    "name": "u8",
+    "value": "Tab List"
+  },
+  {
+    "name": "u9",
+    "value": "Timer"
+  },
+  {
+    "name": "u_",
+    "value": "选择你喜欢的中文键盘"
+  },
+  {
+    "name": "ua",
+    "value": "Tool Bar"
+  },
+  {
+    "name": "ub",
+    "value": "transluentTheme"
+  },
+  {
+    "name": "uc",
+    "value": "粤语"
+  },
+  {
+    "name": "ud",
+    "value": "普通话"
+  },
+  {
+    "name": "ue",
+    "value": "英语"
+  },
+  {
+    "name": "uf",
+    "value": "用于录制音频生成转写和智能纪要"
+  },
+  {
+    "name": "ug",
+    "value": "录音纪要"
+  },
+  {
+    "name": "uh",
+    "value": "已复制全文"
+  },
+  {
+    "name": "ui",
+    "value": "复制全文"
+  },
+  {
+    "name": "uj",
+    "value": "删除"
+  },
+  {
+    "name": "uk",
+    "value": "删除失败，请稍后重试"
+  },
+  {
+    "name": "ul",
+    "value": "\"删除后，内容无法恢复，已分享的链接\n也会失效\""
+  },
+  {
+    "name": "um",
+    "value": "删 除"
+  },
+  {
+    "name": "un",
+    "value": "删除该内容"
+  },
+  {
+    "name": "uo",
+    "value": "AI 总结全文中..."
+  },
+  {
+    "name": "up",
+    "value": "完成后会提醒你查看"
+  },
+  {
+    "name": "uq",
+    "value": "录音达到单次时长上限，已自动结束"
+  },
+  {
+    "name": "ur",
+    "value": "单次录音时长上限为 %1$d 小时，即将自动结束"
+  },
+  {
+    "name": "us",
+    "value": "开启通知"
+  },
+  {
+    "name": "ut",
+    "value": "AI 录音笔"
+  },
+  {
+    "name": "uu",
+    "value": "试试 AI 录音笔，生成可分享的内容"
+  },
+  {
+    "name": "uv",
+    "value": "开启长文模式，获取 AI 整理"
+  },
+  {
+    "name": "uw",
+    "value": "生成中"
+  },
+  {
+    "name": "ux",
+    "value": "录音中"
+  },
+  {
+    "name": "uy",
+    "value": "状态待更新"
+  },
+  {
+    "name": "uz",
+    "value": "退出页面、熄屏等操作不影响录音"
+  },
+  {
+    "name": "v0",
+    "value": "请保持屏幕常亮，熄屏可能导致录音中断"
+  },
+  {
+    "name": "v1",
+    "value": "麦克风被其他应用占用，录音暂时中断"
+  },
+  {
+    "name": "v2",
+    "value": "当前网络不佳，请检查网络"
+  },
+  {
+    "name": "v3",
+    "value": "录音已暂停"
+  },
+  {
+    "name": "v4",
+    "value": "AI 实时总结中..."
+  },
+  {
+    "name": "v5",
+    "value": "AI 实时总结中…"
+  },
+  {
+    "name": "v6",
+    "value": "需要麦克风权限才能开始录音"
+  },
+  {
+    "name": "v7",
+    "value": "去设置"
+  },
+  {
+    "name": "v8",
+    "value": "2. 检查本地网络状况：请确认关闭飞行模式，并检查设备是否已接入WLAN或移动数据网络。"
+  },
+  {
+    "name": "v9",
+    "value": "1. 检查网络权限：请在“应用管理”或“应用设置”中检查系统是否已允许微信输入法访问网络。"
+  },
+  {
+    "name": "v_",
+    "value": "点击前往查看已生成的内容"
+  },
+  {
+    "name": "va",
+    "value": "单次录音限时%1$d小时，即将自动结束"
+  },
+  {
+    "name": "vb",
+    "value": "点击前往查看"
+  },
+  {
+    "name": "vc",
+    "value": "录音已结束"
+  },
+  {
+    "name": "vd",
+    "value": "AI 录音笔实时转写中..."
+  },
+  {
+    "name": "ve",
+    "value": "当前网络不佳，录音已中断"
+  },
+  {
+    "name": "vf",
+    "value": "点击查看此次录音内容"
+  },
+  {
+    "name": "vg",
+    "value": "用于在纪要生成完成后通知你，以及在下拉通知栏和锁屏显示录音控件"
+  },
+  {
+    "name": "vh",
+    "value": "开启通知权限"
+  },
+  {
+    "name": "vi",
+    "value": "结束"
+  },
+  {
+    "name": "vj",
+    "value": "AI 录音笔正在总结全文"
+  },
+  {
+    "name": "vk",
+    "value": "当前网络不佳，录音转写已中断"
+  },
+  {
+    "name": "vl",
+    "value": "录音精准转写 · AI 实时总结"
+  },
+  {
+    "name": "vm",
+    "value": "录音始终保留，实时分离说话人"
+  },
+  {
+    "name": "vn",
+    "value": "录音精准转写，AI 实时总结"
+  },
+  {
+    "name": "vo",
+    "value": "纪要尚未生成，请稍后再分享"
+  },
+  {
+    "name": "vp",
+    "value": "返回录音"
+  },
+  {
+    "name": "vq",
+    "value": "手机熄屏导致录音中断，请在录音期间保持屏幕常亮"
+  },
+  {
+    "name": "vr",
+    "value": "复制链接"
+  },
+  {
+    "name": "vs",
+    "value": "该内容不支持分享"
+  },
+  {
+    "name": "vt",
+    "value": "分享链接未就绪，请稍后重试"
+  },
+  {
+    "name": "vu",
+    "value": "请稍等，总结完成后即可分享"
+  },
+  {
+    "name": "vv",
+    "value": "分享到微信"
+  },
+  {
+    "name": "vw",
+    "value": "分享"
+  },
+  {
+    "name": "vx",
+    "value": "录音未出现可整理的议题或结论"
+  },
+  {
+    "name": "vy",
+    "value": "我知道了"
+  },
+  {
+    "name": "vz",
+    "value": "开始录音"
+  },
+  {
+    "name": "w0",
+    "value": "生成完后会通知你"
+  },
+  {
+    "name": "w1",
+    "value": "AI 总结全文中，完成后会提醒你查看"
+  },
+  {
+    "name": "w2",
+    "value": "正在重试，完成后会提醒你查看"
+  },
+  {
+    "name": "w3",
+    "value": "AI 录音笔"
+  },
+  {
+    "name": "w4",
+    "value": "暂无原文"
+  },
+  {
+    "name": "w5",
+    "value": "转写原文"
+  },
+  {
+    "name": "w6",
+    "value": "录音转写已中断"
+  },
+  {
+    "name": "w7",
+    "value": "查看原文"
+  },
+  {
+    "name": "w8",
+    "value": "未安装微信，请先安装后再分享"
+  },
+  {
+    "name": "w9",
+    "value": "分享到微信失败，请稍后重试"
+  },
+  {
+    "name": "w_",
+    "value": "我知道了"
+  },
+  {
+    "name": "wa",
+    "value": "数据已清除~"
+  },
+  {
+    "name": "wb",
+    "value": "|"
+  },
+  {
+    "name": "wc",
+    "value": "微信官方出品的中文输入法"
+  },
+  {
+    "name": "wd",
+    "value": "微信输入法"
+  },
+  {
+    "name": "we",
+    "value": "该功能暂不支持~"
+  },
+  {
+    "name": "wf",
+    "value": "\"'\""
+  },
+  {
+    "name": "wg",
+    "value": "微信输入法团队"
+  }
+]

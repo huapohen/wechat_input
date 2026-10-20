@@ -1,0 +1,648 @@
+[
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.reactnative.activity.ImeMainSettingActivity",
+    "exported": "true",
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": [
+      {
+        "actions": [
+          "android.intent.action.MAIN"
+        ],
+        "categories": [
+          "android.intent.category.LAUNCHER"
+        ],
+        "data": []
+      },
+      {
+        "actions": [
+          "android.intent.action.VIEW"
+        ],
+        "categories": [
+          "android.intent.category.DEFAULT",
+          "android.intent.category.BROWSABLE"
+        ],
+        "data": [
+          {
+            "scheme": "wetype"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.HldActivationUI",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.HldSettingsInputUI",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.HldSettingsKeyboardsSettingUI",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.HldSettingsAboutUI",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.ImeAboutActivity",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.HldStandaloneModeUI",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.HldQRScannerUI",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.reactnative.activity.SimpleReactActivity",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.ImeTryEditUI",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.ImeNoTryEditUI",
+    "exported": null,
+    "process": ":hld",
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.ImeReportExpectWordInDictUI",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.debug.ImeCloudInputReturnCountUI",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.HldWebViewUI",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.aichat.activity.AiChatActivity",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.voicerecorder.VoiceRecorderActivity",
+    "exported": "false",
+    "process": null,
+    "permission": null,
+    "label": "@string/wd",
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.voicerecorder.VoiceRecorderSessionActivity",
+    "exported": "false",
+    "process": null,
+    "permission": null,
+    "label": "@string/wd",
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.HldPrivacyInfoUI",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.HldChooseKeyboardUI",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.HldDebugUI",
+    "exported": "false",
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.HldDoublePinSettingActivity",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.HldWubiSettingActivity",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.HldWubiSolutionSettingActivity",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.HldT9CustomSymbolUI",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.permission.HldPermissionSettingUI",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.HldRNBundleInfoUI",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.ImeSkinTestActivity",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.reactnative.test.HldRNNativeTestUI",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.feature.ImeFeatureInfoActivity",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.abtest.ImeAbTestInfoActivity",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.voice.HldVoicePunctuationSettingActivity",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.feedback.HldFeedbackUI",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.reactnative.activity.FeedbackChatActivity",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.feedback.HldFeedbackScaleImageUI",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.voice.ScenePermissionTipsActivity",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.wxapi.WXEntryActivity",
+    "exported": "true",
+    "process": null,
+    "permission": null,
+    "label": "@string/aa",
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.filetransfer.FileTransferShareEntryActivity",
+    "exported": "true",
+    "process": null,
+    "permission": null,
+    "label": "@string/j5",
+    "filters": [
+      {
+        "actions": [
+          "android.intent.action.SEND"
+        ],
+        "categories": [
+          "android.intent.category.DEFAULT"
+        ],
+        "data": [
+          {
+            "mimeType": "*/*"
+          }
+        ]
+      },
+      {
+        "actions": [
+          "android.intent.action.SEND_MULTIPLE"
+        ],
+        "categories": [
+          "android.intent.category.DEFAULT"
+        ],
+        "data": [
+          {
+            "mimeType": "*/*"
+          }
+        ]
+      },
+      {
+        "actions": [
+          "android.intent.action.VIEW"
+        ],
+        "categories": [
+          "android.intent.category.DEFAULT"
+        ],
+        "data": [
+          {
+            "mimeType": "*/*",
+            "scheme": "content"
+          },
+          {
+            "mimeType": "*/*",
+            "scheme": "file"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.filetransfer.ImeFileTransferUI",
+    "exported": "false",
+    "process": null,
+    "permission": null,
+    "label": "@string/j5",
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.ui.filetransfer.FileTransferScannerUI",
+    "exported": null,
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "activity",
+    "name": "com.tencent.wetype.plugin.hld.push.DeeplinkActivity",
+    "exported": "true",
+    "process": null,
+    "permission": null,
+    "label": "@string/wd",
+    "filters": [
+      {
+        "actions": [
+          "com.tencent.wetype.push"
+        ],
+        "categories": [
+          "android.intent.category.DEFAULT"
+        ],
+        "data": []
+      },
+      {
+        "actions": [
+          "android.intent.action.VIEW"
+        ],
+        "categories": [
+          "android.intent.category.DEFAULT",
+          "android.intent.category.BROWSABLE"
+        ],
+        "data": [
+          {
+            "host": "com.tencent.wetype",
+            "path": "/deeplink",
+            "scheme": "hwpush"
+          },
+          {
+            "host": "com.tencent.wetype",
+            "path": "/deeplink",
+            "scheme": "vpush"
+          },
+          {
+            "host": "com.tencent.wetype",
+            "path": "/deeplink",
+            "scheme": "mipush"
+          },
+          {
+            "host": "com.tencent.wetype",
+            "path": "/deeplink",
+            "scheme": "oppush"
+          },
+          {
+            "host": "com.tencent.wetype",
+            "path": "/deeplink",
+            "scheme": "honorpush"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "service",
+    "name": "com.tencent.wetype.HldTinkerResultService",
+    "exported": null,
+    "process": ":hld",
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "service",
+    "name": "com.tencent.wetype.plugin.hld.WxHldService",
+    "exported": "true",
+    "process": ":hld",
+    "permission": "android.permission.BIND_INPUT_METHOD",
+    "label": "@string/wd",
+    "filters": [
+      {
+        "actions": [
+          "android.view.InputMethod"
+        ],
+        "categories": [],
+        "data": []
+      }
+    ]
+  },
+  {
+    "type": "service",
+    "name": "com.tencent.wetype.plugin.hld.model.WxImeInterService",
+    "exported": "false",
+    "process": ":hld",
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "service",
+    "name": "com.tencent.wetype.plugin.hld.service.ActivationGuideForegroundService",
+    "exported": "false",
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "service",
+    "name": "com.tencent.wetype.plugin.hld.ui.filetransfer.FileTransferForegroundService",
+    "exported": "false",
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "service",
+    "name": "com.tencent.wetype.plugin.hld.voicerecorder.VoiceRecorderService",
+    "exported": "false",
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "service",
+    "name": "com.tencent.wetype.plugin.hld.voicerecorder.VoiceRecorderCaptureService",
+    "exported": "false",
+    "process": ":hld",
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "service",
+    "name": "com.tencent.wetype.ipcinvoker.service.HldProcessIPCService",
+    "exported": "false",
+    "process": ":hld",
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "service",
+    "name": "com.tencent.wetype.ipcinvoker.service.MainProcessIPCService",
+    "exported": "false",
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": []
+  },
+  {
+    "type": "service",
+    "name": "com.tencent.wetype.push.huawei.HwMessageService",
+    "exported": "false",
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": [
+      {
+        "actions": [
+          "com.huawei.push.action.MESSAGING_EVENT"
+        ],
+        "categories": [],
+        "data": []
+      }
+    ]
+  },
+  {
+    "type": "service",
+    "name": "com.tencent.wetype.push.honor.HonorPushService",
+    "exported": "false",
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": [
+      {
+        "actions": [
+          "com.hihonor.push.action.MESSAGING_EVENT"
+        ],
+        "categories": [],
+        "data": []
+      }
+    ]
+  },
+  {
+    "type": "receiver",
+    "name": "com.tencent.wetype.push.vivo.VivoPushMessageReceiver",
+    "exported": "false",
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": [
+      {
+        "actions": [
+          "com.vivo.pushclient.action.RECEIVE"
+        ],
+        "categories": [],
+        "data": []
+      }
+    ]
+  },
+  {
+    "type": "receiver",
+    "name": "com.tencent.wetype.push.mi.MiPushReceiver",
+    "exported": "true",
+    "process": null,
+    "permission": null,
+    "label": null,
+    "filters": [
+      {
+        "actions": [
+          "com.xiaomi.mipush.RECEIVE_MESSAGE"
+        ],
+        "categories": [],
+        "data": []
+      },
+      {
+        "actions": [
+          "com.xiaomi.mipush.MESSAGE_ARRIVED"
+        ],
+        "categories": [],
+        "data": []
+      },
+      {
+        "actions": [
+          "com.xiaomi.mipush.ERROR"
+        ],
+        "categories": [],
+        "data": []
+      }
+    ]
+  }
+]

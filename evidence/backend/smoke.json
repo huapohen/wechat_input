@@ -1,0 +1,103 @@
+{
+  "base": "http://127.0.0.1:8787",
+  "checks": [
+    {
+      "name": "ai_chat",
+      "status": 200,
+      "body": {
+        "text": "后端连通",
+        "usage": {
+          "prompt_tokens": 9,
+          "completion_tokens": 2,
+          "total_tokens": 11,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 9
+        },
+        "model": "deepseek-flash"
+      }
+    },
+    {
+      "name": "pair",
+      "status": 200,
+      "body": {
+        "token": "<redacted>",
+        "code": "123456",
+        "peer": null
+      }
+    },
+    {
+      "name": "clipboard_put",
+      "status": 200,
+      "body": {
+        "items": [
+          {
+            "text": "smoke clipboard",
+            "created": 1792498079.4835498,
+            "sha256": "aed5b8d0479cc1e8b404f4ad7f59e87923899e0efff0a69477345fc622f621e6"
+          }
+        ]
+      }
+    },
+    {
+      "name": "clipboard_get",
+      "status": 200,
+      "body": {
+        "items": [
+          {
+            "text": "smoke clipboard",
+            "created": 1792498079.4835498,
+            "sha256": "aed5b8d0479cc1e8b404f4ad7f59e87923899e0efff0a69477345fc622f621e6"
+          }
+        ]
+      }
+    },
+    {
+      "name": "phrases",
+      "status": 200,
+      "body": {
+        "items": [
+          {
+            "text": "你好",
+            "code": "nihao"
+          }
+        ]
+      }
+    },
+    {
+      "name": "upload",
+      "status": 200,
+      "body": {
+        "id": "8f6086da1f828d49dad93fef8c51db88",
+        "name": "smoke.txt",
+        "size": 30,
+        "sha256": "8ba6ccff697afeadb3655ef91412ffbdf69d3578d4a8436b06b8dd1363f67c7f"
+      }
+    },
+    {
+      "name": "download",
+      "status": 200,
+      "sha256_match": true,
+      "bytes": 30
+    },
+    {
+      "name": "ai_polish",
+      "status": 200,
+      "body": {
+        "text": "我们明天下午三点开会吧。"
+      }
+    }
+  ],
+  "health": {
+    "status": 200,
+    "body": {
+      "ok": true,
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com",
+      "key": "<redacted>",
+      "asr": "device"
+    }
+  }
+}

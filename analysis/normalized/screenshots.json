@@ -1,0 +1,632 @@
+[
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/01-home/screen.png",
+    "group": "android-20261018",
+    "label": "01 home",
+    "step": "01-home"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/02-ime-picker/screen.png",
+    "group": "android-20261018",
+    "label": "02 ime picker",
+    "step": "02-ime-picker"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/03-home/screen.png",
+    "group": "android-20261018",
+    "label": "03 home",
+    "step": "03-home"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/04-ai-recorder-entry/screen.png",
+    "group": "android-20261018",
+    "label": "04 ai recorder entry",
+    "step": "04-ai-recorder-entry"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/05-home-return/screen.png",
+    "group": "android-20261018",
+    "label": "05 home return",
+    "step": "05-home-return"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/06-home-settings/screen.png",
+    "group": "android-20261018",
+    "label": "06 home settings",
+    "step": "06-home-settings"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/07-layout-display/screen.png",
+    "group": "android-20261018",
+    "label": "07 layout display",
+    "step": "07-layout-display"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/08-layout-display-bottom/screen.png",
+    "group": "android-20261018",
+    "label": "08 layout display bottom",
+    "step": "08-layout-display-bottom"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/09-layout-display-end/screen.png",
+    "group": "android-20261018",
+    "label": "09 layout display end",
+    "step": "09-layout-display-end"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/10-home-settings-return/screen.png",
+    "group": "android-20261018",
+    "label": "10 home settings return",
+    "step": "10-home-settings-return"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/11-key-effects/screen.png",
+    "group": "android-20261018",
+    "label": "11 key effects",
+    "step": "11-key-effects"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/12-home-bottom/screen.png",
+    "group": "android-20261018",
+    "label": "12 home bottom",
+    "step": "12-home-bottom"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/13-home-end/screen.png",
+    "group": "android-20261018",
+    "label": "13 home end",
+    "step": "13-home-end"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/14-speech-settings/screen.png",
+    "group": "android-20261018",
+    "label": "14 speech settings",
+    "step": "14-speech-settings"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/15-home-before-plus/screen.png",
+    "group": "android-20261018",
+    "label": "15 home before plus",
+    "step": "15-home-before-plus"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/16-plus-settings/screen.png",
+    "group": "android-20261018",
+    "label": "16 plus settings",
+    "step": "16-plus-settings"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/17-home-return/screen.png",
+    "group": "android-20261018",
+    "label": "17 home return",
+    "step": "17-home-return"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/18-offline-mode/screen.png",
+    "group": "android-20261018",
+    "label": "18 offline mode",
+    "step": "18-offline-mode"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/19-home-return/screen.png",
+    "group": "android-20261018",
+    "label": "19 home return",
+    "step": "19-home-return"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/20-privacy-permissions/screen.png",
+    "group": "android-20261018",
+    "label": "20 privacy permissions",
+    "step": "20-privacy-permissions"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/21-home-return/screen.png",
+    "group": "android-20261018",
+    "label": "21 home return",
+    "step": "21-home-return"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/22-home-assist-entry/screen.png",
+    "group": "android-20261018",
+    "label": "22 home assist entry",
+    "step": "22-home-assist-entry"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/23-assist-input/screen.png",
+    "group": "android-20261018",
+    "label": "23 assist input",
+    "step": "23-assist-input"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/24-assist-input-bottom/screen.png",
+    "group": "android-20261018",
+    "label": "24 assist input bottom",
+    "step": "24-assist-input-bottom"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/25-keyboard-same-host/screen.png",
+    "group": "android-20261018",
+    "label": "25 keyboard same host",
+    "step": "25-keyboard-same-host"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/26-keyboard-empty-current/screen.png",
+    "group": "android-20261018",
+    "label": "26 keyboard empty current",
+    "step": "26-keyboard-empty-current"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/27-tools-page-one/screen.png",
+    "group": "android-20261018",
+    "label": "27 tools page one",
+    "step": "27-tools-page-one"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/28-tools-page-two/screen.png",
+    "group": "android-20261018",
+    "label": "28 tools page two",
+    "step": "28-tools-page-two"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/29-tools-after-cancel/screen.png",
+    "group": "android-20261018",
+    "label": "29 tools after cancel",
+    "step": "29-tools-after-cancel"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/30-tools-second-page/screen.png",
+    "group": "android-20261018",
+    "label": "30 tools second page",
+    "step": "30-tools-second-page"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/31-tools-third-page/screen.png",
+    "group": "android-20261018",
+    "label": "31 tools third page",
+    "step": "31-tools-third-page"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/32-tools-last-page/screen.png",
+    "group": "android-20261018",
+    "label": "32 tools last page",
+    "step": "32-tools-last-page"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/33-carousel-01/screen.png",
+    "group": "android-20261018",
+    "label": "33 carousel 01",
+    "step": "33-carousel-01"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/34-carousel-02/screen.png",
+    "group": "android-20261018",
+    "label": "34 carousel 02",
+    "step": "34-carousel-02"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/35-carousel-03/screen.png",
+    "group": "android-20261018",
+    "label": "35 carousel 03",
+    "step": "35-carousel-03"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/36-carousel-04/screen.png",
+    "group": "android-20261018",
+    "label": "36 carousel 04",
+    "step": "36-carousel-04"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/37-carousel-05/screen.png",
+    "group": "android-20261018",
+    "label": "37 carousel 05",
+    "step": "37-carousel-05"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/38-carousel-06/screen.png",
+    "group": "android-20261018",
+    "label": "38 carousel 06",
+    "step": "38-carousel-06"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/39-carousel-07/screen.png",
+    "group": "android-20261018",
+    "label": "39 carousel 07",
+    "step": "39-carousel-07"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/40-carousel-08/screen.png",
+    "group": "android-20261018",
+    "label": "40 carousel 08",
+    "step": "40-carousel-08"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/41-carousel-09/screen.png",
+    "group": "android-20261018",
+    "label": "41 carousel 09",
+    "step": "41-carousel-09"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/parity-20261018/42-expression-carousel-cta/screen.png",
+    "group": "android-20261018",
+    "label": "42 expression carousel cta",
+    "step": "42-expression-carousel-cta"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/home/screen.png",
+    "group": "android-keyboard",
+    "label": "原版首页",
+    "step": "home/screen.png"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/toolbar/screen.png",
+    "group": "android-keyboard",
+    "label": "候选栏",
+    "step": "toolbar/screen.png"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/start/screen.png",
+    "group": "android-keyboard",
+    "label": "首次启动",
+    "step": "start/screen.png"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/input-result/screen.png",
+    "group": "android-keyboard",
+    "label": "上屏结果",
+    "step": "input-result/screen.png"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/t9-candidates/screen.png",
+    "group": "android-keyboard",
+    "label": "九宫格候选",
+    "step": "t9-candidates/screen.png"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/keyboard-modes/screen.png",
+    "group": "android-keyboard",
+    "label": "键盘选择",
+    "step": "keyboard-modes/screen.png"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/tools-panel/screen.png",
+    "group": "android-keyboard",
+    "label": "工具栏面板",
+    "step": "tools-panel/screen.png"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/00-launch.png",
+    "group": "android-20261020",
+    "label": "00 launch",
+    "step": "00-launch"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/10-privacy.png",
+    "group": "android-20261020",
+    "label": "10 privacy",
+    "step": "10-privacy"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/21-home-top.png",
+    "group": "android-20261020",
+    "label": "21 home top",
+    "step": "21-home-top"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/22-home-mid.png",
+    "group": "android-20261020",
+    "label": "22 home mid",
+    "step": "22-home-mid"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/23-home-bottom.png",
+    "group": "android-20261020",
+    "label": "23 home bottom",
+    "step": "23-home-bottom"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/24-home-bottom-return.png",
+    "group": "android-20261020",
+    "label": "24 home bottom return",
+    "step": "24-home-bottom-return"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/30-layout-top.png",
+    "group": "android-20261020",
+    "label": "30 layout top",
+    "step": "30-layout-top"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/31-layout-mid.png",
+    "group": "android-20261020",
+    "label": "31 layout mid",
+    "step": "31-layout-mid"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/32-layout-bottom.png",
+    "group": "android-20261020",
+    "label": "32 layout bottom",
+    "step": "32-layout-bottom"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/33-key-effects.png",
+    "group": "android-20261020",
+    "label": "33 key effects",
+    "step": "33-key-effects"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/34-key-effects-bottom.png",
+    "group": "android-20261020",
+    "label": "34 key effects bottom",
+    "step": "34-key-effects-bottom"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/35-custom-toolbar.png",
+    "group": "android-20261020",
+    "label": "35 custom toolbar",
+    "step": "35-custom-toolbar"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/36-auxiliary-top.png",
+    "group": "android-20261020",
+    "label": "36 auxiliary top",
+    "step": "36-auxiliary-top"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/37-auxiliary-bottom.png",
+    "group": "android-20261020",
+    "label": "37 auxiliary bottom",
+    "step": "37-auxiliary-bottom"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/38-device-sync.png",
+    "group": "android-20261020",
+    "label": "38 device sync",
+    "step": "38-device-sync"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/39-clipboard.png",
+    "group": "android-20261020",
+    "label": "39 clipboard",
+    "step": "39-clipboard"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/40-keyboard-manage.png",
+    "group": "android-20261020",
+    "label": "40 keyboard manage",
+    "step": "40-keyboard-manage"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/41-voice-top.png",
+    "group": "android-20261020",
+    "label": "41 voice top",
+    "step": "41-voice-top"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/42-voice-bottom.png",
+    "group": "android-20261020",
+    "label": "42 voice bottom",
+    "step": "42-voice-bottom"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/43-plus-top.png",
+    "group": "android-20261020",
+    "label": "43 plus top",
+    "step": "43-plus-top"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/44-plus-bottom.png",
+    "group": "android-20261020",
+    "label": "44 plus bottom",
+    "step": "44-plus-bottom"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/45-standalone.png",
+    "group": "android-20261020",
+    "label": "45 standalone",
+    "step": "45-standalone"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/46-migration.png",
+    "group": "android-20261020",
+    "label": "46 migration",
+    "step": "46-migration"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/50-privacy.png",
+    "group": "android-20261020",
+    "label": "50 privacy",
+    "step": "50-privacy"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/51-desktop.png",
+    "group": "android-20261020",
+    "label": "51 desktop",
+    "step": "51-desktop"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/52-about.png",
+    "group": "android-20261020",
+    "label": "52 about",
+    "step": "52-about"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/53-feedback.png",
+    "group": "android-20261020",
+    "label": "53 feedback",
+    "step": "53-feedback"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/60-recorder-entry.png",
+    "group": "android-20261020",
+    "label": "60 recorder entry",
+    "step": "60-recorder-entry"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/61-file-transfer.png",
+    "group": "android-20261020",
+    "label": "61 file transfer",
+    "step": "61-file-transfer"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/70-askai-card.png",
+    "group": "android-20261020",
+    "label": "70 askai card",
+    "step": "70-askai-card"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/71-askai-open.png",
+    "group": "android-20261020",
+    "label": "71 askai open",
+    "step": "71-askai-open"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/72-askai-after-plus.png",
+    "group": "android-20261020",
+    "label": "72 askai after plus",
+    "step": "72-askai-after-plus"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/83-keyboard-t9-settled.png",
+    "group": "android-20261020",
+    "label": "83 keyboard t9 settled",
+    "step": "83-keyboard-t9-settled"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/deeplink-wetype___aiChat.png",
+    "group": "android-20261020",
+    "label": "deeplink wetype___aiChat",
+    "step": "deeplink-wetype___aiChat"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/deeplink-wetype___launchFileTransfer.png",
+    "group": "android-20261020",
+    "label": "deeplink wetype___launchFileTransfer",
+    "step": "deeplink-wetype___launchFileTransfer"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_input/evidence/runtime/deeplink-wetype___voiceRecorder.png",
+    "group": "android-20261020",
+    "label": "deeplink wetype___voiceRecorder",
+    "step": "deeplink-wetype___voiceRecorder"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/ios-mirror-20261019/01-home-lower.png",
+    "group": "ios-20261019",
+    "label": "01 home lower",
+    "step": "01-home-lower"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/ios-mirror-20261019/02-home-top.png",
+    "group": "ios-20261019",
+    "label": "02 home top",
+    "step": "02-home-top"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/ios-mirror-20261019/03-layout-top.png",
+    "group": "ios-20261019",
+    "label": "03 layout top",
+    "step": "03-layout-top"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/ios-mirror-20261019/04-layout-height-sidebar.png",
+    "group": "ios-20261019",
+    "label": "04 layout height sidebar",
+    "step": "04-layout-height-sidebar"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/ios-mirror-20261019/05-home-top-rested.png",
+    "group": "ios-20261019",
+    "label": "05 home top rested",
+    "step": "05-home-top-rested"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/ios-mirror-20261019/06-key-effects.png",
+    "group": "ios-20261019",
+    "label": "06 key effects",
+    "step": "06-key-effects"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/ios-mirror-20261019/07-toolbar-open-blurred.png",
+    "group": "ios-20261019",
+    "label": "07 toolbar open blurred",
+    "step": "07-toolbar-open-blurred"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/ios-mirror-20261019/08-home-settings-middle.png",
+    "group": "ios-20261019",
+    "label": "08 home settings middle",
+    "step": "08-home-settings-middle"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/ios-mirror-20261019/09-voice-settings.png",
+    "group": "ios-20261019",
+    "label": "09 voice settings",
+    "step": "09-voice-settings"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/ios-mirror-20261019/10-voice-no-jump.png",
+    "group": "ios-20261019",
+    "label": "10 voice no jump",
+    "step": "10-voice-no-jump"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/ios-mirror-20261019/11-standalone.png",
+    "group": "ios-20261019",
+    "label": "11 standalone",
+    "step": "11-standalone"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/ios-mirror-20261019/12-spelling-plus.png",
+    "group": "ios-20261019",
+    "label": "12 spelling plus",
+    "step": "12-spelling-plus"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/ios-mirror-20261019/13-spelling-plus-bottom.png",
+    "group": "ios-20261019",
+    "label": "13 spelling plus bottom",
+    "step": "13-spelling-plus-bottom"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/ios-mirror-20261019/14-home-more.png",
+    "group": "ios-20261019",
+    "label": "14 home more",
+    "step": "14-home-more"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/ios-mirror-20261019/15-about-version.png",
+    "group": "ios-20261019",
+    "label": "15 about version",
+    "step": "15-about-version"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/ios-mirror-20261019/16-keyboard-management.png",
+    "group": "ios-20261019",
+    "label": "16 keyboard management",
+    "step": "16-keyboard-management"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/ios-mirror-20261019/17-auxiliary-input-top.png",
+    "group": "ios-20261019",
+    "label": "17 auxiliary input top",
+    "step": "17-auxiliary-input-top"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/ios-mirror-20261019/18-auxiliary-input-middle.png",
+    "group": "ios-20261019",
+    "label": "18 auxiliary input middle",
+    "step": "18-auxiliary-input-middle"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/ios-mirror-20261019/19-auxiliary-input-correction.png",
+    "group": "ios-20261019",
+    "label": "19 auxiliary input correction",
+    "step": "19-auxiliary-input-correction"
+  },
+  {
+    "src": "/Users/lwblx/huapohen/agent/rea/wechat_stt/evidence/original-ui/ios-mirror-20261019/20-auxiliary-input-bottom.png",
+    "group": "ios-20261019",
+    "label": "20 auxiliary input bottom",
+    "step": "20-auxiliary-input-bottom"
+  }
+]
