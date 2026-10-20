@@ -1,0 +1,97 @@
+{
+  "platform": "ios",
+  "app": "WeTypeClone.app",
+  "bundleId": "com.huapohen.wechatinput.ios",
+  "screenshots": [
+    {
+      "file": "01-launch.png",
+      "title": "Onboarding / privacy on first launch",
+      "device": "iPhone 17"
+    },
+    {
+      "file": "02-home.png",
+      "title": "iPhone home with 9-card carousel, 功能, 设置, 更多",
+      "device": "iPhone 17"
+    },
+    {
+      "file": "03-display.png",
+      "title": "Layout & display settings",
+      "device": "iPhone 17"
+    },
+    {
+      "file": "04-keyboard-inapp.png",
+      "title": "In-app keyboard with nihao → 你好 candidates",
+      "device": "iPhone 17"
+    },
+    {
+      "file": "05-safari-candidates.png",
+      "title": "Extension candidate bar: nihao → 你好",
+      "device": "iPhone 17"
+    },
+    {
+      "file": "05-safari-keyboard.png",
+      "title": "Keyboard extension in Safari; host value 你好abc",
+      "device": "iPhone 17"
+    },
+    {
+      "file": "06-settings-add-list.png",
+      "title": "Settings Add New Keyboard lists 微输入法",
+      "device": "iPhone 17"
+    },
+    {
+      "file": "06-settings-fullaccess.png",
+      "title": "Full Access detail page",
+      "device": "iPhone 17"
+    },
+    {
+      "file": "06-settings-keyboard-bottom.png",
+      "title": "06-settings-keyboard-bottom",
+      "device": "iPhone 17"
+    },
+    {
+      "file": "06-settings-keyboard.png",
+      "title": "Keyboard management in Settings",
+      "device": "iPhone 17"
+    },
+    {
+      "file": "07-ai-chat.png",
+      "title": "问 AI page",
+      "device": "iPhone 17"
+    },
+    {
+      "file": "08-text-tools.png",
+      "title": "文字工具 page",
+      "device": "iPhone 17"
+    },
+    {
+      "file": "09-transfer.png",
+      "title": "隔空传送 page",
+      "device": "iPhone 17"
+    },
+    {
+      "file": "10-ipad-home.png",
+      "title": "iPad NavigationSplitView home, 4-column settings",
+      "device": "iPad Pro 13-inch (M5)"
+    },
+    {
+      "file": "11-ipad-keyboard.png",
+      "title": "iPad in-app keyboard",
+      "device": "iPad Pro 13-inch (M5)"
+    },
+    {
+      "file": "12-ipad-ai.png",
+      "title": "iPad AI chat",
+      "device": "iPad Pro 13-inch (M5)"
+    },
+    {
+      "file": "13-voice.png",
+      "title": "语音转文字 settings",
+      "device": "iPhone 17"
+    },
+    {
+      "file": "14-poster.png",
+      "title": "排版成图 page",
+      "device": "iPhone 17"
+    }
+  ]
+}

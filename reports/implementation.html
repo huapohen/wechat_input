@@ -1,0 +1,295 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>微输入法 · 三端复刻与验收</title>
+<style>
+:root{--bg:#e6f4f2;--card:#fff;--ink:#26332f;--muted:#5f6f69;--line:#dce7e3;--accent:#24c891;--accent2:#0e8a68}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"PingFang SC","Noto Sans CJK SC",sans-serif;line-height:1.7}
+.layout{display:grid;grid-template-columns:280px minmax(0,1fr);max-width:1440px;margin:0 auto}
+.sidebar{position:sticky;top:0;height:100vh;overflow:auto;padding:24px 18px;background:#f5fdf9;border-right:1px solid var(--line)}
+.brand{font-weight:800;font-size:16px;margin-bottom:10px}.brand small{display:block;color:var(--muted);font-size:11px;font-weight:500;margin-top:4px}
+.sidebar nav{display:flex;flex-direction:column;gap:2px}.sidebar nav a{font-size:12px;color:#3d4b46;padding:5px 8px;border-radius:7px;text-decoration:none}.sidebar nav a:hover{background:#dff5ec}.toc-l3{padding-left:18px!important;font-size:11px!important;color:#6b7a74!important}
+.content{padding:32px 44px 80px;min-width:0}
+.hero{background:linear-gradient(135deg,#0e8a68,#24c891 60%,#8ce9c9);color:#fff;border-radius:24px;padding:32px 34px;box-shadow:0 18px 50px rgba(14,138,104,.2)}
+.hero h1{margin:0 0 8px;font-size:30px}.hero p{margin:6px 0;color:#eafff9;font-size:14px}
+.pill{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:4px 11px;font-size:12px;margin:8px 6px 0 0}
+h2{font-size:23px;margin:42px 0 10px;border-top:1px solid var(--line);padding-top:8px}h3{font-size:18px;margin:26px 0 8px}
+table{width:100%;border-collapse:separate;border-spacing:0;margin:14px 0 20px;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;font-size:12.5px}
+th,td{text-align:left;padding:9px 11px;border-bottom:1px solid var(--line);vertical-align:top}th{background:#f0faf6;color:#315a4d}
+code{background:#edf7f3;border:1px solid #d7ebe4;border-radius:5px;padding:1px 5px;color:#0b5e49}
+pre{background:#0f1f1a;color:#d7fff1;padding:15px 17px;border-radius:14px;overflow:auto;font-size:12px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin:14px 0 22px}
+.shot{margin:0;background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden}.shot img{width:100%;height:250px;object-fit:contain;background:#f3faf7}.shot figcaption{font-size:11px;padding:8px 10px;color:#43534d;line-height:1.45;min-height:42px}.shot:hover{box-shadow:0 10px 24px rgba(14,138,104,.14)}
+.lightbox{position:fixed;inset:0;background:rgba(9,24,19,.86);display:none;align-items:center;justify-content:center;z-index:99;padding:30px}.lightbox.open{display:flex}.lightbox img{max-width:92vw;max-height:88vh;border-radius:14px}.lightbox .close{position:absolute;right:24px;top:16px;color:#fff;font-size:30px;cursor:pointer}
+@media(max-width:900px){.layout{grid-template-columns:1fr}.sidebar{position:relative;height:auto}.content{padding:18px}.gallery{grid-template-columns:repeat(2,1fr)}}
+</style></head><body><div class="layout"><aside class="sidebar"><div class="brand">微输入法 · 验收<small>Flutter · Android · iOS</small></div><nav><a class="toc-l2" href="#0">0. 交付矩阵</a>
+<a class="toc-l2" href="#1">1. 替代后端</a>
+<a class="toc-l2" href="#2-flutter">2. Flutter 通用版</a>
+<a class="toc-l2" href="#3-android-ime">3. Android 原生 + 真实 IME</a>
+<a class="toc-l2" href="#4-ios-keyboard-extension">4. iOS 原生 + Keyboard Extension</a>
+<a class="toc-l2" href="#5-ipad">5. 平板 / iPad</a>
+<a class="toc-l2" href="#6">6. 功能核对（真实执行）</a>
+<a class="toc-l2" href="#7">7. 构建与运行</a>
+<a class="toc-l2" href="#8">8. 边界与后续</a></nav></aside><main class="content"><section class="hero"><span class="pill">Analysis → Build → Run</span><span class="pill">2026-10-20</span><h1>微输入法 · 三端复刻与验收</h1><p>Flutter 通用版、Android 真实 IME、iOS Keyboard Extension；后端、平板/iPad 与真实 AI 调用。</p><p>结论先行：三端都可运行；边界与未验收项在文中明确列出。</p></section>
+<p><strong>日期</strong>：2026-10-20 · <strong>状态</strong>：可运行交付<br />
+<strong>范围</strong>：Flutter 通用版（Android/iOS、手机/平板）、Android 原生 + 真实 IME、iOS 原生 + Keyboard Extension、替代后端。<br />
+<strong>原则</strong>：独立研究/互操作复刻；不包含腾讯二进制资源、字体、词库或模型密钥；官方云服务不可用。</p>
+<h2 id="0">0. 交付矩阵</h2>
+<table>
+<thead>
+<tr>
+<th>交付物</th>
+<th>产物</th>
+<th>大小</th>
+<th>SHA-256</th>
+<th>状态</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Flutter APK</td>
+<td><a href="../artifacts/flutter/wechat-input-flutter.apk"><code>artifacts/flutter/wechat-input-flutter.apk</code></a></td>
+<td>57 MB</td>
+<td><code>0fd0ca2c…42434</code></td>
+<td>启动/首页/T9/AI/平板已验证</td>
+</tr>
+<tr>
+<td>Android 原生 APK</td>
+<td><a href="../artifacts/android/wechat-input-android.apk"><code>artifacts/android/wechat-input-android.apk</code></a></td>
+<td>7.0 MB</td>
+<td><code>de21d194…26d3c</code></td>
+<td>IME/系统宿主输入/AI/平板已验证</td>
+</tr>
+<tr>
+<td>iOS 模拟器 App</td>
+<td><a href="../artifacts/ios/WeTypeClone-simulator.app.zip"><code>artifacts/ios/WeTypeClone-simulator.app.zip</code></a></td>
+<td>8.8 MB</td>
+<td><code>56198a4b…5d6148</code></td>
+<td>主应用 + Keyboard Extension；<code>你好abc</code> 已验证</td>
+</tr>
+<tr>
+<td>Flutter iOS App</td>
+<td><a href="../artifacts/flutter/WeTypeRunner-simulator.app.zip"><code>artifacts/flutter/WeTypeRunner-simulator.app.zip</code></a></td>
+<td>57 MB</td>
+<td><code>46b204db…c324</code></td>
+<td>模拟器启动；交互覆盖较少</td>
+</tr>
+<tr>
+<td>后端</td>
+<td><a href="../backend/app.py"><code>backend/app.py</code></a></td>
+<td>—</td>
+<td>—</td>
+<td>AI/同步/传送真实冒烟通过</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>iOS 未生成可安装 IPA：本机没有可用的开发签名团队。交付的是模拟器 <code>.app</code>/<code>.app.zip</code>；真机 IPA 需在 Xcode 中选择你的开发者账号后 Archive。iOS 原版也没有 IPA，不能做二进制级逆向。</p>
+</blockquote>
+<h2 id="1">1. 替代后端</h2>
+<p><code>backend/app.py</code> 提供 <code>/v1/ai/*</code>、<code>/v1/asr</code>、<code>/v1/sync/*</code>、<code>/v1/transfer/*</code>。模型 key 仅在服务端；客户端只保存 base URL 和可选 app token。</p>
+<p>真实冒烟（<code>evidence/backend/smoke.json</code>）：</p>
+<ul>
+<li><code>/v1/ai/chat</code> 200，返回中文回答；</li>
+<li><code>/v1/ai/polish</code> 200，返回「我们明天下午三点开会吧。」；</li>
+<li><code>/v1/sync/pair</code>、剪贴板、常用语 200；</li>
+<li>文件上传/下载 200，下载 SHA-256 与上传一致；</li>
+<li>使用个人 DeepSeek 官网 key（前缀 <code>sk-3b…</code>，短指纹 <code>7854e990e85e</code>），完整 key 未进入仓库或日志。</li>
+</ul>
+<h2 id="2-flutter">2. Flutter 通用版</h2><div class="gallery"><figure class="shot"><a class="lb" href="assets/clone/clone-flutter/android-01-home-final.png"><img src="assets/clone/clone-flutter/android-01-home-final.png" alt="Flutter 手机首页：轮播、功能、设置、更多" loading="lazy"></a><figcaption>Flutter 手机首页：轮播、功能、设置、更多</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-flutter/android-01-home-tablet.png"><img src="assets/clone/clone-flutter/android-01-home-tablet.png" alt="Flutter 平板首页：侧栏 + 4 列网格" loading="lazy"></a><figcaption>Flutter 平板首页：侧栏 + 4 列网格</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-flutter/android-00-onboarding2.png"><img src="assets/clone/clone-flutter/android-00-onboarding2.png" alt="Flutter 首启隐私与启用" loading="lazy"></a><figcaption>Flutter 首启隐私与启用</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-flutter/android-02-keyboard-t9-fixed.png"><img src="assets/clone/clone-flutter/android-02-keyboard-t9-fixed.png" alt="Flutter 九宫格键盘" loading="lazy"></a><figcaption>Flutter 九宫格键盘</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-flutter/android-03-t9-candidates.png"><img src="assets/clone/clone-flutter/android-03-t9-candidates.png" alt="Flutter T9 输入 64426，候选包含「你好」" loading="lazy"></a><figcaption>Flutter T9 输入 64426，候选包含「你好」</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-flutter/android-04-committed.png"><img src="assets/clone/clone-flutter/android-04-committed.png" alt="Flutter 候选上屏到宿主 TextField" loading="lazy"></a><figcaption>Flutter 候选上屏到宿主 TextField</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-flutter/android-05-ai2.png"><img src="assets/clone/clone-flutter/android-05-ai2.png" alt="Flutter 键盘管理" loading="lazy"></a><figcaption>Flutter 键盘管理</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-flutter/android-05-ai3.png"><img src="assets/clone/clone-flutter/android-05-ai3.png" alt="Flutter 传送页：真实后端错误与重试" loading="lazy"></a><figcaption>Flutter 传送页：真实后端错误与重试</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-flutter/android-07-ai-test.png"><img src="assets/clone/clone-flutter/android-07-ai-test.png" alt="Flutter 服务设置：真实 AI 回复 OK" loading="lazy"></a><figcaption>Flutter 服务设置：真实 AI 回复 OK</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-flutter/android-08-recorder.png"><img src="assets/clone/clone-flutter/android-08-recorder.png" alt="Flutter AI 录音笔" loading="lazy"></a><figcaption>Flutter AI 录音笔</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-flutter/android-carousel.png"><img src="assets/clone/clone-flutter/android-carousel.png" alt="Flutter 轮播卡片" loading="lazy"></a><figcaption>Flutter 轮播卡片</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-flutter/ios-tablet-01-final-launch.png"><img src="assets/clone/clone-flutter/ios-tablet-01-final-launch.png" alt="Flutter iOS 平板启动" loading="lazy"></a><figcaption>Flutter iOS 平板启动</figcaption></figure></div>
+<ul>
+<li>工程：<code>clone-flutter/</code>，包名 <code>com.huapohen.wechat_input_clone</code>。</li>
+<li>APK：<code>0fd0ca2c…</code>，release，已安装到 <code>emulator-5592</code> 并启动。</li>
+<li>页面：首页 9 卡轮播、功能/设置/更多、布局/按键/工具栏/辅助/模糊/语音/Plus/剪贴板/同步/迁移/单机/隐私/电脑版/关于/帮助、录音笔、传送、AI、文字工具、翻译、排版、常用语、表情、键盘管理。</li>
+<li>键盘：应用内 T9/QWERTY/手写/笔画/五笔/双拼/英文/数字/符号/Emoji；候选来自 <code>shared/data</code>；T9 <code>64426</code> 选出「你好」并真实写入宿主 <code>TextField</code>。</li>
+<li>AI：服务设置中的「测试 AI 回复」返回真实 <code>OK</code>；AI 聊天/文字工具/翻译/录音摘要均走后端。</li>
+<li>平板：<code>wm size 2048x2732</code> + density 320，侧栏 + 4 列首页。</li>
+<li>已知限制：工具栏触摸导航未在此轮验证；iOS 交互覆盖只有启动/隐私；<code>shared_preferences_android</code> 需 pin 到 2.4.28；构建使用隔离 Gradle home + Aliyun 镜像。</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="3-android-ime">3. Android 原生 + 真实 IME</h2><div class="gallery"><figure class="shot"><a class="lb" href="assets/clone/clone-android/01-home-phone.png"><img src="assets/clone/clone-android/01-home-phone.png" alt="Android 原生首页" loading="lazy"></a><figcaption>Android 原生首页</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/02-onboarding-privacy.png"><img src="assets/clone/clone-android/02-onboarding-privacy.png" alt="Android 隐私与启用" loading="lazy"></a><figcaption>Android 隐私与启用</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/03-display-settings.png"><img src="assets/clone/clone-android/03-display-settings.png" alt="Android 布局和显示" loading="lazy"></a><figcaption>Android 布局和显示</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/04-keyboard-test-t9.png"><img src="assets/clone/clone-android/04-keyboard-test-t9.png" alt="Android 键盘体验 / T9" loading="lazy"></a><figcaption>Android 键盘体验 / T9</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/05-t9-candidates.png"><img src="assets/clone/clone-android/05-t9-candidates.png" alt="Android T9 候选" loading="lazy"></a><figcaption>Android T9 候选</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/06-candidate-committed.png"><img src="assets/clone/clone-android/06-candidate-committed.png" alt="Android 候选写入宿主 EditText" loading="lazy"></a><figcaption>Android 候选写入宿主 EditText</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/07-qwerty.png"><img src="assets/clone/clone-android/07-qwerty.png" alt="Android 全键盘" loading="lazy"></a><figcaption>Android 全键盘</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/08-qwerty-nihao.png"><img src="assets/clone/clone-android/08-qwerty-nihao.png" alt="Android nihao → 你好" loading="lazy"></a><figcaption>Android nihao → 你好</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/09-mode-picker.png"><img src="assets/clone/clone-android/09-mode-picker.png" alt="Android 键盘模式选择" loading="lazy"></a><figcaption>Android 键盘模式选择</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/10-ai-chat-real-backend.png"><img src="assets/clone/clone-android/10-ai-chat-real-backend.png" alt="Android 问 AI：真实后端回答" loading="lazy"></a><figcaption>Android 问 AI：真实后端回答</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/11-transfer.png"><img src="assets/clone/clone-android/11-transfer.png" alt="Android 隔空传送：后端文件列表" loading="lazy"></a><figcaption>Android 隔空传送：后端文件列表</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/12-ime-enabled-system-settings.png"><img src="assets/clone/clone-android/12-ime-enabled-system-settings.png" alt="Android 系统输入法设置中的微输入法" loading="lazy"></a><figcaption>Android 系统输入法设置中的微输入法</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/12a-settings-ime-visible.png"><img src="assets/clone/clone-android/12a-settings-ime-visible.png" alt="Android 键盘覆盖系统设置搜索" loading="lazy"></a><figcaption>Android 键盘覆盖系统设置搜索</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/12b-settings-search-typing.png"><img src="assets/clone/clone-android/12b-settings-search-typing.png" alt="Android 通过 IME 在系统设置输入 gekko" loading="lazy"></a><figcaption>Android 通过 IME 在系统设置输入 gekko</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/13-tablet-home.png"><img src="assets/clone/clone-android/13-tablet-home.png" alt="Android 平板 4 列首页" loading="lazy"></a><figcaption>Android 平板 4 列首页</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/14-tablet-settings-two-pane.png"><img src="assets/clone/clone-android/14-tablet-settings-two-pane.png" alt="Android 平板双栏设置" loading="lazy"></a><figcaption>Android 平板双栏设置</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/15-phrases.png"><img src="assets/clone/clone-android/15-phrases.png" alt="Android 常用语" loading="lazy"></a><figcaption>Android 常用语</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/16-api-dialog.png"><img src="assets/clone/clone-android/16-api-dialog.png" alt="Android API 地址设置" loading="lazy"></a><figcaption>Android API 地址设置</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/17-home-settings-grid.png"><img src="assets/clone/clone-android/17-home-settings-grid.png" alt="Android 首页设置网格" loading="lazy"></a><figcaption>Android 首页设置网格</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/pages-privacy-manual.png"><img src="assets/clone/clone-android/pages-privacy-manual.png" alt="Android 隐私与权限（独立复核）" loading="lazy"></a><figcaption>Android 隐私与权限（独立复核）</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/pages-toolbar-manual.png"><img src="assets/clone/clone-android/pages-toolbar-manual.png" alt="Android 定制工具栏（独立复核）" loading="lazy"></a><figcaption>Android 定制工具栏（独立复核）</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/pages-keyboard_manage.png"><img src="assets/clone/clone-android/pages-keyboard_manage.png" alt="Android 键盘管理（独立复核）" loading="lazy"></a><figcaption>Android 键盘管理（独立复核）</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/pages-plus.png"><img src="assets/clone/clone-android/pages-plus.png" alt="Android 拼写 Plus（独立复核）" loading="lazy"></a><figcaption>Android 拼写 Plus（独立复核）</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/pages-standalone.png"><img src="assets/clone/clone-android/pages-standalone.png" alt="Android 单机模式（独立复核）" loading="lazy"></a><figcaption>Android 单机模式（独立复核）</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-android/pages-voice.png"><img src="assets/clone/clone-android/pages-voice.png" alt="Android 语音转文字（独立复核）" loading="lazy"></a><figcaption>Android 语音转文字（独立复核）</figcaption></figure></div>
+<ul>
+<li>工程：<code>clone-android/</code>，Kotlin + XML Views，包名 <code>com.huapohen.wechatinput</code>。</li>
+<li>APK：<code>de21d194…</code>，7.0 MB。</li>
+<li>IME：<code>com.huapohen.wechatinput/.ime.WeTypeCloneImeService</code>，已在系统中启用/选中；系统设置搜索框中通过该 IME 输入 <code>gekko</code>，<code>uiautomator</code> 读取到宿主 EditText 的实际值。</li>
+<li>键盘：T9/全键盘/手写/笔画/五笔/双拼/英文/数字/符号/Emoji；候选真实写入宿主；长按空格接系统 <code>SpeechRecognizer</code>。</li>
+<li>页面：30 个页面 ID 全部路由；布局/按键/工具栏/辅助/模糊/语音/Plus/剪贴板/同步/迁移/单机/隐私/电脑版/关于/帮助/录音/传送/AI/文字工具/翻译/排版/常用语/表情。</li>
+<li>平板：1600×2560 @320dpi，4 列首页 + 292dp 导航栏双栏设置。</li>
+<li>已知限制：录音/语音无可用模拟麦克风，未做可听验收；SAF 上传从 UI、同步配对、下载按钮未全部点击；部分页面未逐页截图；手写为有限模板。</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="4-ios-keyboard-extension">4. iOS 原生 + Keyboard Extension</h2><div class="gallery"><figure class="shot"><a class="lb" href="assets/clone/clone-ios/02-home.png"><img src="assets/clone/clone-ios/02-home.png" alt="iOS 首页" loading="lazy"></a><figcaption>iOS 首页</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-ios/03-display.png"><img src="assets/clone/clone-ios/03-display.png" alt="iOS 布局和显示" loading="lazy"></a><figcaption>iOS 布局和显示</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-ios/04-keyboard-inapp.png"><img src="assets/clone/clone-ios/04-keyboard-inapp.png" alt="iOS 应用内键盘与候选" loading="lazy"></a><figcaption>iOS 应用内键盘与候选</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-ios/05-safari-keyboard.png"><img src="assets/clone/clone-ios/05-safari-keyboard.png" alt="iOS 键盘扩展在 Safari 提交「你好abc」" loading="lazy"></a><figcaption>iOS 键盘扩展在 Safari 提交「你好abc」</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-ios/05-safari-candidates.png"><img src="assets/clone/clone-ios/05-safari-candidates.png" alt="iOS 键盘扩展候选：nihao → 你好" loading="lazy"></a><figcaption>iOS 键盘扩展候选：nihao → 你好</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-ios/06-settings-add-list.png"><img src="assets/clone/clone-ios/06-settings-add-list.png" alt="iOS 添加键盘" loading="lazy"></a><figcaption>iOS 添加键盘</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-ios/06-settings-keyboard.png"><img src="assets/clone/clone-ios/06-settings-keyboard.png" alt="iOS 键盘设置" loading="lazy"></a><figcaption>iOS 键盘设置</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-ios/06-settings-fullaccess.png"><img src="assets/clone/clone-ios/06-settings-fullaccess.png" alt="iOS Full Access" loading="lazy"></a><figcaption>iOS Full Access</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-ios/07-ai-chat.png"><img src="assets/clone/clone-ios/07-ai-chat.png" alt="iOS 问 AI：真实后端" loading="lazy"></a><figcaption>iOS 问 AI：真实后端</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-ios/08-text-tools.png"><img src="assets/clone/clone-ios/08-text-tools.png" alt="iOS 文字工具" loading="lazy"></a><figcaption>iOS 文字工具</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-ios/09-transfer.png"><img src="assets/clone/clone-ios/09-transfer.png" alt="iOS 隔空传送" loading="lazy"></a><figcaption>iOS 隔空传送</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-ios/10-ipad-home.png"><img src="assets/clone/clone-ios/10-ipad-home.png" alt="iPad 首页" loading="lazy"></a><figcaption>iPad 首页</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-ios/11-ipad-keyboard.png"><img src="assets/clone/clone-ios/11-ipad-keyboard.png" alt="iPad 键盘" loading="lazy"></a><figcaption>iPad 键盘</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-ios/12-ipad-ai.png"><img src="assets/clone/clone-ios/12-ipad-ai.png" alt="iPad 问 AI" loading="lazy"></a><figcaption>iPad 问 AI</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-ios/13-voice.png"><img src="assets/clone/clone-ios/13-voice.png" alt="iOS 语音" loading="lazy"></a><figcaption>iOS 语音</figcaption></figure><figure class="shot"><a class="lb" href="assets/clone/clone-ios/14-poster.png"><img src="assets/clone/clone-ios/14-poster.png" alt="iOS 排版成图" loading="lazy"></a><figcaption>iOS 排版成图</figcaption></figure></div>
+<ul>
+<li>工程：<code>clone-ios/</code>，SwiftUI 主应用 + <code>WeTypeKeyboard.appex</code>，Bundle ID <code>com.huapohen.wechatinput.ios</code> / <code>.keyboard</code>。</li>
+<li>已验证：在模拟器 Safari 本地宿主页中，扩展提交 <strong><code>你好abc</code></strong>；候选 <code>nihao → 你好</code>；Full Access 开关流程；iPhone/iPad 启动。</li>
+<li>页面：首页、布局、按键、工具栏、语音、Plus、剪贴板、同步、单机、隐私、关于、帮助、录音、传送、AI、文字工具、翻译、排版、常用语、Emoji、键盘管理。</li>
+<li>iPad：<code>NavigationSplitView</code> 侧栏 + 4 列首页 + 加宽键盘。</li>
+<li>已知限制：无 IPA/真机签名；手写为 20 字方向模板；语音依赖系统识别；扩展在未开启 Full Access 时降级；UI 测试中的键盘启用流程有环境相关失败，但 <code>你好abc</code> 已通过实际宿主页验证。</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="5-ipad">5. 平板 / iPad</h2>
+<table>
+<thead>
+<tr>
+<th>平台</th>
+<th>证据</th>
+<th>结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Flutter 平板</td>
+<td><code>android-01-home-tablet.png</code></td>
+<td>侧栏 + 4 列 + 1180 最大宽度</td>
+</tr>
+<tr>
+<td>Android 平板</td>
+<td><code>13-tablet-home.png</code>、<code>14-tablet-settings-two-pane.png</code></td>
+<td>4 列 + 双栏设置</td>
+</tr>
+<tr>
+<td>iPad</td>
+<td><code>10-ipad-home.png</code>、<code>11-ipad-keyboard.png</code>、<code>12-ipad-ai.png</code></td>
+<td>侧栏 + 4 列 + 加宽键盘</td>
+</tr>
+</tbody>
+</table>
+<h2 id="6">6. 功能核对（真实执行）</h2>
+<table>
+<thead>
+<tr>
+<th>项</th>
+<th>Flutter</th>
+<th>Android 原生</th>
+<th>iOS 原生</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>首页/页面跳转</td>
+<td>通过（截图）</td>
+<td>通过（截图 + 页面清单）</td>
+<td>通过（截图 + UI 测试代码）</td>
+</tr>
+<tr>
+<td>系统键盘</td>
+<td>应用内键盘</td>
+<td><strong>真实 IME + 系统宿主</strong></td>
+<td><strong>Keyboard Extension + Safari</strong></td>
+</tr>
+<tr>
+<td>T9 → 候选 → 上屏</td>
+<td>通过</td>
+<td>通过</td>
+<td>通过</td>
+</tr>
+<tr>
+<td>AI 真实回复</td>
+<td>通过（8797 后端副本）</td>
+<td>通过（8787）</td>
+<td>通过（8788 后端副本）</td>
+</tr>
+<tr>
+<td>平板/iPad</td>
+<td>通过</td>
+<td>通过</td>
+<td>通过</td>
+</tr>
+<tr>
+<td>语音</td>
+<td>页面/系统识别入口</td>
+<td>代码/权限，未可听验收</td>
+<td>页面/系统识别入口</td>
+</tr>
+<tr>
+<td>传送</td>
+<td>页面/错误状态</td>
+<td>后端列表/上传代码</td>
+<td>页面</td>
+</tr>
+<tr>
+<td>同步/迁移</td>
+<td>页面/后端契约</td>
+<td>页面/后端契约</td>
+<td>页面/后端契约</td>
+</tr>
+</tbody>
+</table>
+<h2 id="7">7. 构建与运行</h2>
+<pre><code class="language-bash"># backend
+cd backend &amp;&amp; venv/bin/python app.py
+
+# Flutter
+cd clone-flutter
+/Users/lwblx/flutter/bin/flutter build apk --release
+/Users/lwblx/flutter/bin/flutter build ios --simulator --no-codesign
+
+# Android native
+cd clone-android &amp;&amp; ./gradlew assembleDebug
+
+# iOS native
+cd clone-ios
+xcodebuild -project WeTypeClone.xcodeproj -scheme WeTypeClone -sdk iphonesimulator -configuration Debug build
+</code></pre>
+<h2 id="8">8. 边界与后续</h2>
+<ol>
+<li>腾讯官方 AI/语音/同步/迁移后端不可获得；本项目不调用、不复刻其私有协议。</li>
+<li>iOS 原版无 IPA；iOS 复刻依据可见界面 + Android 证据，不是二进制同构。</li>
+<li>手写、五笔、双拼、候选排序为公开数据/自建引擎；不是腾讯私有模型。</li>
+<li>语音在模拟器上缺少可用麦克风，录音/转写需真机或可注入音频再验收。</li>
+<li>工具栏触摸、SAF 上传、同步配对、下载按钮仍有未逐项点击的路径；代码已实现，报告中不把它们标为已验收。</li>
+<li>所有原版截图仅用于互操作研究；复刻 App 不包含腾讯图片/字体/词库。</li>
+</ol></main></div><div class="lightbox" id="lightbox"><span class="close">&times;</span><img alt=""></div>
+<script>
+document.querySelectorAll('.lb,.gallery a').forEach(a=>a.addEventListener('click',e=>{const h=a.getAttribute('href');if(!h)return;e.preventDefault();const lb=document.getElementById('lightbox');lb.querySelector('img').src=h;lb.classList.add('open');}));
+document.getElementById('lightbox').addEventListener('click',e=>{if(e.target.id==='lightbox'||e.target.className==='close')document.getElementById('lightbox').classList.remove('open');});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')document.getElementById('lightbox').classList.remove('open');});
+</script></body></html>

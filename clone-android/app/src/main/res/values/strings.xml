@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">微输入法</string>
+    <string name="app_slogan">简洁、好用、打字快</string>
+    <string name="ime_name">微输入法 · 独立复刻</string>
+    <string name="ime_subtitle">简洁、好用、打字快</string>
+    <string name="ime_settings_activity">微输入法设置</string>
+    <string name="disclaimer">独立研究与互操作复刻，与腾讯无关。不包含腾讯的二进制资源、字体或模型密钥。</string>
+</resources>

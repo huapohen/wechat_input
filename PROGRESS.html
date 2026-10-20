@@ -28,21 +28,21 @@ code{background:#edf7f3;border:1px solid #d7ebe4;border-radius:5px;padding:1px 5
 <span class="pill">REA 6.7.0</span><span class="pill">Android 4.0.0</span><span class="pill">Flutter · Android 原生 · iOS 原生</span>
 <h1>微输入法复刻 · 进度</h1>
 <p>分析基线已完成；三端复刻与验收正在进行。此页随阶段更新。</p>
-<p>最后更新：2026-10-20 20:12</p>
+<p>最后更新：2026-10-20 21:15</p>
 </section>
 <div class="timeline">
 <div class="phase"><b>1. REA 分析</b><span>已完成</span><div class="bar"><i style="width:100%"></i></div></div>
-<div class="phase"><b>2. 复刻实现</b><span>进行中</span><div class="bar"><i style="width:55%"></i></div></div>
-<div class="phase"><b>3. 运行验收</b><span>待开始</span><div class="bar"><i style="width:10%"></i></div></div>
-<div class="phase"><b>4. 交付推送</b><span>待开始</span><div class="bar"><i style="width:5%"></i></div></div>
+<div class="phase"><b>2. 复刻实现</b><span>完成</span><div class="bar"><i style="width:100%"></i></div></div>
+<div class="phase"><b>3. 运行验收</b><span>完成（有边界）</span><div class="bar"><i style="width:100%"></i></div></div>
+<div class="phase"><b>4. 交付推送</b><span>进行中</span><div class="bar"><i style="width:80%"></i></div></div>
 </div>
 <div class="grid">
 <div class="card"><span class="status done">完成</span><h3>REA 分析报告</h3><p>包身份 / 13,585 类 / 36 套键盘 / 设置模型 / RN 模块 / SchemeAction。</p><p class="links"><a href="reports/analysis.html">交互版 HTML</a><a href="reports/analysis.md">Markdown</a></p></div>
 <div class="card"><span class="status done">完成</span><h3>共享规格与词库</h3><p>设计 token、36 套布局、26,703 拼音字、46,111 词、26,271 五笔码、5,064 笔画码。</p><p class="links"><a href="shared/CLONE_BRIEF.md">复刻约束</a><a href="shared/README.md">数据来源</a></p></div>
 <div class="card"><span class="status done">完成</span><h3>替代后端</h3><p>AI/同步/传送 API；真实 DeepSeek 调用返回 200；key 只在服务端。</p><p class="links"><a href="backend/README.md">后端说明</a></p></div>
-<div class="card"><span class="status active">进行中</span><h3>Flutter 通用版</h3><p>Android/iOS、手机/平板；应用内键盘、AI/语音/传送/同步。</p><p class="links"><a href="clone-flutter/">源码目录</a></p></div>
-<div class="card"><span class="status active">进行中</span><h3>Android 原生 IME</h3><p>真实 InputMethodService、六种中文键盘、完整设置/功能页、平板。</p><p class="links"><a href="clone-android/">源码目录</a></p></div>
-<div class="card"><span class="status active">进行中</span><h3>iOS 原生 + 键盘扩展</h3><p>SwiftUI 主应用 + Keyboard Extension；iPhone/iPad。</p><p class="links"><a href="clone-ios/">源码目录</a></p></div>
+<div class="card"><span class="status done">完成</span><h3>Flutter 通用版</h3><p>APK + iOS 模拟器 App；T9「你好」上屏、AI 真实回复、平板 4 列。</p><p class="links"><a href="clone-flutter/">源码目录</a><a href="reports/implementation.html">验收报告</a></p></div>
+<div class="card"><span class="status done">完成</span><h3>Android 原生 IME</h3><p>真实 InputMethodService；系统设置宿主输入 `gekko`；AI/平板双栏。</p><p class="links"><a href="clone-android/">源码目录</a><a href="reports/implementation.html">验收报告</a></p></div>
+<div class="card"><span class="status done">完成</span><h3>iOS 原生 + 键盘扩展</h3><p>Safari 宿主值 <b>你好abc</b>；iPhone/iPad；模拟器 App。</p><p class="links"><a href="clone-ios/">源码目录</a><a href="reports/implementation.html">验收报告</a></p></div>
 </div>
 <h2 style="font-size:20px;margin:30px 0 8px">最近的原版证据</h2>
 <div class="gallery">

@@ -1,0 +1,134 @@
+{
+  "app": "微输入法 Flutter clone",
+  "apk": "clone-flutter/build/app/outputs/flutter-apk/app-release.apk",
+  "apk_sha256": "0fd0ca2c4fc0c73d69ed166839ad195cee668f1cdb36f91c5bb43a9b39842434",
+  "ios_app": "clone-flutter/build/ios/iphonesimulator/Runner.app",
+  "screenshots": [
+    {
+      "file": "android-00-onboarding2.png",
+      "device": "Android phone",
+      "device_id": "emulator-5592",
+      "description": "Onboarding/privacy screen",
+      "width": 1344,
+      "height": 2992,
+      "bytes": 417146
+    },
+    {
+      "file": "android-01-home-final.png",
+      "device": "Android phone",
+      "device_id": "emulator-5592",
+      "description": "Home, 2-column grid and carousel",
+      "width": 1344,
+      "height": 2992,
+      "bytes": 294002
+    },
+    {
+      "file": "android-01-home-tablet.png",
+      "device": "Android tablet (wm 2048x2732 @320dpi)",
+      "device_id": "emulator-5592",
+      "description": "Home tablet: side rail and 4-column grid",
+      "width": 2048,
+      "height": 2732,
+      "bytes": 378874
+    },
+    {
+      "file": "android-carousel.png",
+      "device": "Android phone",
+      "device_id": "emulator-5592",
+      "description": "Carousel card 7/9",
+      "width": 1344,
+      "height": 2992,
+      "bytes": 293641
+    },
+    {
+      "file": "android-02-keyboard-t9-fixed.png",
+      "device": "Android phone",
+      "device_id": "emulator-5592",
+      "description": "T9 keyboard body rendered",
+      "width": 1344,
+      "height": 2992,
+      "bytes": 280287
+    },
+    {
+      "file": "android-03-t9-candidates.png",
+      "device": "Android phone",
+      "device_id": "emulator-5592",
+      "description": "T9 64426 candidates include 你好",
+      "width": 1344,
+      "height": 2992,
+      "bytes": 284343
+    },
+    {
+      "file": "android-04-committed.png",
+      "device": "Android phone",
+      "device_id": "emulator-5592",
+      "description": "你好 committed into host TextField",
+      "width": 1344,
+      "height": 2992,
+      "bytes": 252061
+    },
+    {
+      "file": "android-05-ai2.png",
+      "device": "Android phone",
+      "device_id": "emulator-5592",
+      "description": "Keyboard management page",
+      "width": 1344,
+      "height": 2992,
+      "bytes": 305535
+    },
+    {
+      "file": "android-05-ai3.png",
+      "device": "Android phone",
+      "device_id": "emulator-5592",
+      "description": "Transfer page: real 501 backend error with retry",
+      "width": 1344,
+      "height": 2992,
+      "bytes": 244443
+    },
+    {
+      "file": "android-07-ai-test.png",
+      "device": "Android tablet",
+      "device_id": "emulator-5592",
+      "description": "Service settings: real AI reply OK from /v1/ai/chat",
+      "width": 2048,
+      "height": 2732,
+      "bytes": 304403
+    },
+    {
+      "file": "android-08-recorder.png",
+      "device": "Android tablet",
+      "device_id": "emulator-5592",
+      "description": "AI recorder page with manual transcript fallback",
+      "width": 2048,
+      "height": 2732,
+      "bytes": 167478
+    },
+    {
+      "file": "ios-tablet-01-final-launch.png",
+      "device": "iPad Pro 13 (M5) simulator",
+      "device_id": "143E8C2B-CF0C-4902-8617-39FA2E22CC6F",
+      "description": "Final iOS build launch/onboarding",
+      "width": 2064,
+      "height": 2752,
+      "bytes": 389593
+    },
+    {
+      "file": "ios-tablet-00-launch.png",
+      "device": "iPad Pro 13 (M5) simulator",
+      "device_id": "143E8C2B-CF0C-4902-8617-39FA2E22CC6F",
+      "description": "iOS launch/onboarding",
+      "width": 2064,
+      "height": 2752,
+      "bytes": 389708
+    },
+    {
+      "file": "ios-phone-00-launch.png",
+      "device": "iPhone 17 simulator",
+      "device_id": "2D2658E5-EDF4-4474-85CD-B53C5F31B1B9",
+      "description": "iOS phone launch/onboarding",
+      "width": 1206,
+      "height": 2622,
+      "bytes": 424596
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+		AA0000000000000000000001 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeTypeClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000000000000000000002 = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WeTypeKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000000000000000000003 = {isa = PBXFileReference; explicitFileType = "wrapper.cfbundle"; includeInIndex = 0; path = WeTypeCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000000000000000000004 = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		AA0000000000000000000005 = {isa = PBXBuildFile; fileRef = AA0000000000000000000004; };
+		AA0000000000000000000006 = {isa = PBXBuildFile; fileRef = AA0000000000000000000004; };
+		AA0000000000000000000007 = {isa = PBXFileReference; lastKnownFileType = "wrapper.framework"; name = XCTest.framework; path = System/Library/Frameworks/XCTest.framework; sourceTree = SDKROOT; };
+		AA0000000000000000000008 = {isa = PBXBuildFile; fileRef = AA0000000000000000000007; };
+		AA0000000000000000000009 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AIViews.swift"; sourceTree = "<group>"; };
+		AA000000000000000000000A = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIClient.swift"; sourceTree = "<group>"; };
+		AA000000000000000000000B = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppModel.swift"; sourceTree = "<group>"; };
+		AA000000000000000000000C = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentViews.swift"; sourceTree = "<group>"; };
+		AA000000000000000000000D = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView.swift"; sourceTree = "<group>"; };
+		AA000000000000000000000E = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeyboardViews.swift"; sourceTree = "<group>"; };
+		AA000000000000000000000F = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnboardingView.swift"; sourceTree = "<group>"; };
+		AA0000000000000000000010 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecorderViews.swift"; sourceTree = "<group>"; };
+		AA0000000000000000000011 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootView.swift"; sourceTree = "<group>"; };
+		AA0000000000000000000012 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsViews.swift"; sourceTree = "<group>"; };
+		AA0000000000000000000013 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToolsViews.swift"; sourceTree = "<group>"; };
+		AA0000000000000000000014 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TransferView.swift"; sourceTree = "<group>"; };
+		AA0000000000000000000015 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TranslatePosterViews.swift"; sourceTree = "<group>"; };
+		AA0000000000000000000016 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeTypeCloneApp.swift"; sourceTree = "<group>"; };
+		AA0000000000000000000017 = {isa = PBXFileReference; lastKnownFileType = file; path = "lexicon.sqlite"; sourceTree = "<group>"; };
+		AA0000000000000000000018 = {isa = PBXFileReference; lastKnownFileType = text.json; path = "emoji.json"; sourceTree = "<group>"; };
+		AA0000000000000000000019 = {isa = PBXFileReference; lastKnownFileType = text.json; path = "phrases.json"; sourceTree = "<group>"; };
+		AA000000000000000000001A = {isa = PBXFileReference; lastKnownFileType = text.json; path = "fuzzy_pinyin.json"; sourceTree = "<group>"; };
+		AA000000000000000000001B = {isa = PBXFileReference; lastKnownFileType = text.json; path = "double_pinyin.json"; sourceTree = "<group>"; };
+		AA000000000000000000001C = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		AA000000000000000000001D = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
+		AA000000000000000000001E = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WeTypeClone.entitlements"; sourceTree = "<group>"; };
+		AA000000000000000000001F = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
+		AA0000000000000000000020 = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Keyboard.entitlements"; sourceTree = "<group>"; };
+		AA0000000000000000000021 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HandwritingRecognizer.swift"; sourceTree = "<group>"; };
+		AA0000000000000000000022 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeyboardModels.swift"; sourceTree = "<group>"; };
+		AA0000000000000000000023 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeyboardPanel.swift"; sourceTree = "<group>"; };
+		AA0000000000000000000024 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeyboardServices.swift"; sourceTree = "<group>"; };
+		AA0000000000000000000025 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lexicon.swift"; sourceTree = "<group>"; };
+		AA0000000000000000000026 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedStore.swift"; sourceTree = "<group>"; };
+		AA0000000000000000000027 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeechCapture.swift"; sourceTree = "<group>"; };
+		AA0000000000000000000028 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Theme.swift"; sourceTree = "<group>"; };
+		AA0000000000000000000029 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeyboardViewController.swift"; sourceTree = "<group>"; };
+		AA000000000000000000002A = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeTypeCloneUITests.swift"; sourceTree = "<group>"; };
+		AA000000000000000000002B = {isa = PBXBuildFile; fileRef = AA0000000000000000000009; };
+		AA000000000000000000002C = {isa = PBXBuildFile; fileRef = AA000000000000000000000A; };
+		AA000000000000000000002D = {isa = PBXBuildFile; fileRef = AA000000000000000000000B; };
+		AA000000000000000000002E = {isa = PBXBuildFile; fileRef = AA000000000000000000000C; };
+		AA000000000000000000002F = {isa = PBXBuildFile; fileRef = AA000000000000000000000D; };
+		AA0000000000000000000030 = {isa = PBXBuildFile; fileRef = AA000000000000000000000E; };
+		AA0000000000000000000031 = {isa = PBXBuildFile; fileRef = AA000000000000000000000F; };
+		AA0000000000000000000032 = {isa = PBXBuildFile; fileRef = AA0000000000000000000010; };
+		AA0000000000000000000033 = {isa = PBXBuildFile; fileRef = AA0000000000000000000011; };
+		AA0000000000000000000034 = {isa = PBXBuildFile; fileRef = AA0000000000000000000012; };
+		AA0000000000000000000035 = {isa = PBXBuildFile; fileRef = AA0000000000000000000013; };
+		AA0000000000000000000036 = {isa = PBXBuildFile; fileRef = AA0000000000000000000014; };
+		AA0000000000000000000037 = {isa = PBXBuildFile; fileRef = AA0000000000000000000015; };
+		AA0000000000000000000038 = {isa = PBXBuildFile; fileRef = AA0000000000000000000016; };
+		AA0000000000000000000039 = {isa = PBXBuildFile; fileRef = AA0000000000000000000021; };
+		AA000000000000000000003A = {isa = PBXBuildFile; fileRef = AA0000000000000000000022; };
+		AA000000000000000000003B = {isa = PBXBuildFile; fileRef = AA0000000000000000000023; };
+		AA000000000000000000003C = {isa = PBXBuildFile; fileRef = AA0000000000000000000024; };
+		AA000000000000000000003D = {isa = PBXBuildFile; fileRef = AA0000000000000000000025; };
+		AA000000000000000000003E = {isa = PBXBuildFile; fileRef = AA0000000000000000000026; };
+		AA000000000000000000003F = {isa = PBXBuildFile; fileRef = AA0000000000000000000027; };
+		AA0000000000000000000040 = {isa = PBXBuildFile; fileRef = AA0000000000000000000028; };
+		AA0000000000000000000041 = {isa = PBXBuildFile; fileRef = AA0000000000000000000029; };
+		AA0000000000000000000042 = {isa = PBXBuildFile; fileRef = AA0000000000000000000021; };
+		AA0000000000000000000043 = {isa = PBXBuildFile; fileRef = AA0000000000000000000022; };
+		AA0000000000000000000044 = {isa = PBXBuildFile; fileRef = AA0000000000000000000023; };
+		AA0000000000000000000045 = {isa = PBXBuildFile; fileRef = AA0000000000000000000024; };
+		AA0000000000000000000046 = {isa = PBXBuildFile; fileRef = AA0000000000000000000025; };
+		AA0000000000000000000047 = {isa = PBXBuildFile; fileRef = AA0000000000000000000026; };
+		AA0000000000000000000048 = {isa = PBXBuildFile; fileRef = AA0000000000000000000027; };
+		AA0000000000000000000049 = {isa = PBXBuildFile; fileRef = AA0000000000000000000028; };
+		AA000000000000000000004A = {isa = PBXBuildFile; fileRef = AA000000000000000000002A; };
+		AA000000000000000000004B = {isa = PBXBuildFile; fileRef = AA0000000000000000000017; };
+		AA000000000000000000004C = {isa = PBXBuildFile; fileRef = AA0000000000000000000018; };
+		AA000000000000000000004D = {isa = PBXBuildFile; fileRef = AA0000000000000000000019; };
+		AA000000000000000000004E = {isa = PBXBuildFile; fileRef = AA000000000000000000001A; };
+		AA000000000000000000004F = {isa = PBXBuildFile; fileRef = AA000000000000000000001B; };
+		AA0000000000000000000050 = {isa = PBXBuildFile; fileRef = AA0000000000000000000017; };
+		AA0000000000000000000051 = {isa = PBXBuildFile; fileRef = AA0000000000000000000018; };
+		AA0000000000000000000052 = {isa = PBXBuildFile; fileRef = AA0000000000000000000019; };
+		AA0000000000000000000053 = {isa = PBXBuildFile; fileRef = AA000000000000000000001A; };
+		AA0000000000000000000054 = {isa = PBXBuildFile; fileRef = AA000000000000000000001B; };
+		AA0000000000000000000055 = {isa = PBXBuildFile; fileRef = AA000000000000000000001C; };
+		AA0000000000000000000056 = {isa = PBXBuildFile; fileRef = AA0000000000000000000002; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AA0000000000000000000057 = {isa = PBXGroup; children = (
+AA0000000000000000000009,
+AA000000000000000000000A,
+AA000000000000000000000B,
+AA000000000000000000000C,
+AA000000000000000000000D,
+AA000000000000000000000E,
+AA000000000000000000000F,
+AA0000000000000000000010,
+AA0000000000000000000011,
+AA0000000000000000000012,
+AA0000000000000000000013,
+AA0000000000000000000014,
+AA0000000000000000000015,
+AA0000000000000000000016,
+); path = "App"; sourceTree = "<group>"; };
+		AA0000000000000000000058 = {isa = PBXGroup; children = (
+AA0000000000000000000017,
+AA0000000000000000000018,
+AA0000000000000000000019,
+AA000000000000000000001A,
+AA000000000000000000001B,
+); path = "Resources"; sourceTree = "<group>"; };
+		AA0000000000000000000059 = {isa = PBXGroup; children = (
+AA0000000000000000000057,
+AA0000000000000000000058,
+AA000000000000000000001C,
+AA000000000000000000001D,
+AA000000000000000000001E,
+); path = "WeTypeClone"; sourceTree = "<group>"; };
+		AA000000000000000000005A = {isa = PBXGroup; children = (
+AA0000000000000000000029,
+AA000000000000000000001F,
+AA0000000000000000000020,
+); path = "Keyboard"; sourceTree = "<group>"; };
+		AA000000000000000000005B = {isa = PBXGroup; children = (
+AA0000000000000000000021,
+AA0000000000000000000022,
+AA0000000000000000000023,
+AA0000000000000000000024,
+AA0000000000000000000025,
+AA0000000000000000000026,
+AA0000000000000000000027,
+AA0000000000000000000028,
+); path = "Shared"; sourceTree = "<group>"; };
+		AA000000000000000000005C = {isa = PBXGroup; children = (
+AA000000000000000000002A,
+); path = "WeTypeCloneUITests"; sourceTree = "<group>"; };
+		AA000000000000000000005D = {isa = PBXGroup; children = (
+AA0000000000000000000004,
+); sourceTree = "<group>"; };
+		AA000000000000000000005E = {isa = PBXGroup; children = (
+AA0000000000000000000001,
+AA0000000000000000000002,
+AA0000000000000000000003,
+); sourceTree = "<group>"; };
+		AA000000000000000000005F = {isa = PBXGroup; children = (
+AA0000000000000000000059,
+AA000000000000000000005A,
+AA000000000000000000005B,
+AA000000000000000000005C,
+AA000000000000000000005D,
+AA000000000000000000005E,
+); sourceTree = "<group>";  };
+		AA0000000000000000000060 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+AA000000000000000000002B,
+AA000000000000000000002C,
+AA000000000000000000002D,
+AA000000000000000000002E,
+AA000000000000000000002F,
+AA0000000000000000000030,
+AA0000000000000000000031,
+AA0000000000000000000032,
+AA0000000000000000000033,
+AA0000000000000000000034,
+AA0000000000000000000035,
+AA0000000000000000000036,
+AA0000000000000000000037,
+AA0000000000000000000038,
+AA0000000000000000000039,
+AA000000000000000000003A,
+AA000000000000000000003B,
+AA000000000000000000003C,
+AA000000000000000000003D,
+AA000000000000000000003E,
+AA000000000000000000003F,
+AA0000000000000000000040,
+); runOnlyForDeploymentPostprocessing = 0; };
+		AA0000000000000000000061 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (
+AA0000000000000000000005,
+); runOnlyForDeploymentPostprocessing = 0; };
+		AA0000000000000000000062 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+AA000000000000000000004B,
+AA000000000000000000004C,
+AA000000000000000000004D,
+AA000000000000000000004E,
+AA000000000000000000004F,
+AA0000000000000000000055,
+); runOnlyForDeploymentPostprocessing = 0; };
+		AA0000000000000000000063 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+AA0000000000000000000041,
+AA0000000000000000000042,
+AA0000000000000000000043,
+AA0000000000000000000044,
+AA0000000000000000000045,
+AA0000000000000000000046,
+AA0000000000000000000047,
+AA0000000000000000000048,
+AA0000000000000000000049,
+); runOnlyForDeploymentPostprocessing = 0; };
+		AA0000000000000000000064 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (
+AA0000000000000000000006,
+); runOnlyForDeploymentPostprocessing = 0; };
+		AA0000000000000000000065 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+AA0000000000000000000050,
+AA0000000000000000000051,
+AA0000000000000000000052,
+AA0000000000000000000053,
+AA0000000000000000000054,
+); runOnlyForDeploymentPostprocessing = 0; };
+		AA0000000000000000000066 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+AA000000000000000000004A,
+); runOnlyForDeploymentPostprocessing = 0; };
+		AA0000000000000000000067 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (
+AA0000000000000000000008,
+); runOnlyForDeploymentPostprocessing = 0; };
+		AA0000000000000000000068 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+); runOnlyForDeploymentPostprocessing = 0; };
+		AA0000000000000000000069 = {isa = PBXCopyFilesBuildPhase; buildActionMask = 2147483647; dstPath = ""; dstSubfolderSpec = 13; files = (
+AA0000000000000000000056,
+); name = "Embed Foundation Extensions"; runOnlyForDeploymentPostprocessing = 0; };
+		AA000000000000000000006A = {isa = PBXContainerItemProxy; containerPortal = AA000000000000000000007D; proxyType = 1; remoteGlobalIDString = AA000000000000000000006F; remoteInfo = WeTypeKeyboard; };
+		AA000000000000000000006B = {isa = PBXTargetDependency; target = AA000000000000000000006F; targetProxy = AA000000000000000000006A; };
+		AA000000000000000000006C = {isa = PBXContainerItemProxy; containerPortal = AA000000000000000000007D; proxyType = 1; remoteGlobalIDString = AA000000000000000000006E; remoteInfo = WeTypeClone; };
+		AA000000000000000000006D = {isa = PBXTargetDependency; target = AA000000000000000000006E; targetProxy = AA000000000000000000006C; };
+		AA000000000000000000006E = {
+    isa = PBXNativeTarget;
+    buildConfigurationList = AA0000000000000000000071;
+    buildPhases = (
+        AA0000000000000000000060,
+        AA0000000000000000000061,
+        AA0000000000000000000062,
+        AA0000000000000000000069,
+    );
+    buildRules = ();
+    dependencies = (
+        AA000000000000000000006B,
+    );
+    name = WeTypeClone;
+    productName = WeTypeClone;
+    productReference = AA0000000000000000000001;
+    productType = "com.apple.product-type.application";
+};
+		AA000000000000000000006F = {
+    isa = PBXNativeTarget;
+    buildConfigurationList = AA0000000000000000000072;
+    buildPhases = (
+        AA0000000000000000000063,
+        AA0000000000000000000064,
+        AA0000000000000000000065,
+    );
+    buildRules = ();
+    dependencies = ();
+    name = WeTypeKeyboard;
+    productName = WeTypeKeyboard;
+    productReference = AA0000000000000000000002;
+    productType = "com.apple.product-type.app-extension";
+};
+		AA0000000000000000000070 = {
+    isa = PBXNativeTarget;
+    buildConfigurationList = AA0000000000000000000073;
+    buildPhases = (
+        AA0000000000000000000066,
+        AA0000000000000000000067,
+        AA0000000000000000000068,
+    );
+    buildRules = ();
+    dependencies = (
+        AA000000000000000000006D,
+    );
+    name = WeTypeCloneUITests;
+    productName = WeTypeCloneUITests;
+    productReference = AA0000000000000000000003;
+    productType = "com.apple.product-type.bundle.ui-testing";
+};
+		AA0000000000000000000071 = {isa = XCConfigurationList; buildConfigurations = (
+AA0000000000000000000077,
+AA0000000000000000000078,
+); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		AA0000000000000000000072 = {isa = XCConfigurationList; buildConfigurations = (
+AA0000000000000000000079,
+AA000000000000000000007A,
+); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		AA0000000000000000000073 = {isa = XCConfigurationList; buildConfigurations = (
+AA000000000000000000007B,
+AA000000000000000000007C,
+); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		AA0000000000000000000074 = {isa = XCConfigurationList; buildConfigurations = (
+AA0000000000000000000075,
+AA0000000000000000000076,
+); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		AA0000000000000000000075 = {isa = XCBuildConfiguration; buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			}; name = Debug; };
+		AA0000000000000000000076 = {isa = XCBuildConfiguration; buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			}; name = Release; };
+		AA0000000000000000000077 = {isa = XCBuildConfiguration; buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WeTypeClone/WeTypeClone.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WeTypeClone/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "微输入法";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = "-lsqlite3";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huapohen.wechatinput.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			}; name = Debug; };
+		AA0000000000000000000078 = {isa = XCBuildConfiguration; buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WeTypeClone/WeTypeClone.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WeTypeClone/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "微输入法";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = "-lsqlite3";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huapohen.wechatinput.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			}; name = Release; };
+		AA0000000000000000000079 = {isa = XCBuildConfiguration; buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Keyboard/Keyboard.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = "-lsqlite3";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huapohen.wechatinput.ios.keyboard;
+				PRODUCT_NAME = WeTypeKeyboard;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			}; name = Debug; };
+		AA000000000000000000007A = {isa = XCBuildConfiguration; buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Keyboard/Keyboard.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = "-lsqlite3";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huapohen.wechatinput.ios.keyboard;
+				PRODUCT_NAME = WeTypeKeyboard;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			}; name = Release; };
+		AA000000000000000000007B = {isa = XCBuildConfiguration; buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huapohen.wechatinput.iosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeTypeClone;
+			}; name = Debug; };
+		AA000000000000000000007C = {isa = XCBuildConfiguration; buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huapohen.wechatinput.iosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeTypeClone;
+			}; name = Release; };
+		AA000000000000000000007D = {
+    isa = PBXProject;
+    attributes = {
+        BuildIndependentTargetsInParallel = 1;
+        LastSwiftUpdateCheck = 2700;
+        LastUpgradeCheck = 2700;
+        TargetAttributes = {
+            AA000000000000000000006E = { CreatedOnToolsVersion = 27.0; };
+            AA000000000000000000006F = { CreatedOnToolsVersion = 27.0; };
+            AA0000000000000000000070 = { CreatedOnToolsVersion = 27.0; TestTargetID = AA000000000000000000006E; };
+        };
+    };
+    buildConfigurationList = AA0000000000000000000074;
+    compatibilityVersion = "Xcode 14.0";
+    developmentRegion = en;
+    hasScannedForEncodings = 0;
+    knownRegions = (
+        en,
+        Base,
+        "zh-Hans",
+    );
+    mainGroup = AA000000000000000000005F;
+    productRefGroup = AA000000000000000000005E;
+    projectDirPath = "";
+    projectRoot = "";
+    targets = (
+        AA000000000000000000006E,
+        AA000000000000000000006F,
+        AA0000000000000000000070,
+    );
+};
+	};
+	rootObject = AA000000000000000000007D;
+}

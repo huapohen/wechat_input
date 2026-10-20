@@ -4,9 +4,11 @@
 
 ## 先看什么
 
-- **[REA 分析报告（HTML）](reports/analysis.html)**：交互目录、架构/路由/键盘状态机图谱、36 套键盘预览、108 张运行证据、iOS 可见界面、AI/后端与复刻蓝图。
+- **[REA 分析报告（HTML）](reports/analysis.html)**：交互目录、架构/路由/键盘状态机图谱、36 套键盘预览、105 张运行证据、iOS 可见界面、AI/后端与复刻蓝图。
 - **[REA 分析报告（Markdown）](reports/analysis.md)**：可检索、可 diff 的文本版本。
+- **[实现验收报告（HTML）](reports/implementation.html) · [Markdown](reports/implementation.md)**：三端产物、真实运行证据、功能矩阵与限制。
 - **[项目进度](PROGRESS.md) / [进度页](PROGRESS.html)**：阶段与交付状态。
+- **[产物目录](artifacts/)**：Flutter/Android APK、iOS 模拟器 App、SHA256SUMS。
 - **[共享规格](shared/CLONE_BRIEF.md)**：三端共用的页面、键盘、数据和验收约束。
 - **[构建说明](BUILD.md)**：后端、Flutter、Android、iOS 的构建命令。
 
@@ -18,9 +20,10 @@
 | `analysis/` | REA/JADX 证据、Hermes 反编译、规范化数据 | 完成 |
 | `evidence/` | 原版与本轮运行截图、UI XML | 持续更新 |
 | `backend/` | 可配置 AI/ASR/同步/传送后端 | 真实 DeepSeek 调用通过 |
-| `clone-flutter/` | Flutter 通用版（Android/iOS、手机/平板） | 构建中 |
-| `clone-android/` | Android 原生 + 真实 IME（手机/平板） | 构建中 |
-| `clone-ios/` | iOS 原生 + Keyboard Extension（iPhone/iPad） | 构建中 |
+| `artifacts/` | APK / iOS 模拟器 App / SHA256SUMS | 可直接安装/校验 |
+| `clone-flutter/` | Flutter 通用版（Android/iOS、手机/平板） | 完成；APK/T9/AI/平板已验证 |
+| `clone-android/` | Android 原生 + 真实 IME（手机/平板） | 完成；系统宿主输入已验证 |
+| `clone-ios/` | iOS 原生 + Keyboard Extension（iPhone/iPad） | 完成；Safari `你好abc` 已验证 |
 | `shared/` | 设计 token、布局、拼音/五笔/笔画/词库 | 完成 |
 
 ## 快速开始
@@ -33,6 +36,18 @@ venv/bin/python app.py
 ```
 
 客户端默认连接 `http://10.0.2.2:8787`（Android 模拟器）或 `http://127.0.0.1:8787`（iOS 模拟器）。真实设备请填写 Mac 的局域网 IP。
+
+## 产物
+
+| 产物 | 路径 |
+|---|---|
+| Flutter APK | `artifacts/flutter/wechat-input-flutter.apk` |
+| Android 原生 APK | `artifacts/android/wechat-input-android.apk` |
+| iOS 模拟器 App | `artifacts/ios/WeTypeClone-simulator.app.zip` |
+| Flutter iOS App | `artifacts/flutter/WeTypeRunner-simulator.app.zip` |
+| 校验 | `artifacts/SHA256SUMS` |
+
+iOS 未生成 IPA（无开发签名）；交付模拟器 App。详见实现验收报告。
 
 ## 边界
 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mint_background">#E6F4F2</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_alt">#F7FBFA</color>
+    <color name="accent">#24C891</color>
+    <color name="accent_dark">#0E8A68</color>
+    <color name="accent_soft">#DFF6EC</color>
+    <color name="text_primary">#26332F</color>
+    <color name="text_secondary">#5F6F69</color>
+    <color name="muted">#B8BCC5</color>
+    <color name="border">#DCE7E3</color>
+    <color name="warning">#B45309</color>
+    <color name="danger">#B23A3A</color>
+    <color name="key_bg">#FFFFFF</color>
+    <color name="key_pressed">#E9F7F1</color>
+    <color name="key_special">#DDF2EA</color>
+    <color name="keyboard_bg">#EAF4F1</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

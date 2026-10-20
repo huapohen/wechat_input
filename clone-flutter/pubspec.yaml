@@ -1,0 +1,39 @@
+name: wechat_input_clone
+description: "微输入法 - WeType-inspired keyboard study clone"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.3
+  http: ^1.6.0
+  file_picker: ^10.3.10
+  path_provider: ^2.1.6
+  speech_to_text: ^7.4.0
+  share_plus: ^12.0.1
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/
+    - assets/spec/
+
+dependency_overrides:
+  shared_preferences_android: 2.4.28

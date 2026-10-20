@@ -22,8 +22,8 @@
 <div><strong>28</strong><span>SchemeAction</span></div>
 </div>
 
-- **已恢复**：首页 RN 注册表、28 个 SchemeAction、36 套键盘布局、53 个应用组件、37 个主设置字段及 5 个子模型、586 条中文资源、AI/语音/同步/迁移的协议入口、`wetype://` 深链行为。
-- **已运行验证**：原版 4.0.0 在独立 Android AVD 上完成隐私接受、首页、布局/按键/辅助输入/语音/Plus/单机/隐私/关于/帮助、键盘管理、AI 录音笔、隔空传送、深链等页面采集；历史 42 步 + 本轮 39 张运行截图。
+- **已恢复**：首页 RN 注册表、28 个 SchemeAction、36 套键盘布局、53 个应用组件、37 个主设置字段及 6 个子模型、586 条中文资源、AI/语音/同步/迁移的协议入口、`wetype://` 深链行为。
+- **已运行验证**：原版 4.0.0 在独立 Android AVD 上完成隐私接受、首页、布局/按键/辅助输入/语音/Plus/单机/隐私/关于/帮助、键盘管理、AI 录音笔、隔空传送、深链等页面采集；历史 42 步 + 本轮 36 张运行截图。
 - **未恢复**：腾讯私有云 API 的 base URL、鉴权、签名、模型与提示词；拼音/五笔/手写/语音的私有算法与模型；iOS 二进制。
 - **复刻决策**：Flutter 通用版 + Android 原生 IME + iOS 原生键盘扩展，共用一套布局/词库/设计规格；AI、ASR、翻译、同步、传送走可配置的自有后端，密钥只在服务端。
 - **关键限制**：Android 官方后端不可用，不能把“原版联网功能”当作可复现依赖；iOS 只能依据可见界面和 Android 证据重建，不能宣称二进制级同构。
@@ -915,6 +915,15 @@ adb shell am start -a android.intent.action.VIEW -d "wetype://aiChat"
 ![语音处理时序](assets/voice-sequence.svg)
 
 ![AI 请求时序](assets/ai-sequence.svg)
+
+### 6.6 替换成你自己的后端
+
+1. 按 6.3 的路径实现服务，或反向代理到现有模型/ASR/存储；保持 JSON/SSE 形状不变。
+2. 客户端设置页填写 `API_BASE_URL`；Android 模拟器默认 `http://10.0.2.2:8787`，iOS 模拟器默认 `http://127.0.0.1:8787`，真机填 Mac 局域网 IP。
+3. 如果启用 `WETYPE_APP_TOKEN`，客户端在 `Authorization: Bearer ...` 中携带短期 app token；模型 key 只放服务端。
+4. 同步/传送需要持久化 `devices/clipboard/phrases/settings/transfers`；本仓库 `backend/app.py` 用 SQLite + 本地文件，可直接替换为你的数据库/对象存储。
+5. 先用 `GET /health` 与 `POST /v1/ai/chat` 验证连通，再逐项接入语音、翻译、同步与传送。
+6. 不要把腾讯的域名、签名或私有协议当作依赖；复刻版只依赖你自己的契约。
 
 ## 7. iOS 分析状态
 

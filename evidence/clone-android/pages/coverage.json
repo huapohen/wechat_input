@@ -1,0 +1,359 @@
+{
+  "serial": "127.0.0.1:5581",
+  "package": "com.huapohen.wechatinput",
+  "pages": [
+    {
+      "title": "布局和显示",
+      "id": "display",
+      "found": true,
+      "focus": "com.huapohen.wechatinput/com.huapohen.wechatinput.SettingsActivity",
+      "texts": [
+        "返回",
+        "布局和显示",
+        "键盘高度、候选大小、分屏",
+        "当前键盘高度 100% · 候选字号 22sp。分屏键盘在平板/横屏下左右展开，输入区居中。",
+        "分屏键盘",
+        "平板上左右分开，双手输入",
+        "显示按键边框",
+        "白色按键与浅绿键盘底",
+        "拼音直接预输入",
+        "输入字母先上屏，再选候选",
+        "回车键发送",
+        "聊天输入框中回车发送消息"
+      ],
+      "not_implemented": false
+    },
+    {
+      "title": "按键效果",
+      "id": "keystroke",
+      "found": true,
+      "focus": "com.huapohen.wechatinput/com.huapohen.wechatinput.SettingsActivity",
+      "texts": [
+        "返回",
+        "按键效果",
+        "声音、振动与按键气泡",
+        "按键反馈",
+        "声音与振动只作用于微输入法键盘，不会影响其他输入法。",
+        "按键声音",
+        "按下时播放短促提示音",
+        "按键振动",
+        "轻触反馈，强度可调",
+        "按键气泡",
+        "长按字母时显示放大的气泡",
+        "振动强度"
+      ],
+      "not_implemented": false
+    },
+    {
+      "title": "定制工具栏",
+      "id": "toolbar",
+      "found": true,
+      "focus": "",
+      "texts": [],
+      "not_implemented": false
+    },
+    {
+      "title": "辅助输入",
+      "id": "auxiliary",
+      "found": true,
+      "focus": "com.huapohen.wechatinput/com.huapohen.wechatinput.SettingsActivity",
+      "texts": [
+        "返回",
+        "辅助输入",
+        "联想、空格、自动标点",
+        "辅助输入",
+        "这些选项影响中文候选、标点与空格行为。输入法会立即读取最新设置。",
+        "中文/数字自动空格",
+        "中英文混输时自动补空格",
+        "双击空格输入句号",
+        "快速结束一句话",
+        "英文首字母大写",
+        "句首自动大写",
+        "自动标点"
+      ],
+      "not_implemented": false
+    },
+    {
+      "title": "跨设备粘贴同步",
+      "id": "sync",
+      "found": true,
+      "focus": "com.huapohen.wechatinput/com.huapohen.wechatinput.HelpActivity",
+      "texts": [
+        "返回",
+        "帮助与反馈",
+        "常见问题 · 本地反馈 · 后端诊断",
+        "为什么输入法在系统里找不到？",
+        "＋",
+        "候选栏没有字怎么办？",
+        "＋",
+        "AI 功能报错怎么办？",
+        "＋",
+        "语音没有反应？",
+        "＋",
+        "手写识别为什么不准确？"
+      ],
+      "not_implemented": false
+    },
+    {
+      "title": "剪贴板",
+      "id": "clipboard",
+      "found": true,
+      "focus": "com.huapohen.wechatinput/com.huapohen.wechatinput.MainActivity",
+      "texts": [
+        "返回",
+        "帮助与反馈",
+        "常见问题 · 本地反馈 · 后端诊断",
+        "先检查这三件事",
+        "1) 系统设置 → 输入法 → 启用“微输入法”；2) 点“选择输入法”切换；3) 如果 AI/传送失败，确认后端地址可访问。",
+        "系统输入法设置",
+        "选择输入法",
+        "键盘体验",
+        "隐私与权限",
+        "常见问题",
+        "为什么输入法在系统里找不到？",
+        "＋"
+      ],
+      "not_implemented": false
+    },
+    {
+      "title": "键盘管理",
+      "id": "keyboard_manage",
+      "found": true,
+      "focus": "com.huapohen.wechatinput/com.huapohen.wechatinput.SettingsActivity",
+      "texts": [
+        "返回",
+        "键盘管理",
+        "启用、切换与选择默认键盘",
+        "微信输入法",
+        "com.tencent.wetype/.plugin.hld.WxHldService",
+        "微输入法 · 独立复刻",
+        "com.huapohen.wechatinput/.ime.WeTypeCloneImeService",
+        "微输入法",
+        "默认中文键盘",
+        "九宫格拼音",
+        "全键盘拼音",
+        "✓ 当前"
+      ],
+      "not_implemented": false
+    },
+    {
+      "title": "语音转文字",
+      "id": "voice",
+      "found": true,
+      "focus": "com.huapohen.wechatinput/com.huapohen.wechatinput.SettingsActivity",
+      "texts": [
+        "返回",
+        "语音转文字",
+        "长按空格说话、识别语言",
+        "语音转文字",
+        "使用 Android 系统语音识别。语音不会上传到本项目后端；录音笔的摘要才会调用 AI 接口。",
+        "长按空格说话",
+        "松开后按设置提交",
+        "松手即发送",
+        "关闭时识别结果留在输入框",
+        "智能整理语音",
+        "使用文字整理接口润色识别文本",
+        "离线语音"
+      ],
+      "not_implemented": false
+    },
+    {
+      "title": "拼写 Plus",
+      "id": "plus",
+      "found": true,
+      "focus": "com.huapohen.wechatinput/com.huapohen.wechatinput.TextToolsActivity",
+      "texts": [
+        "返回",
+        "文字工具",
+        "整理 · 改写 · 翻译 · 摘要（真实后端）",
+        "问 AI",
+        "粘贴或输入要处理的文字…",
+        "整理",
+        "改写",
+        "翻译",
+        "摘要",
+        "开始整理",
+        "粘贴剪贴板",
+        "后端：http://10.0.2.2:8787"
+      ],
+      "not_implemented": false
+    },
+    {
+      "title": "单机模式",
+      "id": "standalone",
+      "found": true,
+      "focus": "com.huapohen.wechatinput/com.huapohen.wechatinput.SettingsActivity",
+      "texts": [
+        "返回",
+        "单机模式",
+        "完全离线，不上传任何内容",
+        "单机模式",
+        "开启后，AI、语音识别、传送与同步将不可用；本地键盘与词库不受影响。",
+        "启用单机模式",
+        "不连接任何服务器",
+        "检查网络",
+        "清除临时缓存",
+        "数据说明",
+        "单机模式不等于清除数据。剪贴板历史与录音会话仍保存在本机，可在“隐私与权限”中删除。"
+      ],
+      "not_implemented": false
+    },
+    {
+      "title": "换机助手",
+      "id": "migration",
+      "found": true,
+      "focus": "com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity",
+      "texts": [
+        "Search",
+        "Google app",
+        "Search web and more",
+        "Voice search",
+        "Google Lens",
+        "Calendar",
+        "Camera",
+        "Chrome",
+        "Clock",
+        "Contacts",
+        "Drive",
+        "Files"
+      ],
+      "not_implemented": false
+    },
+    {
+      "title": "隐私与权限",
+      "id": "privacy",
+      "found": true,
+      "focus": "com.huapohen.wechatinput/com.huapohen.wechatinput.SettingsActivity",
+      "texts": [
+        "返回",
+        "隐私与权限",
+        "权限状态、词库清除与数据说明",
+        "输入法状态",
+        "微输入法已启用并选中。你可以在任意输入框使用它。",
+        "系统输入法设置",
+        "选择输入法",
+        "权限",
+        "麦克风",
+        "已授予，可用于语音与录音笔",
+        "已授予",
+        "网络"
+      ],
+      "not_implemented": false
+    },
+    {
+      "title": "电脑版",
+      "id": "desktop",
+      "found": true,
+      "focus": "com.huapohen.wechatinput/com.huapohen.wechatinput.SettingsActivity",
+      "texts": [
+        "返回",
+        "电脑版",
+        "在电脑上使用同一套词库",
+        "电脑版",
+        "在电脑上输入时，使用同一配对码连接。当前版本提供同步与文件传送的后端通道，桌面客户端不在本次交付范围。",
+        "配对码",
+        "456299",
+        "在电脑版输入此 6 位码，或与另一台设备共用配对码。",
+        "复制配对码",
+        "打开同步",
+        "1. 手机与电脑连接同一网络（或使用可访问的后端）。",
+        "2. 在“跨设备粘贴同步”配对，六位码相同即找到彼此。"
+      ],
+      "not_implemented": false
+    },
+    {
+      "title": "关于",
+      "id": "about",
+      "found": true,
+      "focus": "com.huapohen.wechatinput/com.huapohen.wechatinput.AboutActivity",
+      "texts": [
+        "返回",
+        "关于",
+        "版本、数据来源与独立声明",
+        "微",
+        "微输入法",
+        "简洁、好用、打字快",
+        "版本 1.0.0 (1) · 原生 Android · minSdk 26 / targetSdk 35",
+        "独立声明",
+        "微输入法是独立研究与互操作复刻，与腾讯没有任何隶属、授权或背书关系。应用不包含腾讯的二进制文件、Hermes 包、字体、图标、词库或模型密钥。界面与交互基于公开可见事实重建。",
+        "数据来源",
+        "拼音字 26,703 · 拼音词 46,111 · 五笔 86 码 26,271 · 笔画 4,299 · 双拼（小鹤/自然码/微软）· Emoji 162 个。数据随应用打包在资产目录，候选计算完全在本机。",
+        "能力边界"
+      ],
+      "not_implemented": false
+    },
+    {
+      "title": "帮助与反馈",
+      "id": "help",
+      "found": true,
+      "focus": "com.huapohen.wechatinput/com.huapohen.wechatinput.HelpActivity",
+      "texts": [
+        "▤",
+        "布局和显示",
+        "键盘高度、候选大小、分屏",
+        "◉",
+        "按键效果",
+        "声音、振动与按键气泡",
+        "☰",
+        "定制工具栏",
+        "排序键盘顶部的快捷工具",
+        "＋",
+        "辅助输入",
+        "联想、空格、自动标点"
+      ],
+      "not_implemented": false
+    },
+    {
+      "title": "AI 录音笔",
+      "id": "recorder",
+      "found": true,
+      "focus": "com.huapohen.wechatinput/com.huapohen.wechatinput.MainActivity",
+      "texts": [
+        "微",
+        "微输入法",
+        "简洁、好用、打字快",
+        "⌨",
+        "● 当前输入法",
+        "键盘体验",
+        "本地词库 7 万+",
+        "六种中文键盘",
+        "无模型密钥",
+        "探索",
+        "左右滑动 · 9 张",
+        "Aa"
+      ],
+      "not_implemented": false
+    },
+    {
+      "title": "隔空传送",
+      "id": "transfer",
+      "found": true,
+      "focus": "com.huapohen.wechatinput/com.huapohen.wechatinput.TransferActivity",
+      "texts": [
+        "返回",
+        "隔空传送",
+        "SAF 选文件 · 后端中转 · 可下载",
+        "刷新列表",
+        "隔空传送",
+        "选择本机文件上传到后端（上限 50 MB），另一台设备可用同一个配对码拉取。文件内容经过你配置的后端，不上传到任何第三方。",
+        "配对码",
+        "456299",
+        "选择文件",
+        "复制配对码",
+        "尚未选择文件",
+        "上传所选文件"
+      ],
+      "not_implemented": false
+    },
+    {
+      "title": "键盘体验",
+      "id": "keyboard",
+      "found": false
+    },
+    {
+      "title": "常用语",
+      "id": "phrases",
+      "found": false
+    }
+  ]
+}
