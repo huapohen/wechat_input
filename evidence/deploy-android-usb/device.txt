@@ -1,0 +1,13 @@
+model=24090RA29C
+device=malachite
+android=16
+sdk=36
+abi=arm64-v8a
+serial=OJHQLRXOIJP7XOXW
+default_ime=com.huapohen.wechatinput/.ime.WeTypeCloneImeService
+packages:
+package:com.huapohen.wechat_input_clone
+package:com.huapohen.wechatinput
+reverse:
+UsbFfs tcp:8787 tcp:8787
+

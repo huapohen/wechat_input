@@ -15,6 +15,7 @@
 | 平板/iPad 适配 | 完成 | Flutter/Android/iPad 均有运行截图 |
 | 复刻验收截图 | 完成 | Flutter 14、Android 20+、iOS 18；见 `evidence/clone-*` |
 | 实现验收报告 | 完成 | `reports/implementation.md`、`reports/implementation.html` |
+| 物理 Android 部署 | 完成 | Redmi Note 14 Pro：两套 APK、原生 IME 已选中、Flutter AI 返回 OK；见 `evidence/deploy-android-usb/` |
 | GitHub 推送 | 完成 | `https://github.com/huapohen/wechat_input`（main，公开） |
 
 ## 关键决策
